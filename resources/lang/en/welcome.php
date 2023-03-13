@@ -45,32 +45,27 @@ return [
             'title' => 'Site building',
             'subtitle' => 'We give your company an online presence',
         ],
-        'marketing' => [
-            'title' => 'Marketing',
-            'subtitle' => 'We make your business known',
+        'admin' => [
+            'title' => 'Admin panel',
+            'subtitle' => 'Transparent interface for data maintenance',
         ],
         'optimization' => [
             'title' => 'Optimization',
-            'subtitle' => 'Managing site and marketing preferences',
+            'subtitle' => 'Managing site preferences',
         ],
     ],
-    'contact_us' => [
-        'title' => 'CONTACT US',
-        'subtitle' => 'Write your order to the message box',
-        'name' => [
-            'placeholder' => 'Name',
-        ],
-        'email' => [
-            'placeholder' => 'Email',
-        ],
-        'phone' => [
-            'placeholder' => 'Phone',
-        ],
-        'message' => [
-            'placeholder' => 'Message',
-        ],
-        'button_title' => 'SEND MESSAGE',
+    'article1' => [
+        'title' => 'Improves Credibility',
+        'content' => 'In most cases, there are several businesses in the market that are offering products or services similar to yours.
+        When starting a business, one of the most important elements to think about is credibility. A high-quality webpages development company can help you create a website that looks polished and professional, which will give your business an instant boost in credibility.
+        Having an attractive, professional website is the best way to stand out from the competition. A good effective website helps build a strong online presence and helps communicate quality information to your consumers.Today not having a website may raise a question of its legitimacy. Customers expect legitimate, trustworthy businesses to have a website and social media accounts. https://www.forbes.com/sites/theyec/2020/02/03/why-every-business-needs-a-website/?sh=a3a97c06e75c'
     ],
-    'success_message.content' => 'Your message has been successfully saved, we will reply soon',
-    'contact_success' => ''
+    'article2' => [
+        'title' => '24/7 Online Presence',
+        'content' => 'One of the major advantages of having a website is that it is accessible to anyone, anywhere, anytime. Even during non-business hours, customers can access your website and avail your services or get the information they need, which is one of the key elements in the importance of a website in business. The website is always at work to ensure that customers who come in are always served in the comfort of their homes. https://www.linkedin.com/pulse/why-website-important-business-talhah-ehsan'
+    ],
+    'article3' => [
+        'title' => 'Reach more people',
+        'content' => 'By having a website, you have the opportunity to target customers anywhere in the world, rather than having to rely on foot traffic or local visitors. Such a channel can allow you to drive awareness and sales by giving people an easy one-stop platform to find out more about you and purchase from your business – which, in turn, should boost your revenue. The only major challenge that you face in this busy online world is how to stand out and be found, which we talk about in the coming sections of this blog. https://olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/'
+    ]
 ];

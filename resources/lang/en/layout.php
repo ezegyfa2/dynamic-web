@@ -23,7 +23,7 @@ return [
         'title' => 'Start your business today',
         'content' => 'Business websites and webshops',
         'button' => [
-            'title' => 'View our offers',
+            'title' => 'View our services',
         ]
     ],
     'footer' => [

@@ -10,6 +10,6 @@ window.Vue = require('vue').default
 
 require('dynamic-web-vue-components').default.install(Vue)
 
-const app = new Vue({
+window.App = new Vue({
     el: '#app',
 })
