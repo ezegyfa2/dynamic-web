@@ -55,17 +55,17 @@ return [
         ],
     ],
     'article1' => [
-        'title' => 'Javítja a hitelességet',
-        'content' => 'A legtöbb esetben több olyan vállalkozás is van a piacon, amely az Önéhez hasonló termékeket vagy szolgáltatásokat kínál. '."\r\n"
-            .' Vállalkozás indításakor az egyik legfontosabb elem, amire gondolni kell, a hitelesség. Egy kiváló minőségű weboldalakat fejlesztő cég segíthet Önnek egy olyan weboldal létrehozásában, amely csiszoltnak és professzionálisnak tűnik, ami azonnali hitelességnövekedést biztosít vállalkozásának.'."\r\n"
-            .' Egy vonzó, professzionális weboldal a legjobb módja annak, hogy kitűnjön a versenytársak közül. Egy jó, hatékony weboldal segít erős online jelenlétet kialakítani, és segít minőségi információkat közölni a fogyasztókkal.Manapság, ha nincs weboldalunk, felvetődhet a vállalkozás legitimitásának kérdése. Az ügyfelek elvárják, hogy a legitim, megbízható vállalkozások rendelkezzenek honlappal és közösségi média fiókokkal. https:///www.forbes.com/sites/theyec/2020/02/03\\/why-every-business-needs-a-website/?sh=a3a97c06e75c',
+        'title' => 'Javítsa hitelességét!',
+        'content' => ' Az üzleti életben gyakran előfordul, hogy több olyan vállalkozás van a piacon, mely az ön termékéhez vagy szolgálatásához hasonlókat kínál. '."\r\n"
+            .' Annak érdekében, hogy kitűnjön vetélytársai közül fontos gondolnia a hitelességre. Mivel az ügyfelek elvárják, hogy a megbízható vállalkozások rendelkezzenek honlappal és közösségi média fiókkal, szüksége van egy vonzó, professzionális weboldalra, mely segít önnek egy erős online jelenlétet kialakítani, és segít minőségi információkat közölni a fogyasztókkal. '."\r\n"
+            .' Weboldala létrehozásában egy kíváló minőségű weboldalakat fejlesztő cég segíthet önnek, mellyel együttműködve hitelességének növekedése mellett a képzeletének semmi sem szabhat határt. ',
     ],
     'article2' => [
-        'title' => '24/7 Online jelenlét',
-        'content' => 'A weboldal egyik legnagyobb előnye, hogy bárki, bárhol, bármikor hozzáférhet. Még a nem üzleti órák alatt is hozzáférhetnek az ügyfelek a weboldalához, és igénybe vehetik szolgáltatásait, vagy megkaphatják a szükséges információkat, ami az egyik legfontosabb eleme a weboldal fontosságának az üzleti életben. A weboldal mindig munkában van, hogy a betérő ügyfeleket mindig kiszolgálja. https:///www.linkedin.com/pulse/why-website-important-business-talhah-ehsan',
+        'title' => '24/7 Elérhetőség',
+        'content' => ' Az üzleti életben fontos, hogy mindig elérhetőek legyünk ügyfeleink számára. A weboldal egyik legnagyobb előnye, hogy bárki, bárhol, bármikor kényelmesen igénybe veheti, mivel mindig elérhető. Így ügyfelei akár munkaidőn kívül, szabadidejükben is igénybe vehetik szolgáltatásait, illetve hozzáférhetnek a szükséges információkhoz vállalkozásával kapcsolatban. ',
     ],
     'article3' => [
-        'title' => 'Több ember elérése',
-        'content' => 'Egy weboldal segítségével lehetőséged van arra, hogy a világ bármely pontján megcélozd a vásárlókat, ahelyett, hogy a gyalogos forgalomra vagy a helyi látogatókra hagyatkoznál. Egy ilyen csatorna lehetővé teheti, hogy növelje az ismertséget és az értékesítést, mivel az emberek számára egy egyszerű, egyablakos platformot biztosít, ahol többet tudhatnak meg Önről és vásárolhatnak az Ön vállalkozásától - ami viszont növelheti a bevételeit. Az egyetlen nagy kihívás, amivel ebben a forgalmas online világban szembe kell néznie, hogy hogyan tűnjön ki és hogyan találják meg. https:///olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/',
+        'title' => 'A Világhálón',
+        'content' => ' A gyors elérés mellett egy weboldal lehetővé teszi, hogy a világ bármely pontjára eljuthasson terméke vagy szolgáltatása. Azonban a legnagyobb kihívás, amivel szembe kell néznie, hogy ebben a forgalmas online világban weboldalát megtalálják. A weboldal leendő ügyfelei számára egy egyszerű, egyablakos platformot biztosít, ahol megismerhetik önt és vállalkozását, így növelve ismertségét és értékesítését. ',
     ],
 ];
