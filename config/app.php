@@ -5,6 +5,10 @@ return [
 
     'laravel_methods_folder_path' => '/Users/jbagota/projects/laravel/laravel-helper-methods',
 
+    'node_modules_folder_path' => 'D:/Projektek/Sajat/Sablonok/Node modulok',
+    'laravel_methods_folder_path' => 'D:/Projektek/Sajat/laravel-helper-methods',
+    'translation_folder_path' => 'D:/Projektek/Sajat/Forditas',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
