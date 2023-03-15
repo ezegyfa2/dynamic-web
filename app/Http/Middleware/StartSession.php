@@ -29,9 +29,9 @@ class StartSession extends LaravelStartSession
      */
     public function handle($request, Closure $next)
     {
-        if ($request->cookie('consent') == null) {
+        /*if ($request->cookie('consent') == null) {
             return $next($request);
-        }
+        }*/
         return parent::handle($request, $next);
     }
 }

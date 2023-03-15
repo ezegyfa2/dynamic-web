@@ -49,9 +49,9 @@ return [
             'title' => 'Admin panel',
             'subtitle' => 'Átlátható felület az adatok karbantartásához',
         ],
-        'optimization' => [
-            'title' => 'Optimalizálás',
-            'subtitle' => 'A webhely preferenciáinak kezelése',
+        'maintance' => [
+            'title' => 'Karbantartás',
+            'subtitle' => 'A webhely kezelése és a fellépő hibák javítása',
         ],
     ],
     'article1' => [
@@ -62,10 +62,10 @@ return [
     ],
     'article2' => [
         'title' => '24/7 Online jelenlét',
-        'content' => 'A weboldal egyik legnagyobb előnye, hogy bárki, bárhol, bármikor hozzáférhet. Még a nem üzleti órák alatt is hozzáférhetnek az ügyfelek a weboldalához, és igénybe vehetik szolgáltatásait, vagy megkaphatják a szükséges információkat, ami az egyik legfontosabb eleme a weboldal fontosságának az üzleti életben. A weboldal mindig munkában van, hogy a betérő ügyfeleket mindig kényelmesen kiszolgálja. https:///www.linkedin.com/pulse/why-website-important-business-talhah-ehsan',
+        'content' => 'A weboldal egyik legnagyobb előnye, hogy bárki, bárhol, bármikor hozzáférhet. Még a nem üzleti órák alatt is hozzáférhetnek az ügyfelek a weboldalához, és igénybe vehetik szolgáltatásait, vagy megkaphatják a szükséges információkat, ami az egyik legfontosabb eleme a weboldal fontosságának az üzleti életben. A weboldal mindig munkában van, hogy a betérő ügyfeleket mindig kiszolgálja. https:///www.linkedin.com/pulse/why-website-important-business-talhah-ehsan',
     ],
     'article3' => [
-        'title' => 'Több embert elérni',
-        'content' => 'Egy weboldal segítségével lehetőséged van arra, hogy a világ bármely pontján megcélozd a vásárlókat, ahelyett, hogy a gyalogos forgalomra vagy a helyi látogatókra hagyatkoznál. Egy ilyen csatorna lehetővé teheti, hogy növelje az ismertséget és az értékesítést, mivel az emberek számára egy egyszerű, egyablakos platformot biztosít, ahol többet tudhatnak meg Önről és vásárolhatnak az Ön vállalkozásától - ami viszont növelheti a bevételeit. Az egyetlen nagy kihívás, amivel ebben a forgalmas online világban szembe kell néznie, hogy hogyan tűnjön ki és hogyan találják meg, amiről e blog következő részeiben beszélünk. https:///olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/',
+        'title' => 'Több ember elérése',
+        'content' => 'Egy weboldal segítségével lehetőséged van arra, hogy a világ bármely pontján megcélozd a vásárlókat, ahelyett, hogy a gyalogos forgalomra vagy a helyi látogatókra hagyatkoznál. Egy ilyen csatorna lehetővé teheti, hogy növelje az ismertséget és az értékesítést, mivel az emberek számára egy egyszerű, egyablakos platformot biztosít, ahol többet tudhatnak meg Önről és vásárolhatnak az Ön vállalkozásától - ami viszont növelheti a bevételeit. Az egyetlen nagy kihívás, amivel ebben a forgalmas online világban szembe kell néznie, hogy hogyan tűnjön ki és hogyan találják meg. https:///olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/',
     ],
 ];

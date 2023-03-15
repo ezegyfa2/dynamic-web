@@ -16,6 +16,7 @@ class HomeController extends Controller
     public function welcome() {
         $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/welcome.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
+        //$templateParams = [];
         return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_welcome', $templateParams, 'app');
     }
 
@@ -38,7 +39,7 @@ class HomeController extends Controller
             $clientTableInfos->getFormInfos('contactUs.form'),
             $orderFormInfos,
         ];
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
+        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'contactUs');
     }
 
     protected function getCheckboxFormInfos($name) {
@@ -62,7 +63,17 @@ class HomeController extends Controller
     public function getTemplateLayoutParams(string $templatePath, string $paramPrefix) {
         $templateParams = DynamicTemplateMethods::getTranslatedTemplateParamsFromFile($templatePath, $paramPrefix);
         //$templateParams = new stdClass;
-        $templateParams->current_language = strtoupper(App::currentLocale());
+        if (\Cookie::get('consent') == null) {
+            if (request()->has('language')) {
+                $templateParams->current_language = strtoupper(request()->get('language'));
+            }
+            else {
+                $templateParams->current_language = strtoupper(App::currentLocale());
+            }
+        }
+        else {
+            $templateParams->current_language = strtoupper(App::currentLocale());
+        }
         if (!isset($templateParams->navbar)) {
             $templateParams->navbar = new stdClass;
         }

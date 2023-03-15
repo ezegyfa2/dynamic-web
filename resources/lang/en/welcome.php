@@ -49,9 +49,9 @@ return [
             'title' => 'Admin panel',
             'subtitle' => 'Transparent interface for data maintenance',
         ],
-        'optimization' => [
-            'title' => 'Optimization',
-            'subtitle' => 'Managing site preferences',
+        'maintance' => [
+            'title' => 'Maintance',
+            'subtitle' => 'Managing the site and fixing errors that occur',
         ],
     ],
     'article1' => [
@@ -66,6 +66,16 @@ return [
     ],
     'article3' => [
         'title' => 'Reach more people',
-        'content' => 'By having a website, you have the opportunity to target customers anywhere in the world, rather than having to rely on foot traffic or local visitors. Such a channel can allow you to drive awareness and sales by giving people an easy one-stop platform to find out more about you and purchase from your business – which, in turn, should boost your revenue. The only major challenge that you face in this busy online world is how to stand out and be found, which we talk about in the coming sections of this blog. https://olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/'
+        'content' => 'By having a website, you have the opportunity to target customers anywhere in the world, rather than having to rely on foot traffic or local visitors. Such a channel can allow you to drive awareness and sales by giving people an easy one-stop platform to find out more about you and purchase from your business – which, in turn, should boost your revenue. The only major challenge that you face in this busy online world is how to stand out and be found. https://olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/'
+    ],
+    'team' => [
+        'title' => 'Our team',
+        'subtitle' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
+        'members' => [
+            'darvas_istvan' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
+            'bagota_jozsef' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
+            'benedek_csaba' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
+            'kovacs_szilard' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
+        ]
     ]
 ];
