@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'node_modules_folder_path' => '/Users/jbagota/ezegyfa-nodemoduljai',
+
+    'laravel_methods_folder_path' => '/Users/jbagota/projects/laravel/laravel-helper-methods',
 
     /*
     |--------------------------------------------------------------------------
