@@ -3,7 +3,7 @@
 return [
     'form' => [
         'name' => [
-            'placeholder' => 'Name',
+            'placeholder' => 'Név',
         ],
         'email' => [
             'placeholder' => 'Email',
@@ -12,7 +12,7 @@ return [
             'placeholder' => 'Telefonszám',
         ],
         'city' => [
-            'placeholder' => 'City',
+            'placeholder' => 'Város',
         ],
         'has_product_categories' => [
             'label' => 'Termékkategóriák (A termékeket különböző kategóriákba lehet csoportosítani. A felhasználók rá tudnak keresni az egyes kategórián belüli termékekre)',
@@ -42,11 +42,11 @@ return [
             'label' => 'Havi jelentés (Oldal tulajdonosa lekérhet az adott hónap vásárlásairól egy összesített táblázatot ami összefoglalja vásárlásokkal kapcsolatos fontosabb információkat)',
         ],
     ],
-    'next_button_title' => 'NEXT',
+    'next_button_title' => 'KÖVETKEZŐ',
     'back_button_title' => 'VISSZA',
-    'button_title' => 'SUBMIT',
+    'button_title' => 'KÜLDÉS',
     'title' => 'KAPCSOLATFELVÉTEL',
-    'subtitle' => 'Megrendelés elküldése',
+    'subtitle' => 'Küldje el megrendelését és hamarosan felvesszük önnel a kapcsolatot',
     'success_message' => 'A megrendelését sikeresen elmentettük, hamarosan válaszolunk',
     'sum_price' => [
         'label' => 'Ár'

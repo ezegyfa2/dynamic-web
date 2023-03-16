@@ -6,6 +6,7 @@ return [
         'offers' => 'Offers',
         'services' => 'Services',
         'contact_us' => 'Contact us',
+        'about_us' => 'About us',
     ],
     'header' => [
         'title' => 'Start your business today',

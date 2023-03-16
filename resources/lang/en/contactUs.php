@@ -46,7 +46,7 @@ return [
     'back_button_title' => 'BACK',
     'button_title' => 'SUBMIT',
     'title' => 'CONTACT',
-    'subtitle' => 'SUBMIT ORDER',
+    'subtitle' => 'Submit yout order and we contact you soon',
     'success_message' => 'Your order has been successfully saved, we will reply soon',
     'sum_price' => [
         'label' => 'Price',

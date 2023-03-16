@@ -1,49 +1,12 @@
 <?php
 
 return [
-    'offers' => [
-        'basic' => [
-            'title' => 'BASIC',
-            'content' => 'Pagini de aterizare și magazine web cu câteva funcții de bază',
-            'parts' => [
-                'responsive_layouts' => 'Machete responsive',
-                'modern_design' => 'Design modern, estetic',
-                'user_friendly' => 'Interfață prietenoasă cu utilizatorul',
-                'admin_panel' => 'Panou de administrare, pentru adăugarea sau editarea produselor',
-                'product_list' => 'Listă de produse cu galerii de imagini',
-                'seo_optimizing' => 'Optimizare SEO',
-            ],
-        ],
-        'normal' => [
-            'title' => 'NORMAL',
-            'content' => 'Magazine web cu multe produse și categorii',
-            'parts' => [
-                'basic_parts' => 'Toate avantajele pachetului de bază',
-                'many_product' => 'Multe produse cu proprietăți variate',
-                'product_categories' => 'Categorii de produse',
-                'product_filters' => 'Căutări și filtre pentru lista de produse',
-                'users' => 'Conectarea/înregistrarea utilizatorului',
-            ],
-        ],
-        'premium' => [
-            'title' => 'PREMIUM',
-            'content' => 'Magazin web complet și campanie de marketing',
-            'parts' => [
-                'normal_parts' => 'Toate avantajele pachetului normal',
-                'marketing' => 'Anunțuri pe Facebook și Google',
-                'optmizing' => 'Optimizarea campaniei de marketing',
-                'custom_design' => 'Sincronizarea designului și a marketingului',
-                'reports' => 'Rapoarte sistematice privind achizițiile și clienții noi',
-            ],
-        ],
-        'button_title' => 'BUY',
-    ],
     'services' => [
         'title' => 'Serviciile noastre',
         'subtitle' => '',
         'site_building' => [
             'title' => 'Construirea site-ului',
-            'subtitle' => 'Oferim companiei dumneavoastră o prezență online',
+            'subtitle' => 'Oferim o prezență online pentru afacerea dumneavoastră',
         ],
         'admin' => [
             'title' => 'Panoul de administrare',
@@ -51,21 +14,48 @@ return [
         ],
         'maintance' => [
             'title' => 'Întreținere',
-            'subtitle' => 'Gestionarea site-ului și remedierea erorilor care apar',
+            'subtitle' => 'Gestionarea și depanarea site-ului',
         ],
     ],
     'article1' => [
-        'title' => 'Îmbunătățește credibilitatea',
-        'content' => 'În cele mai multe cazuri, pe piață există mai multe afaceri care oferă produse sau servicii similare cu ale tale.'."\r\n"
-            .' Atunci când începi o afacere, unul dintre cele mai importante elemente la care trebuie să te gândești este credibilitatea. O companie de dezvoltare de pagini web de înaltă calitate vă poate ajuta să creați un site web care să arate îngrijit și profesionist, ceea ce va da afacerii dvs. un impuls instantaneu de credibilitate.'."\r\n"
-            .' A avea un site web atractiv și profesional este cea mai bună modalitate de a ieși în evidență față de concurență. Un site web bun și eficient ajută la construirea unei prezențe online puternice și ajută la comunicarea de informații de calitate către consumatorii dvs. în prezent, faptul că nu aveți un site web poate ridica o întrebare cu privire la legitimitatea sa. Clienții se așteaptă ca afacerile legitime și de încredere să aibă un site web și conturi pe rețelele de socializare. https://www.forbes.com/sites/theyec/2020/02/03/why-every-business-needs-a-website/?sh=a3a97c06e75c',
+        'title' => 'Îmbunătățirea credibilității dumneavoastră',
+        'content' => ' În afaceri, nu este neobișnuit să existe pe piață mai multe companii care oferă un produs sau un serviciu similar cu al dumneavoastră.  Pentru a ieși în evidență față de concurenți, credibilitatea este vitală. Deoarece clienții se așteaptă ca firmele de încredere să aibă un site web și conturi de social media, aveți nevoie de un site web atractiv și profesional care să vă ajute să vă construiți o prezență online puternică și să comunicați consumatorilor informații de calitate. ',
     ],
     'article2' => [
-        'title' => '24/7 Prezența online',
-        'content' => 'Unul dintre avantajele majore ale existenței unui site web este faptul că acesta este accesibil oricui, oriunde și oricând. Chiar și în afara orelor de lucru, clienții pot accesa site-ul dvs. și pot beneficia de serviciile dvs. sau pot obține informațiile de care au nevoie, acesta fiind unul dintre elementele cheie ale importanței unui site web în afaceri. Site-ul web este mereu la lucru pentru a se asigura că clienții care intră sunt întotdeauna deserviți în confortul casei lor. https://www.linkedin.com/pulse/why-website-important-business-talhah-ehsan',
+        'title' => '24/7 Contactați-ne',
+        'content' => ' În afaceri, este important să fiți întotdeauna disponibil pentru clienții dumneavoastră. Unul dintre cele mai mari avantaje ale unui site web este faptul că oricine, oriunde și oricând îl poate folosi în mod convenabil, deoarece este disponibil în permanență. Acest lucru înseamnă că clienții dvs. pot utiliza serviciile și pot accesa informațiile de care au nevoie despre afacerea dvs. în afara orelor de lucru și în timpul lor liber. ',
     ],
     'article3' => [
-        'title' => 'Ajungeți la mai mulți oameni',
-        'content' => 'Având un site web, aveți posibilitatea de a vă adresa clienților de oriunde din lume, în loc să vă bazați pe traficul pietonal sau pe vizitatorii locali. Un astfel de canal vă poate permite să stimulați gradul de conștientizare și vânzările, oferindu-le oamenilor o platformă simplă și unică pentru a afla mai multe despre dvs. și pentru a cumpăra de la afacerea dvs. - ceea ce, la rândul său, ar trebui să vă sporească veniturile. Singura provocare majoră cu care vă confruntați în această lume online aglomerată este cum să ieșiți în evidență și să fiți găsit. https://olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/',
+        'title' => 'Intră online',
+        'content' => ' Pe lângă faptul că este rapid accesibil, un site web vă permite să obțineți produsul sau serviciul dvs. oriunde în lume. Cu toate acestea, cea mai mare provocare cu care vă confruntați este aceea de a face ca site-ul dvs. să fie găsit în această lume online aglomerată. Un site web le oferă potențialilor clienți o platformă simplă, unică, prin care aceștia pot ajunge să vă cunoască pe dumneavoastră și afacerea dumneavoastră, sporindu-vă vizibilitatea și vânzările. ',
+    ],
+    'workflow' => [
+        'title' => 'Cum dezvoltăm site-uri web',
+        'subtitle' => 'Folosind procese de dezvoltare de ultimă generație, dezvoltăm site-ul web ținând cont de nevoile clientului și de elementele operaționale ale companiei',
+        'sketch' => [
+            'title' => 'Contur',
+            'content' => 'Stabilim împreună cu clientul toate detaliile website-ului și apoi adunăm materialele, imaginile, textele necesare',
+        ],
+        'design' => [
+            'title' => 'Design',
+            'content' => 'Pe baza schiței, proiectăm funcțiile și aspectul site-ului web',
+        ],
+        'develop' => [
+            'title' => 'Dezvoltare',
+            'content' => 'Pe baza schiței, creăm cel mai potrivit site web pentru compania dumneavoastră, folosind cele mai noi tehnici de dezvoltare web',
+        ],
+        'test' => [
+            'title' => 'Testare',
+            'content' => 'Utilizăm testeri pentru a verifica funcționalitatea site-ului web și pentru a ne asigura că acesta funcționează corect',
+        ],
+    ],
+    'team' => [
+        'title' => 'Echipa noastră',
+        'members' => [
+            'darvas_istvan' => 'Sunt un dezvoltator backend și frontend cu aproape 5 ani de experiență. Sunt implicat în dezvoltarea aspectului și funcționalității site-ului web',
+            'bagota_jozsef' => 'Am proiectat layout-uri și imagini de site-uri web timp de 8 ani, folosind cele mai recente tehnologii și metode de design',
+            'benedek_csaba' => 'Lucrez ca dezvoltator Javascript, cu o experiență de peste 2 ani în dezvoltarea de funcționalități pe partea de client și server',
+            'kovacs_szilard' => 'Lucrez în domeniul dezvoltării front-end, dezvoltând aspectul și aspectul site-urilor web. Am aproape 2 ani de experiență',
+        ],
     ],
 ];

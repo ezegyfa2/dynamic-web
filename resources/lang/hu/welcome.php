@@ -88,7 +88,7 @@ return [
         ],
     ],
     'team' => [
-        'title' => 'Our team',
+        'title' => 'A csapatunk',
         'members' => [
             'darvas_istvan' => 'Backend és frontend fejlesztő vagyok közel 5 év tasztalattal a hátam mögött. Részt veszek a weboldal külalakjának és funkcióinak a fejlesztésében.',
             'bagota_jozsef' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
