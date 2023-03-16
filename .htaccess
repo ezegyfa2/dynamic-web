@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule (.*) /dynamic-web/public/$1 [L]
