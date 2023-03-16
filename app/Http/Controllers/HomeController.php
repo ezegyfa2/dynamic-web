@@ -64,17 +64,7 @@ class HomeController extends Controller
     public function getTemplateLayoutParams(string $templatePath, string $paramPrefix) {
         $templateParams = DynamicTemplateMethods::getTranslatedTemplateParamsFromFile($templatePath, $paramPrefix);
         //$templateParams = new stdClass;
-        if (\Cookie::get('consent') == null) {
-            if (request()->has('language')) {
-                $templateParams->current_language = strtoupper(request()->get('language'));
-            }
-            else {
-                $templateParams->current_language = strtoupper(App::currentLocale());
-            }
-        }
-        else {
-            $templateParams->current_language = strtoupper(App::currentLocale());
-        }
+        $templateParams->current_language = strtoupper(App::currentLocale());
         if (!isset($templateParams->navbar)) {
             $templateParams->navbar = new stdClass;
         }

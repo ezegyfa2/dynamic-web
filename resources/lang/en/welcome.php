@@ -4,78 +4,95 @@ return [
     'offers' => [
         'basic' => [
             'title' => 'BASIC',
-            'content' => 'Landing pages and webshops with some basic functions',
+            'content' => 'Landing pages and web shops with some basic functions',
             'parts' => [
                 'responsive_layouts' => 'Responsive layouts',
-                'modern_design' => 'Modern, estetic design',
-                'user_friendly' => 'Userfriendly interface',
-                'admin_panel' => 'Admin panel, for adding or editing products',
+                'modern_design' => 'Modern, aesthetic design',
+                'user_friendly' => 'User-friendly interface',
+                'admin_panel' => 'Admin panel to add or edit products',
                 'product_list' => 'Product list with image galleries',
-                'seo_optimizing' => 'SEO optimizing',
+                'seo_optimizing' => 'SEO optimization',
             ],
         ],
         'normal' => [
             'title' => 'NORMAL',
-            'content' => 'Webshops with many products and categories',
+            'content' => 'Web stores with many products and categories',
             'parts' => [
-                'basic_parts' => 'All advantages of basic package',
-                'many_product' => 'Many product with varied properties',
+                'basic_parts' => 'All the advantages of the basic package',
+                'many_product' => 'Many products with varied features',
                 'product_categories' => 'Product categories',
-                'product_filters' => 'Searches and filters for product list',
+                'product_filters' => 'Searches and filters in the product list',
                 'users' => 'User login/registration',
             ],
         ],
         'premium' => [
             'title' => 'PREMIUM',
-            'content' => 'Complete webshop and marketing campaign',
+            'content' => 'Full webshop and marketing campaign',
             'parts' => [
-                'normal_parts' => 'All advantages of normal package',
+                'normal_parts' => 'All the benefits of the standard package',
                 'marketing' => 'Facebook and google ads',
-                'optmizing' => 'Optimizing marketing campaign',
-                'custom_design' => 'Synchronizing design and marketing',
-                'reports' => 'Systematic reports on buyings and new customers',
+                'optmizing' => 'Marketing campaign optimization',
+                'custom_design' => 'Synchronize design and marketing',
+                'reports' => 'Regular reports on purchases and new customers',
             ],
         ],
-        'button_title' => 'BUY',
+        'button_title' => 'PURCHASE',
     ],
     'services' => [
         'title' => 'Our services',
         'subtitle' => '',
         'site_building' => [
             'title' => 'Site building',
-            'subtitle' => 'We give your company an online presence',
+            'subtitle' => 'We provide an online presence for your business',
         ],
         'admin' => [
             'title' => 'Admin panel',
             'subtitle' => 'Transparent interface for data maintenance',
         ],
         'maintance' => [
-            'title' => 'Maintance',
-            'subtitle' => 'Managing the site and fixing errors that occur',
+            'title' => 'Maintenance',
+            'subtitle' => 'Site management and troubleshooting',
         ],
     ],
     'article1' => [
-        'title' => 'Improves Credibility',
-        'content' => 'In most cases, there are several businesses in the market that are offering products or services similar to yours.
-        When starting a business, one of the most important elements to think about is credibility. A high-quality webpages development company can help you create a website that looks polished and professional, which will give your business an instant boost in credibility.
-        Having an attractive, professional website is the best way to stand out from the competition. A good effective website helps build a strong online presence and helps communicate quality information to your consumers.Today not having a website may raise a question of its legitimacy. Customers expect legitimate, trustworthy businesses to have a website and social media accounts. https://www.forbes.com/sites/theyec/2020/02/03/why-every-business-needs-a-website/?sh=a3a97c06e75c'
+        'title' => 'Improve your credibility',
+        'content' => 'In business, it is not uncommon to have several companies in the market offering a similar product or service to yours. Because customers expect trustworthy businesses to have a website and social media accounts, you need an attractive, professional website to help you build a strong online presence and communicate quality information to consumers. ',
     ],
     'article2' => [
-        'title' => '24/7 Online Presence',
-        'content' => 'One of the major advantages of having a website is that it is accessible to anyone, anywhere, anytime. Even during non-business hours, customers can access your website and avail your services or get the information they need, which is one of the key elements in the importance of a website in business. The website is always at work to ensure that customers who come in are always served in the comfort of their homes. https://www.linkedin.com/pulse/why-website-important-business-talhah-ehsan'
+        'title' => '24/7 Contact',
+        'content' => 'In business, it is important to always be available to your customers. One of the biggest advantages of this website is that anyone, anywhere, anytime can use it conveniently because it is always available. This means that your customers can use the services and access the information they need about your business outside of working hours and in their free time. ',
     ],
     'article3' => [
-        'title' => 'Reach more people',
-        'content' => 'By having a website, you have the opportunity to target customers anywhere in the world, rather than having to rely on foot traffic or local visitors. Such a channel can allow you to drive awareness and sales by giving people an easy one-stop platform to find out more about you and purchase from your business – which, in turn, should boost your revenue. The only major challenge that you face in this busy online world is how to stand out and be found. https://olsenmetrix.com/views/7-reasons-why-your-website-is-the-most-important-tool-for-your-business/'
+        'title' => 'Go online',
+        'content' => ' In addition to quick access, a website allows you to get your product or service to any part of the world. However, the biggest challenge you face is getting your website found in this busy online world. A website provides your prospective customers with a simple, one-stop platform where they can get to know you and your business, increasing your visibility and sales. ',
+    ],
+    'workflow' => [
+        'title' => 'How we develop websites',
+        'subtitle' => 'Using state-of-the-art development processes, we develop the website taking into account the clients needs and the operational/elements of the company',
+        'sketch' => [
+            'title' => 'Outline',
+            'content' => 'We agree with the client all the details of the website and then gather the necessary materials, images, texts',
+        ],
+        'design' => [
+            'title' => 'Design',
+            'content' => 'Based on the outline, we design the websites functions and appearance',
+        ],
+        'develop' => [
+            'title' => 'Development',
+            'content' => 'Based on the design, we will create the most suitable website for your company using the latest web development techniques',
+        ],
+        'test' => [
+            'title' => 'Testing',
+            'content' => 'We use testers to check the websites functionality and ensure that it works correctly',
+        ],
     ],
     'team' => [
         'title' => 'Our team',
-        'subtitle' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
         'members' => [
-            'darvas_istvan' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
-            'bagota_jozsef' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
-            'benedek_csaba' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
-            'kovacs_szilard' => 'We make websites all day and night. Our team purpose in the world is to make as many websites as we can',
-        ]
-    ]
+            'darvas_istvan' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the websites look and functionality',
+            'bagota_jozsef' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods',
+            'benedek_csaba' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality',
+            'kovacs_szilard' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
+        ],
+    ],
 ];
