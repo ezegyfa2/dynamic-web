@@ -6,6 +6,7 @@ return [
         'offers' => 'Oferte',
         'services' => 'Servicii',
         'contact_us' => 'Contactați-ne',
+        'about_us' => 'Despre noi',
     ],
     'header' => [
         'title' => 'Începeți afacerea dvs. astăzi',

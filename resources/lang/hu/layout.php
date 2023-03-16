@@ -5,6 +5,7 @@ return [
         'title' => 'DYNAMIC-WEB',
         'services' => 'Szolgáltatások',
         'contact_us' => 'Kapcsolatfelvétel',
+        'about_us' => 'Rólunk',
     ],
     'header' => [
         'title' => 'Indítsa el vállalatát még ma',
