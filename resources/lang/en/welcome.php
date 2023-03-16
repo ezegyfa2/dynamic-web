@@ -68,14 +68,14 @@ return [
     ],
     'workflow' => [
         'title' => 'How we develop websites',
-        'subtitle' => 'Using state-of-the-art development processes, we develop the website taking into account the client\'s needs and the operational/elements of the company',
+        'subtitle' => 'Using state-of-the-art development processes, we develop the website taking into account the clients needs and the operational/elements of the company',
         'sketch' => [
             'title' => 'Outline',
             'content' => 'We agree with the client all the details of the website and then gather the necessary materials, images, texts',
         ],
         'design' => [
             'title' => 'Design',
-            'content' => 'Based on the outline, we design the website\'s functions and appearance',
+            'content' => 'Based on the outline, we design the websites functions and appearance',
         ],
         'develop' => [
             'title' => 'Development',
@@ -83,13 +83,13 @@ return [
         ],
         'test' => [
             'title' => 'Testing',
-            'content' => 'We use testers to check the website\'s functionality and ensure that it works correctly',
+            'content' => 'We use testers to check the websites functionality and ensure that it works correctly',
         ],
     ],
     'team' => [
         'title' => 'Our team',
         'members' => [
-            'darvas_istvan' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the website\'s look and functionality',
+            'darvas_istvan' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the websites look and functionality',
             'bagota_jozsef' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods',
             'benedek_csaba' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality',
             'kovacs_szilard' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
