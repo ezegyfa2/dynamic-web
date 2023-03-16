@@ -11273,7 +11273,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".team-member[data-v-65dcb90b] {\n  margin-bottom: 3rem;\n  text-align: center;\n}\n.team-member img[data-v-65dcb90b] {\n  width: 14rem;\n  height: 14rem;\n  border: 0.5rem solid rgba(0, 0, 0, 0.1);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-65dcb90b] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-65dcb90b] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-65dcb90b] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.team-member[data-v-65dcb90b] {\n  margin-bottom: 3rem;\n  text-align: center;\n}\n.team-member img[data-v-65dcb90b] {\n  width: 14rem;\n  height: 14rem;\n  border: 0.5rem solid #25283d;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12266,6 +12266,7 @@ __webpack_require__.r(__webpack_exports__);
                         }
                     },
                     "form_item_sections": "++form_item_sections",
+                    "sum_price_label": "--contactUs.sum_price.label",
                     "button_title": "--contactUs.button_title",
                     "next_button_title": "--contactUs.next_button_title",
                     "back_button_title": "--contactUs.back_button_title",
@@ -12610,8 +12611,8 @@ __webpack_require__.r(__webpack_exports__);
     title_section: {
       type: 'dynamic-web-medium-text-content',
       data: {
-        title: '--welcome.roadmap.title',
-        content: '--welcome.roadmap.subtitle',
+        title: '--welcome.workflow.title',
+        content: '--welcome.workflow.subtitle',
       },
     },
     timeline_section: {
@@ -12621,21 +12622,13 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/vazlat.jpg',
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.idea.title',
-                    sub_title: '--welcome.roadmap.idea.research_market.title',
-                    content: '--welcome.roadmap.idea.research_market.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.idea.concept.title',
-                    content: '--welcome.roadmap.idea.concept.content',
+                    title: '--welcome.workflow.sketch.title',
+                    content: '--welcome.workflow.sketch.content',
                   },
                 },
               ],
@@ -12644,22 +12637,14 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/tervezes.jpg',
               is_inverted: true,
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.research.title',
-                    sub_title: '--welcome.roadmap.research.components.title',
-                    content: '--welcome.roadmap.research.components.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.research.costs.title',
-                    content: '--welcome.roadmap.research.costs.content',
+                    title: '--welcome.workflow.design.title',
+                    content: '--welcome.workflow.design.content',
                   },
                 },
               ],
@@ -12668,21 +12653,13 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/fejlesztes.jpg',
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.design.title',
-                    sub_title: '--welcome.roadmap.design.design_concepts.title',
-                    content: '--welcome.roadmap.design.design_concepts.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.design.finalize_design.title',
-                    content: '--welcome.roadmap.design.finalize_design.content',
+                    title: '--welcome.workflow.develop.title',
+                    content: '--welcome.workflow.develop.content',
                   },
                 },
               ],
@@ -12691,30 +12668,18 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/teszteles.jpg',
               is_inverted: true,
               with_line: false,
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.prototyping.title',
-                    content: '--welcome.roadmap.prototyping.functions',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    content: '--welcome.roadmap.prototyping.conditions',
+                    title: '--welcome.workflow.test.title',
+                    content: '--welcome.workflow.test.content',
                   },
                 },
               ],
-            },
-          },
-          {
-            type: 'dynamic-web-small-text-content',
-            data: {
-              title: '--welcome.roadmap.footer_title',
             },
           },
         ],
@@ -12775,107 +12740,105 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  type: 'dynamic-web-team',
-  data: {
-    title_section: {
-      type: 'dynamic-web-team-medium-text-content',
-      data: {
-        title: '--welcome.team.title',
-        content: '--welcome.team.subtitle',
-      },
+    type: 'dynamic-web-team',
+    data: {
+        title_section: {
+            type: 'dynamic-web-team-medium-text-content',
+            data: {
+                title: '--welcome.team.title'
+            },
+        },
+        member_sections: [
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Darvas Istvan',
+                    title: '--welcome.team.members.darvas_istvan',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Bagota Jozsef',
+                    title: '--welcome.team.members.bagota_jozsef',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Benedek Csaba',
+                    title: '--welcome.team.members.benedek_csaba',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Kovacs Szilard',
+                    title: '--welcome.team.members.kovacs_szilard',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+        ],
     },
-    member_sections: [
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Darvas Istvan',
-          title: '--welcome.team.members.darvas_istvan',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Bagota Jozsef',
-          title: '--welcome.team.members.bagota_jozsef',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Benedek Csaba',
-          title: '--welcome.team.members.benedek_csaba',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Kovacs Szilard',
-          title: '--welcome.team.members.kovacs_szilard',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-    ],
-    footer_text: '--welcome.team.footer_text',
-  },
 });
 
 
@@ -48028,12 +47991,16 @@ __webpack_require__.r(__webpack_exports__);
             },
             title_section: {
                 type: Object
+            },
+            sum_price_label: {
+                type: String
             }
         },
         data() {
             return {
                 formItemTypePrefix: 'dynamic-web-contact',
-                clientId: 0
+                clientId: 0,
+                sumPrice: 0
             }
         },
         methods: {
@@ -48048,8 +48015,24 @@ __webpack_require__.r(__webpack_exports__);
                         }
                     })
                 }
-            }/*,
-            submitForm() {
+            },
+            valueChanged(formItemSection, newValue) {
+                formItemSection.data.value = newValue
+                if (this.currentPageNumber == 1) {
+                    this.sumPrice = this.getSumPrice()
+                }
+            },
+            getSumPrice() {
+                let sum = 0
+                this.form_item_sections[this.currentPageNumber].forEach(formItemSection => {
+                    if (formItemSection.data && formItemSection.data.value === true) {
+                        sum += formItemSection.data.price
+                    }
+                })
+                return sum
+            }
+            
+            /*submitForm() {
                 $.post({
                     url: 'https://graph.facebook.com/{API_VERSION}/{PIXEL_ID}/events?access_token=EAAKgXuhD0hABACdNAZBABWp6U1o0oINvIFEZCShZBcWjZClzhFY9XADZCDaZBC8Ckz5tLuBXrrvcOnWfLYjuRplQ6oDAS6HJzPZAKViJMAXZBrZAZASnbNoNzq8He0zRUlgDTtKMZCF3Ch2ZB948Rd6cJvCgQpseM90AzZAVJoxP1wYHXiEMgDZAuYQWle',
                     data: this.getRequestData(this.form_item_sections[0])
@@ -58442,6 +58425,9 @@ __webpack_require__.r(__webpack_exports__);
             },
             member_sections: {
                 type: Array
+            },
+            footer_text: {
+                type: String
             }
         }
     });
@@ -64651,7 +64637,7 @@ var render = function render() {
                       attrs: { value: formItemSection.data.value },
                       on: {
                         "update:value": (newValue) => {
-                          formItemSection.data.value = newValue
+                          _vm.valueChanged(formItemSection, newValue)
                         },
                       },
                     },
@@ -64662,6 +64648,13 @@ var render = function render() {
                 )
               }
             ),
+            _vm.currentPageNumber == 1
+              ? _c("p", [
+                  _vm._v(
+                    _vm._s(_vm.sum_price_label) + ": " + _vm._s(_vm.sumPrice)
+                  ),
+                ])
+              : _vm._e(),
             _c("input", {
               attrs: { name: "client_id", type: "hidden" },
               domProps: { value: _vm.clientId },
@@ -67446,28 +67439,26 @@ var render = function render() {
             }),
             0
           ),
-          _vm._m(0),
+          _vm.footer_text
+            ? _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-lg-8 mx-auto mt-3 mb-5 text-center" },
+                  [
+                    _c("p", { staticClass: "large text-muted" }, [
+                      _vm._v(_vm._s(_vm.footer_text)),
+                    ]),
+                  ]
+                ),
+              ])
+            : _vm._e(),
         ],
         1
       ),
     ]
   )
 }
-var staticRenderFns = [
-  function () {
-    var _vm = this,
-      _c = _vm._self._c
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-lg-8 mx-auto mt-3 mb-5 text-center" }, [
-        _c("p", { staticClass: "large text-muted" }, [
-          _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-          ),
-        ]),
-      ]),
-    ])
-  },
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
