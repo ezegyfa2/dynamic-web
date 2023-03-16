@@ -25,29 +25,30 @@ class HomeController extends Controller
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
         $orderFormInfos = [
-            $this->getCheckboxFormInfos('has_product_categories'),
-            $this->getCheckboxFormInfos('has_product_filters'),
-            $this->getCheckboxFormInfos('has_product_ratings'),
-            $this->getCheckboxFormInfos('has_product_comments'),
-            $this->getCheckboxFormInfos('has_favorite_products'),
-            $this->getCheckboxFormInfos('has_login'),
-            $this->getCheckboxFormInfos('has_admin'),
-            $this->getCheckboxFormInfos('has_buy_notifications'),
-            $this->getCheckboxFormInfos('has_monthly_reports'),
+            $this->getCheckboxFormInfos('has_product_categories', 200),
+            $this->getCheckboxFormInfos('has_product_filters', 200),
+            $this->getCheckboxFormInfos('has_product_ratings', 200),
+            $this->getCheckboxFormInfos('has_product_comments', 200),
+            $this->getCheckboxFormInfos('has_favorite_products', 200),
+            $this->getCheckboxFormInfos('has_login', 200),
+            $this->getCheckboxFormInfos('has_admin', 200),
+            $this->getCheckboxFormInfos('has_buy_notifications', 200),
+            $this->getCheckboxFormInfos('has_monthly_reports', 200),
         ];
         $templateParams->form_item_sections = [
             $clientTableInfos->getFormInfos('contactUs.form'),
             $orderFormInfos,
         ];
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'contactUs');
+        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
     }
 
-    protected function getCheckboxFormInfos($name) {
+    protected function getCheckboxFormInfos($name, $price) {
         return (object) [
             'type' => 'checkbox-input',
             'data' => (object) [
                 'name' => $name,
-                'label' => __('contactUs.form.' . $name . '.label')
+                'label' => __('contactUs.form.' . $name . '.label'),
+                'price' => $price
             ]
         ];
     }
