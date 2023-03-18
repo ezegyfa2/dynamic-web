@@ -15,7 +15,8 @@ return [
             'placeholder' => 'City',
         ],
         'has_product_categories' => [
-            'label' => 'Product categories (Products can be grouped into different categories. Users can search for products within each category)',
+            'title_label' => 'Product categories',
+            'description_label' => 'Products can be grouped into different categories. Users can search for products within each category',
         ],
         'has_product_filters' => [
             'label' => 'Product filters (Users can search for specific products by keyword, price or other product attributes)',

@@ -15,7 +15,8 @@ return [
             'placeholder' => 'Oraș',
         ],
         'has_product_categories' => [
-            'label' => 'Categorii produse (Produsele pot fi grupate în diferite categorii. Utilizatorii pot căuta produse în cadrul fiecărei categorii)',
+            'title_label' => 'Categorii produse',
+            'description_label' => 'Produsele pot fi grupate în diferite categorii. Utilizatorii pot căuta produse în cadrul fiecărei categorii',
         ],
         'has_product_filters' => [
             'label' => 'Filtre de produse (Utilizatorii pot căuta produse specifice în funcție de cuvinte cheie, preț sau alte atribute ale produsului)',

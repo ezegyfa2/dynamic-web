@@ -15,8 +15,9 @@ return [
             'placeholder' => 'Város',
         ],
         'has_product_categories' => [
-            'label' => 'Termékkategóriák (A termékeket különböző kategóriákba lehet csoportosítani. A felhasználók rá tudnak keresni az egyes kategórián belüli termékekre)',
-        ],
+            'title_label' => 'Termékkategóriák',
+            'description_label' => 'A termékeket különböző kategóriákba lehet csoportosítani. A felhasználók rá tudnak keresni az egyes kategórián belüli termékekre',
+            ],
         'has_product_filters' => [
             'label' => 'Termékszűrők (A felhasználók rá tudnak keresni adott termékekre kulcsszó, ár vagy más termék jellemző alapján)',
         ],
