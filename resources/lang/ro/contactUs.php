@@ -19,28 +19,36 @@ return [
             'description_label' => 'Produsele pot fi grupate în diferite categorii. Utilizatorii pot căuta produse în cadrul fiecărei categorii',
         ],
         'has_product_filters' => [
-            'label' => 'Filtre de produse (Utilizatorii pot căuta produse specifice în funcție de cuvinte cheie, preț sau alte atribute ale produsului)',
+            'title_label' => 'Filtre de produse',
+            'description_label' => 'Utilizatorii pot căuta produse specifice în funcție de cuvinte cheie, preț sau alte atribute ale produsului',
         ],
         'has_product_ratings' => [
-            'label' => 'Evaluări ale produselor (Utilizatorii pot evalua produsele de la unu la cinci. Evaluarea medie este afișată pe pagina produsului)',
+            'title_label' => 'Evaluări ale produselor',
+            'description_label' => 'Utilizatorii pot evalua produsele de la unu la cinci. Evaluarea medie este afișată pe pagina produsului',
         ],
         'has_product_comments' => [
-            'label' => 'Comentarii despre produse (Utilizatorii au posibilitatea de a scrie comentarii despre produse, care vor fi afișate pe pagina produsului)',
+            'title_label' => 'Comentarii despre produse',
+            'description_label' => 'Utilizatorii au posibilitatea de a scrie comentarii despre produse, care vor fi afișate pe pagina produsului',
         ],
         'has_favorite_products' => [
-            'label' => 'Produse favorite (Utilizatorii au posibilitatea de a adăuga orice produs la favoritele lor cu ajutorul unui buton)',
+            'title_label' => 'Produse favorite',
+            'description_label' => 'Utilizatorii au posibilitatea de a adăuga orice produs la favoritele lor cu ajutorul unui buton',
         ],
         'has_login' => [
-            'label' => 'Autentificare (Utilizatorii au posibilitatea de a se înregistra pe site și apoi de a intra și ieși din site)',
+            'title_label' => 'Autentificare',
+            'description_label' => 'Utilizatorii au posibilitatea de a se înregistra pe site și apoi de a intra și ieși din site',
         ],
         'has_admin' => [
-            'label' => 'Admin panel (O interfață de utilizator care permite proprietarului site-ului să listeze și să editeze produsele)',
+            'title_label' => 'Admin panel',
+            'description_label' => 'O interfață de utilizator care permite proprietarului site-ului să listeze și să editeze produsele',
         ],
         'has_buy_notifications' => [
-            'label' => 'Notificare după achiziție (Proprietarul site-ului primește un e-mail după fiecare achiziție)',
-        ],
+            'title_label' => 'Notificare după achiziție',
+            'description_label' => 'Proprietarul site-ului primește un e-mail după fiecare achiziție',
+            ],
         'has_monthly_reports' => [
-            'label' => 'Raport lunar (Proprietarul site-ului poate prelua un tabel recapitulativ al achizițiilor pentru luna în curs, care rezumă informații importante despre achiziții)',
+            'title_label' => 'Raport lunar',
+            'description_label' => 'Proprietarul site-ului poate prelua un tabel recapitulativ al achizițiilor pentru luna în curs, care rezumă informații importante despre achiziții',
         ],
     ],
     'next_button_title' => 'URMĂTORUL',
