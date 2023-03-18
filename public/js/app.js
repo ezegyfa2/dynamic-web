@@ -10690,7 +10690,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()((_map_image_png__WEBPACK_IMPORTED_MODULE_2___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-5b2e7b5c] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-5b2e7b5c] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-5b2e7b5c] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\nsection[data-v-5b2e7b5c] {\n  background: white;\n}\n@media (min-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 9rem 0;\n}\n}\n@media (max-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 6rem 0;\n}\n}\n.page-section[data-v-5b2e7b5c] {\n  background-color: white;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.container[data-v-5b2e7b5c] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 500px;\n}\nform[data-v-5b2e7b5c] {\n  width: 100%;\n}\n.buttons[data-v-5b2e7b5c] {\n  display: flex;\n  justify-content: center;\n}\n.btn[data-v-5b2e7b5c], .btn[data-v-5b2e7b5c]:disabled {\n  color: #fff;\n  background-color: #0091ad;\n  border-color: #0091ad;\n  margin: 0 20px;\n}\n.btn-xl[data-v-5b2e7b5c] {\n  padding: 1.25rem 2.5rem;\n  font-family: Roboto, sans-serif;\n  font-size: 1.125rem;\n  font-weight: 700;\n  width: 150px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-5b2e7b5c] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-5b2e7b5c] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-5b2e7b5c] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\nsection[data-v-5b2e7b5c] {\n  background: white;\n}\n@media (min-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 9rem 0;\n}\n}\n@media (max-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 6rem 0;\n}\n}\n.page-section[data-v-5b2e7b5c] {\n  background-color: white;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.container[data-v-5b2e7b5c] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 500px;\n}\nform[data-v-5b2e7b5c] {\n  width: 100%;\n}\nform p[data-v-5b2e7b5c] {\n  margin-bottom: 56px;\n  font-size: 24px;\n  font-weight: 700;\n}\n.buttons[data-v-5b2e7b5c] {\n  display: flex;\n  justify-content: center;\n}\n.btn[data-v-5b2e7b5c], .btn[data-v-5b2e7b5c]:disabled {\n  color: #fff;\n  background-color: #0091ad;\n  border-color: #0091ad;\n  margin: 0 20px;\n}\n.btn-xl[data-v-5b2e7b5c] {\n  padding: 1.25rem 2.5rem;\n  font-family: Roboto, sans-serif;\n  font-size: 1.125rem;\n  font-weight: 700;\n  min-width: 150px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10715,6 +10715,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-2b31e06c] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-2b31e06c] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-2b31e06c] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-2b31e06c] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-2b31e06c], .form-select[data-v-2b31e06c], option[data-v-2b31e06c] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-2b31e06c]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-2b31e06c]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-2b31e06c]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-2b31e06c]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-2b31e06c]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-2b31e06c]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-2b31e06c]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-2b31e06c] {\n  margin: 0;\n}\n.is-invalid[data-v-2b31e06c] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-2b31e06c] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-check[data-v-2b31e06c] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-2b31e06c] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091AD;\n  border-color: #0091AD;\n  color: white;\n  padding: 0.7rem;\n  margin-top: 0 !important;\n  margin-right: 2rem;\n}\ninput[data-v-2b31e06c]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-4c9f1d48] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-4c9f1d48] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-4c9f1d48] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-4c9f1d48] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-4c9f1d48], .form-select[data-v-4c9f1d48], option[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-4c9f1d48]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-4c9f1d48] {\n  margin: 0;\n}\n.is-invalid[data-v-4c9f1d48] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-check[data-v-4c9f1d48] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-4c9f1d48] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091AD;\n  border-color: #0091AD;\n  color: white;\n  padding: 0.7rem;\n  margin-top: 0 !important;\n  margin-right: 2rem;\n}\ninput[data-v-4c9f1d48]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11273,7 +11297,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".team-member[data-v-65dcb90b] {\n  margin-bottom: 3rem;\n  text-align: center;\n}\n.team-member img[data-v-65dcb90b] {\n  width: 14rem;\n  height: 14rem;\n  border: 0.5rem solid rgba(0, 0, 0, 0.1);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-65dcb90b] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-65dcb90b] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-65dcb90b] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.team-member[data-v-65dcb90b] {\n  margin-bottom: 3rem;\n  text-align: center;\n}\n.team-member img[data-v-65dcb90b] {\n  width: 14rem;\n  height: 14rem;\n  border: 0.5rem solid #25283d;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12224,6 +12248,7 @@ __webpack_require__.r(__webpack_exports__);
         let prefix = 'dynamic-web-contact'
 		registerVueComponent(prefix + '-form', (__webpack_require__(/*! ./Form/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/Form/Component.vue")["default"]), Vue)
 		registerVueComponent(prefix + '-checkbox-input', (__webpack_require__(/*! ./FormItems/Inputs/CheckBox/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBox/Component.vue")["default"]), Vue)
+		registerVueComponent(prefix + '-checkbox-input-with-text-content', (__webpack_require__(/*! ./FormItems/Inputs/CheckBoxWithTextContent/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue")["default"]), Vue)
 		registerVueComponent(prefix + '-number-input', (__webpack_require__(/*! ./FormItems/Inputs/Number/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Number/Component.vue")["default"]), Vue)
 		registerVueComponent(prefix + '-text-input', (__webpack_require__(/*! ./FormItems/Inputs/Text/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Text/Component.vue")["default"]), Vue)
 		registerVueComponent(prefix + '-email-input', (__webpack_require__(/*! ./FormItems/Inputs/Email/Component.vue */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Email/Component.vue")["default"]), Vue)
@@ -12266,6 +12291,7 @@ __webpack_require__.r(__webpack_exports__);
                         }
                     },
                     "form_item_sections": "++form_item_sections",
+                    "sum_price_label": "--contactUs.sum_price.label",
                     "button_title": "--contactUs.button_title",
                     "next_button_title": "--contactUs.next_button_title",
                     "back_button_title": "--contactUs.back_button_title",
@@ -12350,6 +12376,10 @@ __webpack_require__.r(__webpack_exports__);
             "params": {
                 "current_language": "++current_language",
                 "links": [
+                    {
+                        "url": "/#team",
+                        "content": "--layout.navbar.about_us"
+                    },
                     {
                         "url": "/#services",
                         "content": "--layout.navbar.services"
@@ -12610,8 +12640,8 @@ __webpack_require__.r(__webpack_exports__);
     title_section: {
       type: 'dynamic-web-medium-text-content',
       data: {
-        title: '--welcome.roadmap.title',
-        content: '--welcome.roadmap.subtitle',
+        title: '--welcome.workflow.title',
+        content: '--welcome.workflow.subtitle',
       },
     },
     timeline_section: {
@@ -12621,21 +12651,13 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/vazlat.jpg',
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.idea.title',
-                    sub_title: '--welcome.roadmap.idea.research_market.title',
-                    content: '--welcome.roadmap.idea.research_market.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.idea.concept.title',
-                    content: '--welcome.roadmap.idea.concept.content',
+                    title: '--welcome.workflow.sketch.title',
+                    content: '--welcome.workflow.sketch.content',
                   },
                 },
               ],
@@ -12644,22 +12666,14 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/tervezes.jpg',
               is_inverted: true,
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.research.title',
-                    sub_title: '--welcome.roadmap.research.components.title',
-                    content: '--welcome.roadmap.research.components.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.research.costs.title',
-                    content: '--welcome.roadmap.research.costs.content',
+                    title: '--welcome.workflow.design.title',
+                    content: '--welcome.workflow.design.content',
                   },
                 },
               ],
@@ -12668,21 +12682,13 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/fejlesztes.jpg',
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.design.title',
-                    sub_title: '--welcome.roadmap.design.design_concepts.title',
-                    content: '--welcome.roadmap.design.design_concepts.content',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    sub_title: '--welcome.roadmap.design.finalize_design.title',
-                    content: '--welcome.roadmap.design.finalize_design.content',
+                    title: '--welcome.workflow.develop.title',
+                    content: '--welcome.workflow.develop.content',
                   },
                 },
               ],
@@ -12691,30 +12697,18 @@ __webpack_require__.r(__webpack_exports__);
           {
             type: 'dynamic-web-timeline-item',
             data: {
-              image_url: 'images/roadmap/sample1000x1000.jpg',
+              image_url: 'images/roadmap/teszteles.jpg',
               is_inverted: true,
               with_line: false,
               content_sections: [
                 {
                   type: 'dynamic-web-two-title-text-content',
                   data: {
-                    title: '--welcome.roadmap.prototyping.title',
-                    content: '--welcome.roadmap.prototyping.functions',
-                  },
-                },
-                {
-                  type: 'dynamic-web-two-title-text-content',
-                  data: {
-                    content: '--welcome.roadmap.prototyping.conditions',
+                    title: '--welcome.workflow.test.title',
+                    content: '--welcome.workflow.test.content',
                   },
                 },
               ],
-            },
-          },
-          {
-            type: 'dynamic-web-small-text-content',
-            data: {
-              title: '--welcome.roadmap.footer_title',
             },
           },
         ],
@@ -12775,107 +12769,105 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  type: 'dynamic-web-team',
-  data: {
-    title_section: {
-      type: 'dynamic-web-team-medium-text-content',
-      data: {
-        title: '--welcome.team.title',
-        content: '--welcome.team.subtitle',
-      },
+    type: 'dynamic-web-team',
+    data: {
+        title_section: {
+            type: 'dynamic-web-team-medium-text-content',
+            data: {
+                title: '--welcome.team.title'
+            },
+        },
+        member_sections: [
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Darvas Istvan',
+                    title: '--welcome.team.members.darvas_istvan',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Bagota Jozsef',
+                    title: '--welcome.team.members.bagota_jozsef',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Benedek Csaba',
+                    title: '--welcome.team.members.benedek_csaba',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+            {
+                template_type_name: 'dynamic_web_team_member',
+                params: {
+                    name: 'Kovacs Szilard',
+                    title: '--welcome.team.members.kovacs_szilard',
+                    image_url: 'images/Articles/sample1000x1000.jpg',
+                    icons: [
+                        {
+                            url: '',
+                            class: 'fab fa-twitter',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-facebook-f',
+                        },
+                        {
+                            url: '',
+                            class: 'fab fa-linkedin-in',
+                        },
+                    ],
+                },
+            },
+        ],
     },
-    member_sections: [
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Darvas Istvan',
-          title: '--welcome.team.members.darvas_istvan',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Bagota Jozsef',
-          title: '--welcome.team.members.bagota_jozsef',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Benedek Csaba',
-          title: '--welcome.team.members.benedek_csaba',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-      {
-        template_type_name: 'dynamic_web_team_member',
-        params: {
-          name: 'Kovacs Szilard',
-          title: '--welcome.team.members.kovacs_szilard',
-          image_url: 'images/Articles/sample1000x1000.jpg',
-          icons: [
-            {
-              url: '',
-              class: 'fab fa-twitter',
-            },
-            {
-              url: '',
-              class: 'fab fa-facebook-f',
-            },
-            {
-              url: '',
-              class: 'fab fa-linkedin-in',
-            },
-          ],
-        },
-      },
-    ],
-    footer_text: '--welcome.team.footer_text',
-  },
 });
 
 
@@ -45542,6 +45534,36 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_cjs_js_clonedRuleSet_12_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_sass_loader_dist_cjs_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_style_index_0_id_4c9f1d48_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../../vue-loader/lib/loaders/stylePostLoader.js!../../../../../../postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../../sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../../../sass-loader/dist/cjs.js!../../../../../../vue-loader/lib/index.js??vue-loader-options!./Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_sass_loader_dist_cjs_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_style_index_0_id_4c9f1d48_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_sass_loader_dist_cjs_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_style_index_0_id_4c9f1d48_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Email/Component.vue?vue&type=style&index=0&id=36590f21&lang=scss&scoped=true&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Email/Component.vue?vue&type=style&index=0&id=36590f21&lang=scss&scoped=true& ***!
@@ -48028,12 +48050,16 @@ __webpack_require__.r(__webpack_exports__);
             },
             title_section: {
                 type: Object
+            },
+            sum_price_label: {
+                type: String
             }
         },
         data() {
             return {
                 formItemTypePrefix: 'dynamic-web-contact',
-                clientId: 0
+                clientId: 0,
+                sumPrice: 0
             }
         },
         methods: {
@@ -48048,8 +48074,24 @@ __webpack_require__.r(__webpack_exports__);
                         }
                     })
                 }
-            }/*,
-            submitForm() {
+            },
+            valueChanged(formItemSection, newValue) {
+                formItemSection.data.value = newValue
+                if (this.currentPageNumber == 1) {
+                    this.sumPrice = this.getSumPrice()
+                }
+            },
+            getSumPrice() {
+                let sum = 0
+                this.form_item_sections[this.currentPageNumber].forEach(formItemSection => {
+                    if (formItemSection.data && formItemSection.data.value === true) {
+                        sum += formItemSection.data.price
+                    }
+                })
+                return sum
+            }
+            
+            /*submitForm() {
                 $.post({
                     url: 'https://graph.facebook.com/{API_VERSION}/{PIXEL_ID}/events?access_token=EAAKgXuhD0hABACdNAZBABWp6U1o0oINvIFEZCShZBcWjZClzhFY9XADZCDaZBC8Ckz5tLuBXrrvcOnWfLYjuRplQ6oDAS6HJzPZAKViJMAXZBrZAZASnbNoNzq8He0zRUlgDTtKMZCF3Ch2ZB948Rd6cJvCgQpseM90AzZAVJoxP1wYHXiEMgDZAuYQWle',
                     data: this.getRequestData(this.form_item_sections[0])
@@ -48125,6 +48167,88 @@ __webpack_require__.r(__webpack_exports__);
         mixins: [
             _helper_vue_components_src_Form_BootstrapFormItems_FormItems_Inputs_CheckBox_Component_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
         ]
+    });
+
+
+/***/ }),
+
+/***/ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue ***!
+  \************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug& */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug&");
+/* harmony import */ var _Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Component.vue?vue&type=script&lang=js& */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Component_vue_vue_type_style_index_0_id_4c9f1d48_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& */ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "4c9f1d48",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _helper_vue_components_src_Form_FormItemsWithoutLabel_Inputs_CheckBox_Component_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../../../../../helper-vue-components/src/Form/FormItemsWithoutLabel/Inputs/CheckBox/Component.vue */ "./node_modules/helper-vue-components/src/Form/FormItemsWithoutLabel/Inputs/CheckBox/Component.vue");
+
+    
+
+    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+        mixins: [
+            _helper_vue_components_src_Form_FormItemsWithoutLabel_Inputs_CheckBox_Component_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+        ],
+        props: {
+            title_label: {
+                type: String
+            },
+            description_label: {
+                type: String
+            },
+            added_classes: {
+                type: Object,
+                default () {
+                    return{
+                        '.title': 'text-uppercase',
+                        '.content': 'text-muted'
+                    }
+                }
+            }
+        }
     });
 
 
@@ -58442,6 +58566,9 @@ __webpack_require__.r(__webpack_exports__);
             },
             member_sections: {
                 type: Array
+            },
+            footer_text: {
+                type: String
             }
         }
     });
@@ -60012,6 +60139,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_dist_cjs_js_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_sass_loader_dist_cjs_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_style_index_0_id_4c9f1d48_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../style-loader/dist/cjs.js!../../../../../../css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../../vue-loader/lib/loaders/stylePostLoader.js!../../../../../../postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../../sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../../../sass-loader/dist/cjs.js!../../../../../../vue-loader/lib/index.js??vue-loader-options!./Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=style&index=0&id=4c9f1d48&lang=scss&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Email/Component.vue?vue&type=style&index=0&id=36590f21&lang=scss&scoped=true&":
 /*!****************************************************************************************************************************************************************!*\
   !*** ./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/Email/Component.vue?vue&type=style&index=0&id=36590f21&lang=scss&scoped=true& ***!
@@ -60822,6 +60962,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../vue-loader/lib/index.js??vue-loader-options!./Component.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBox/Component.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../vue-loader/lib/index.js??vue-loader-options!./Component.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
@@ -63406,6 +63562,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug& ***!
+  \****************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_pug_plain_loader_index_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_pug_plain_loader_index_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_pug_plain_loader_index_js_vue_loader_lib_index_js_vue_loader_options_Component_vue_vue_type_template_id_4c9f1d48_scoped_true_lang_pug___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../../../../pug-plain-loader/index.js!../../../../../../vue-loader/lib/index.js??vue-loader-options!./Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/pug-plain-loader/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug&");
+
+
+/***/ }),
+
 /***/ "./node_modules/dynamic-web-vue-components/src/Offer/Offer/Component.vue?vue&type=template&id=68cdf468&scoped=true&lang=pug&":
 /*!***********************************************************************************************************************************!*\
   !*** ./node_modules/dynamic-web-vue-components/src/Offer/Offer/Component.vue?vue&type=template&id=68cdf468&scoped=true&lang=pug& ***!
@@ -64651,7 +64824,7 @@ var render = function render() {
                       attrs: { value: formItemSection.data.value },
                       on: {
                         "update:value": (newValue) => {
-                          formItemSection.data.value = newValue
+                          _vm.valueChanged(formItemSection, newValue)
                         },
                       },
                     },
@@ -64662,6 +64835,13 @@ var render = function render() {
                 )
               }
             ),
+            _vm.currentPageNumber == 1
+              ? _c("p", [
+                  _vm._v(
+                    _vm._s(_vm.sum_price_label) + ": " + _vm._s(_vm.sumPrice)
+                  ),
+                ])
+              : _vm._e(),
             _c("input", {
               attrs: { name: "client_id", type: "hidden" },
               domProps: { value: _vm.clientId },
@@ -64715,6 +64895,84 @@ var render = function render() {
       1
     ),
   ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/pug-plain-loader/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/pug-plain-loader/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/dynamic-web-vue-components/src/ContactForm/FormItems/Inputs/CheckBoxWithTextContent/Component.vue?vue&type=template&id=4c9f1d48&scoped=true&lang=pug& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c
+  return _c(
+    "form-item-with-validation-errors",
+    { attrs: { validation_errors: _vm.validation_errors } },
+    [
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.currentValue,
+            expression: "currentValue",
+          },
+        ],
+        ref: "inputElement",
+        staticClass: "form-check-input",
+        class: _vm.invalidClass,
+        attrs: {
+          name: _vm.name,
+          placeholder: _vm.placeholder,
+          required: _vm.required,
+          type: "checkbox",
+        },
+        domProps: {
+          checked: Array.isArray(_vm.currentValue)
+            ? _vm._i(_vm.currentValue, null) > -1
+            : _vm.currentValue,
+        },
+        on: {
+          change: function ($event) {
+            var $$a = _vm.currentValue,
+              $$el = $event.target,
+              $$c = $$el.checked ? true : false
+            if (Array.isArray($$a)) {
+              var $$v = null,
+                $$i = _vm._i($$a, $$v)
+              if ($$el.checked) {
+                $$i < 0 && (_vm.currentValue = $$a.concat([$$v]))
+              } else {
+                $$i > -1 &&
+                  (_vm.currentValue = $$a
+                    .slice(0, $$i)
+                    .concat($$a.slice($$i + 1)))
+              }
+            } else {
+              _vm.currentValue = $$c
+            }
+          },
+        },
+      }),
+      _c("dynamic-web-small-text-content", {
+        attrs: { title: _vm.title_label, content: _vm.description_label },
+      }),
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -67446,28 +67704,26 @@ var render = function render() {
             }),
             0
           ),
-          _vm._m(0),
+          _vm.footer_text
+            ? _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-lg-8 mx-auto mt-3 mb-5 text-center" },
+                  [
+                    _c("p", { staticClass: "large text-muted" }, [
+                      _vm._v(_vm._s(_vm.footer_text)),
+                    ]),
+                  ]
+                ),
+              ])
+            : _vm._e(),
         ],
         1
       ),
     ]
   )
 }
-var staticRenderFns = [
-  function () {
-    var _vm = this,
-      _c = _vm._self._c
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-lg-8 mx-auto mt-3 mb-5 text-center" }, [
-        _c("p", { staticClass: "large text-muted" }, [
-          _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-          ),
-        ]),
-      ]),
-    ])
-  },
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
