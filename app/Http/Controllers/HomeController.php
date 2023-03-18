@@ -44,10 +44,11 @@ class HomeController extends Controller
 
     protected function getCheckboxFormInfos($name, $price) {
         return (object) [
-            'type' => 'checkbox-input',
+            'type' => 'checkbox-input-with-text-content',
             'data' => (object) [
                 'name' => $name,
-                'label' => __('contactUs.form.' . $name . '.label'),
+                'title_label' => __('contactUs.form.' . $name . '.title_label'),
+                'description_label' => __('contactUs.form.' . $name . '.description_label'),
                 'price' => $price
             ]
         ];
