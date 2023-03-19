@@ -21,6 +21,7 @@ class HomeController extends Controller
     }
 
     public function contactUs() {
+        LanguageMethods::checkLanguage();
         $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/contactUs.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
