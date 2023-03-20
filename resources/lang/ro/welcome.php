@@ -58,4 +58,7 @@ return [
             'kovacs_szilard' => 'Lucrez în domeniul dezvoltării front-end, dezvoltând aspectul și aspectul site-urilor web. Am aproape 2 ani de experiență',
         ],
     ],
+    'our_works' => [
+        'title' => 'Lucrările noastre',
+    ],
 ];

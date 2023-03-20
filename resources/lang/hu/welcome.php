@@ -95,5 +95,8 @@ return [
             'benedek_csaba' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében',
             'kovacs_szilard' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van'
         ]
-    ]
+    ],
+    'our_works' => [
+        'title' => 'Munkáink',
+    ],
 ];
