@@ -24,8 +24,14 @@ class HomeController extends Controller
         LanguageMethods::checkLanguage();
         $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/contactUs.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
+        $templateParams->form_item_sections = $this->getOrderFormInfos();
+        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
+    }
+
+    protected function getOrderFormInfos() {
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
-        $orderFormInfos = [
+        $orderFormInfos = [$clientTableInfos->getFormInfos('contactUs.form'), []];
+        $formInfos = [
             $this->getCheckboxFormInfos('has_product_categories', 300),
             $this->getCheckboxFormInfos('has_excel_product_import', 200),
             $this->getCheckboxFormInfos('has_related_products', 300),
@@ -47,11 +53,20 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_buy_notifications', 200),
             $this->getCheckboxFormInfos('has_news_blog', 400),
         ];
-        $templateParams->form_item_sections = [
-            $clientTableInfos->getFormInfos('contactUs.form'),
-            $orderFormInfos,
-        ];
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
+        $formInfoCount = 0;
+        $currentPageNumber = 1;
+        foreach ($formInfos as $formInfo) {
+            if ($formInfoCount < 5) {
+                array_push($orderFormInfos[$currentPageNumber], $formInfo);
+                ++$formInfoCount;
+            }
+            else {
+                ++$currentPageNumber;
+                $formInfoCount = 0;
+                array_push($orderFormInfos, []);
+            }
+        }
+        return $orderFormInfos;
     }
 
     protected function getCheckboxFormInfos($name, $price) {

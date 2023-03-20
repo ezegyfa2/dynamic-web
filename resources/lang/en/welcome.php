@@ -59,7 +59,7 @@ return [
         'content' => ' In business, it is not uncommon to have several companies in the market that offer a similar product or service to yours.  In order to stand out from your competitors, credibility is vital. Because customers expect trustworthy businesses to have a website and social media accounts, you need an attractive, professional website to help you build a strong online presence and communicate quality information to consumers. ',
     ],
     'article2' => [
-        'title' => '24/7 Contact Us',
+        'title' => '24/7 Contact',
         'content' => ' In business, it is important to always be available to your customers. One of the biggest advantages of a website is that anyone, anywhere, anytime can use it conveniently because it is always available. This means that your customers can use the services and access the information they need about your business outside of working hours and in their free time. ',
     ],
     'article3' => [
