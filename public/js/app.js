@@ -12875,7 +12875,7 @@ __webpack_require__.r(__webpack_exports__);
         params: {
           name: 'Benedek Csaba',
           title: '--welcome.team.members.benedek_csaba',
-          image_url: 'images/Articles/sample1000x1000.jpg',
+          image_url: 'images/Articles/benedek_csaba.jpg',
           icons: [
             {
               url: '',
@@ -48242,17 +48242,17 @@ __webpack_require__.r(__webpack_exports__);
             },
             valueChanged(formItemSection, newValue) {
                 formItemSection.data.value = newValue
-                if (this.currentPageNumber == 1) {
-                    this.sumPrice = this.getSumPrice()
-                }
+                this.sumPrice = this.getSumPrice()
             },
             getSumPrice() {
                 let sum = 0
-                this.form_item_sections[this.currentPageNumber].forEach(formItemSection => {
-                    if (formItemSection.data && formItemSection.data.value === true) {
-                        sum += formItemSection.data.price
-                    }
-                })
+                for (let i = 1; i < this.form_item_sections.length; ++i) {
+                    this.form_item_sections[i].forEach(formItemSection => {
+                        if (formItemSection.data && formItemSection.data.value === true) {
+                            sum += formItemSection.data.price
+                        }
+                    })
+                }
                 return sum
             }
             
@@ -65220,7 +65220,7 @@ var render = function render() {
                 )
               }
             ),
-            _vm.currentPageNumber == 1
+            _vm.currentPageNumber > 0
               ? _c("p", [
                   _vm._v(
                     _vm._s(_vm.sum_price_label) + ": " + _vm._s(_vm.sumPrice)
@@ -65266,7 +65266,6 @@ var render = function render() {
                         ref: "submitButton",
                         staticClass: "btn btn-primary btn-xl",
                         attrs: { type: "submit" },
-                        on: { click: _vm.submitForm },
                       },
                       [_vm._v(_vm._s(_vm.button_title))]
                     ),
