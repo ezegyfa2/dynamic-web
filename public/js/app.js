@@ -10738,7 +10738,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-4c9f1d48] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-4c9f1d48] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-4c9f1d48] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-4c9f1d48] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-4c9f1d48], .form-select[data-v-4c9f1d48], option[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-4c9f1d48]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-4c9f1d48] {\n  margin: 0;\n}\n.is-invalid[data-v-4c9f1d48] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-check[data-v-4c9f1d48] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-4c9f1d48] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091AD;\n  border-color: #0091AD;\n  color: white;\n  padding: 0.7rem;\n  margin-right: 2rem;\n}\ninput[data-v-4c9f1d48]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}\n.form-item[data-v-4c9f1d48] {\n  display: flex;\n  align-items: flex-start;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-4c9f1d48] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-4c9f1d48] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-4c9f1d48] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-4c9f1d48] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-4c9f1d48], .form-select[data-v-4c9f1d48], option[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-4c9f1d48]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-4c9f1d48] {\n  margin: 0;\n}\n.is-invalid[data-v-4c9f1d48] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-check[data-v-4c9f1d48] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-4c9f1d48] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091AD;\n  border-color: #0091AD;\n  color: white;\n  padding: 0.7rem;\n  margin-right: 2rem;\n}\ninput[data-v-4c9f1d48]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}\n.form-item[data-v-4c9f1d48] {\n  display: flex;\n  align-items: flex-start;\n}\np[data-v-4c9f1d48] {\n  font-size: 1.2rem;\n  margin: 0 0 0 2rem;\n  color: #0091AD;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11393,7 +11393,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-7e384148], .title[data-v-7e384148] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-7e384148], .content[data-v-7e384148] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-7e384148] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.text-center[data-v-7e384148] {\n  text-align: left !important;\n  padding: 0 0 3rem 0;\n}\n.title[data-v-7e384148] {\n  font-size: 1.2rem;\n  margin-top: 0;\n  margin-bottom: 0.5rem;\n}\n.content[data-v-7e384148] {\n  font-style: normal;\n}\n.title[data-v-7e384148] {\n  color: #25283d;\n}\n.content[data-v-7e384148] {\n  color: #25283d;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-7e384148], .title[data-v-7e384148] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-7e384148], .content[data-v-7e384148] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-7e384148] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.text-center[data-v-7e384148] {\n  text-align: left !important;\n  padding: 0 0 3rem 0;\n}\n.title[data-v-7e384148] {\n  font-size: 1.2rem;\n  margin-top: 0;\n  margin-bottom: 0.5rem;\n}\n.content[data-v-7e384148] {\n  font-style: normal;\n  min-width: 356px;\n}\n.title[data-v-7e384148] {\n  color: #25283d;\n}\n.content[data-v-7e384148] {\n  color: #25283d;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12321,32 +12321,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    "template_type_name": "dynamic_web_layout",
-    "params": {
-        "header_section": {},
-        "current_language": "++current_language",
-        "content_sections": [
-            {
-                "type": "dynamic-web-contact-form",
-                "data": {
-                    "id": "contact_us",
-                    "url": "/contact-us",
-                    "title_section": {
-                        "type": "dynamic-web-contact-text-content",
-                        "data": {
-                            "title": "--contactUs.title",
-                            "content": "--contactUs.subtitle"
-                        }
-                    },
-                    "form_item_sections": "++form_item_sections",
-                    "sum_price_label": "--contactUs.sum_price.label",
-                    "button_title": "--contactUs.button_title",
-                    "next_button_title": "--contactUs.next_button_title",
-                    "back_button_title": "--contactUs.back_button_title",
-                }
-            }
-        ]
-    }
+  template_type_name: 'dynamic_web_layout',
+  params: {
+    header_section: {},
+    current_language: '++current_language',
+    content_sections: [
+      {
+        type: 'dynamic-web-contact-form',
+        data: {
+          id: 'contact_us',
+          url: '/contact-us',
+          title_section: {
+            type: 'dynamic-web-contact-text-content',
+            data: {
+              title: '--contactUs.title',
+              content: '--contactUs.subtitle',
+            },
+          },
+          form_item_sections: '++form_item_sections',
+          sum_price_label: '--contactUs.sum_price.label',
+          button_title: '--contactUs.button_title',
+          next_button_title: '--contactUs.next_button_title',
+          back_button_title: '--contactUs.back_button_title',
+        },
+      },
+    ],
+  },
 });
 
 
@@ -12817,105 +12817,105 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    type: 'dynamic-web-team',
-    data: {
-        title_section: {
-            type: 'dynamic-web-team-medium-text-content',
-            data: {
-                title: '--welcome.team.title'
-            },
-        },
-        member_sections: [
-            {
-                template_type_name: 'dynamic_web_team_member',
-                params: {
-                    name: 'Darvas Istvan',
-                    title: '--welcome.team.members.darvas_istvan',
-                    image_url: 'images/Articles/sample1000x1000.jpg',
-                    icons: [
-                        {
-                            url: '',
-                            class: 'fab fa-twitter',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-facebook-f',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-linkedin-in',
-                        },
-                    ],
-                },
-            },
-            {
-                template_type_name: 'dynamic_web_team_member',
-                params: {
-                    name: 'Bagota Jozsef',
-                    title: '--welcome.team.members.bagota_jozsef',
-                    image_url: 'images/Articles/sample1000x1000.jpg',
-                    icons: [
-                        {
-                            url: '',
-                            class: 'fab fa-twitter',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-facebook-f',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-linkedin-in',
-                        },
-                    ],
-                },
-            },
-            {
-                template_type_name: 'dynamic_web_team_member',
-                params: {
-                    name: 'Benedek Csaba',
-                    title: '--welcome.team.members.benedek_csaba',
-                    image_url: 'images/Articles/sample1000x1000.jpg',
-                    icons: [
-                        {
-                            url: '',
-                            class: 'fab fa-twitter',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-facebook-f',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-linkedin-in',
-                        },
-                    ],
-                },
-            },
-            {
-                template_type_name: 'dynamic_web_team_member',
-                params: {
-                    name: 'Kovacs Szilard',
-                    title: '--welcome.team.members.kovacs_szilard',
-                    image_url: 'images/Articles/sample1000x1000.jpg',
-                    icons: [
-                        {
-                            url: '',
-                            class: 'fab fa-twitter',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-facebook-f',
-                        },
-                        {
-                            url: '',
-                            class: 'fab fa-linkedin-in',
-                        },
-                    ],
-                },
-            },
-        ],
+  type: 'dynamic-web-team',
+  data: {
+    title_section: {
+      type: 'dynamic-web-team-medium-text-content',
+      data: {
+        title: '--welcome.team.title',
+      },
     },
+    member_sections: [
+      {
+        template_type_name: 'dynamic_web_team_member',
+        params: {
+          name: 'Darvas Istvan',
+          title: '--welcome.team.members.darvas_istvan',
+          image_url: 'images/Articles/darvas_istvan.jpg',
+          icons: [
+            {
+              url: '',
+              class: 'fab fa-twitter',
+            },
+            {
+              url: '',
+              class: 'fab fa-facebook-f',
+            },
+            {
+              url: '',
+              class: 'fab fa-linkedin-in',
+            },
+          ],
+        },
+      },
+      {
+        template_type_name: 'dynamic_web_team_member',
+        params: {
+          name: 'Bagota Jozsef',
+          title: '--welcome.team.members.bagota_jozsef',
+          image_url: 'images/Articles/bagota_jozsef.jpg',
+          icons: [
+            {
+              url: '',
+              class: 'fab fa-twitter',
+            },
+            {
+              url: '',
+              class: 'fab fa-facebook-f',
+            },
+            {
+              url: '',
+              class: 'fab fa-linkedin-in',
+            },
+          ],
+        },
+      },
+      {
+        template_type_name: 'dynamic_web_team_member',
+        params: {
+          name: 'Benedek Csaba',
+          title: '--welcome.team.members.benedek_csaba',
+          image_url: 'images/Articles/sample1000x1000.jpg',
+          icons: [
+            {
+              url: '',
+              class: 'fab fa-twitter',
+            },
+            {
+              url: '',
+              class: 'fab fa-facebook-f',
+            },
+            {
+              url: '',
+              class: 'fab fa-linkedin-in',
+            },
+          ],
+        },
+      },
+      {
+        template_type_name: 'dynamic_web_team_member',
+        params: {
+          name: 'Kovacs Szilard',
+          title: '--welcome.team.members.kovacs_szilard',
+          image_url: 'images/Articles/kovacs_szilard.jpg',
+          icons: [
+            {
+              url: '',
+              class: 'fab fa-twitter',
+            },
+            {
+              url: '',
+              class: 'fab fa-facebook-f',
+            },
+            {
+              url: '',
+              class: 'fab fa-linkedin-in',
+            },
+          ],
+        },
+      },
+    ],
+  },
 });
 
 
@@ -13029,69 +13029,41 @@ __webpack_require__.r(__webpack_exports__);
           title_section: {
             type: 'dynamic-web-medium-text-content',
             data: {
-              title: '--welcome.latest.title',
+              title: '--welcome.our_works.title',
             },
           },
           images: [
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/beautiful-vegan-restaurant-landing-page-template_1361-898.jpg',
+              image_url: 'images/latestworks/7554326.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/beauty-salon-booking-app_52683-39803.jpg',
+              image_url: 'images/latestworks/6207747.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/blogger-email-template-collection_23-2148743274.jpg',
+              image_url: 'images/latestworks/7534274.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/ecommerce-email-template_23-2148737349.jpg',
+              image_url: 'images/latestworks/8285773.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/fashion-shopping-app-pack-template_23-2148651171.jpg',
+              image_url: 'images/latestworks/5471806.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/fitness-email-template_23-2148743277.jpg',
+              image_url: 'images/latestworks/4264527.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/furniture-shopping-app-concept_23-2148662516.jpg',
+              image_url: 'images/latestworks/4141109.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/furniture-shopping-app-interface_23-2148659898.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-blog-template-design_23-2149648665.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-e-commerce-app-template_23-2149579024.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-e-commerce-website-template_23-2149579044.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-furniture-sale-landing-page-with-photo_23-2148930455.jpg',
+              image_url: 'images/latestworks/3175709.jpg',
             },
           ],
         },
@@ -48432,6 +48404,9 @@ __webpack_require__.r(__webpack_exports__);
             description_label: {
                 type: String
             },
+            price: {
+                type: String
+            },
             added_classes: {
                 type: Object,
                 default () {
@@ -65380,6 +65355,7 @@ var render = function render() {
       _c("dynamic-web-contact-us-small-text-content", {
         attrs: { title: _vm.title_label, content: _vm.description_label },
       }),
+      _c("p", [_vm._v(_vm._s(_vm.price))]),
     ],
     1
   )
