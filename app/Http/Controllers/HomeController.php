@@ -56,15 +56,13 @@ class HomeController extends Controller
         $formInfoCount = 0;
         $currentPageNumber = 1;
         foreach ($formInfos as $formInfo) {
-            if ($formInfoCount < 5) {
-                array_push($orderFormInfos[$currentPageNumber], $formInfo);
-                ++$formInfoCount;
-            }
-            else {
+            if ($formInfoCount == 5) {
                 ++$currentPageNumber;
                 $formInfoCount = 0;
                 array_push($orderFormInfos, []);
             }
+            array_push($orderFormInfos[$currentPageNumber], $formInfo);
+            ++$formInfoCount;
         }
         return $orderFormInfos;
     }

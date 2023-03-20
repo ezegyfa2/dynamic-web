@@ -24,7 +24,7 @@ return [
         ],
         'has_related_products' => [
             'title_label' => 'Kapcsolódó termékek',
-            'description_label' => 'A termékek különböző kategóriákba csoportosíthatók. A felhasználók az egyes kategóriákon belül kereshetnek termékeket',
+            'description_label' => 'A termék weboldalán megtekinthetőek a kapcsolodó termékek',
         ],
         'has_product_order_by' => [
             'title_label' => 'A termékek sorrendje',
@@ -48,7 +48,7 @@ return [
         ],
         'has_featured_products' => [
             'title_label' => 'Kiemelt termékek',
-            'description_label' => 'A weboldal tulajdonosa megjeleníthet bizonyos termékeket. A kiemelt termékek a terméklistában előrébb szerepelnek, mint a többi termék',
+            'description_label' => 'A weboldal tulajdonosa kiemelhet bizonyos termékeket. A kiemelt termékek a terméklistában előrébb szerepelnek, mint a többi termék',
         ],
         'has_cart' => [
             'title_label' => 'Kosár',
@@ -95,7 +95,7 @@ return [
             'description_label' => 'Külön oldal a hírek/blog számára',
         ],
     ],
-    'next_button_title' => 'NEXT',
+    'next_button_title' => 'KÖVETKEZŐ',
     'back_button_title' => 'VISSZA',
     'button_title' => 'KÜLDÉS',
     'title' => 'KAPCSOLAT',

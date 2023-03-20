@@ -24,7 +24,7 @@ return [
         ],
         'has_related_products' => [
             'title_label' => 'Produse înrudite',
-            'description_label' => 'Produsele pot fi grupate în diferite categorii. Utilizatorii pot căuta produse în cadrul fiecărei categorii',
+            'description_label' => 'Vizualizați produsele conexe pe site-ul web al produsului',
         ],
         'has_product_order_by' => [
             'title_label' => 'Comandă produsele după',
@@ -75,33 +75,33 @@ return [
             'description_label' => 'O interfață de utilizator care permite proprietarului site-ului să listeze și să editeze produsele',
         ],
         'has_buyer_admin' => [
-            'title_label' => 'Panou de administrare cumpărător',
+            'title_label' => 'Panoul de administrare cumpărător',
             'description_label' => 'O interfață utilizator care permite proprietarului site-ului să listeze datele clienților',
         ],
         'has_admin_log' => [
             'title_label' => 'Logare admin',
-            'description_label' => 'O interfață utilizator care permite proprietarului site-ului să listeze datele clienților',
+            'description_label' => 'O notă privind operațiunile din interfața de administrare',
         ],
         'has_buy_statistics' => [
             'title_label' => 'Statistici privind cumpărătorii',
-            'description_label' => 'O notă privind operațiunile din interfața de administrare',
+            'description_label' => 'Principalii indicatori pentru achiziții',
         ],
         'has_buy_notifications' => [
             'title_label' => 'Notificare după cumpărare',
-            'description_label' => 'Principalii indicatori pentru achiziții',
+            'description_label' => 'Proprietarul site-ului primește o notificare după fiecare achiziție',
         ],
         'has_news_blog' => [
             'title_label' => 'News/Blog',
-            'description_label' => 'Proprietarul site-ului primește o notificare după fiecare achiziție',
+            'description_label' => 'O pagină separată pentru știri/blog',
         ],
     ],
-    'next_button_title' => 'O pagină separată pentru news/blog',
-    'back_button_title' => 'NEXT',
-    'button_title' => 'ÎNAPOI',
-    'title' => 'SUBMIT',
-    'subtitle' => 'CONTACT',
-    'success_message' => 'Trimiteți comanda și vă vom contacta în curând',
+    'next_button_title' => 'URMĂTORUL',
+    'back_button_title' => 'ÎNAPOI',
+    'button_title' => 'TRIMITEȚI COMANDA',
+    'title' => 'CONTACT',
+    'subtitle' => 'Trimiteți comanda și vă vom contacta în curând',
+    'success_message' => 'Comanda dvs. a fost salvată cu succes, vă vom răspunde în curând',
     'sum_price' => [
-        'label' => 'Comanda dvs. a fost salvată cu succes, vă vom răspunde în curând',
+        'label' => 'Preț',
     ],
 ];

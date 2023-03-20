@@ -24,7 +24,7 @@ return [
         ],
         'has_related_products' => [
             'title_label' => 'Related products',
-            'description_label' => 'Products can be grouped into different categories. Users can search for products within each category',
+            'description_label' => 'View the related products on the product website',
         ],
         'has_product_order_by' => [
             'title_label' => 'Product order by',
