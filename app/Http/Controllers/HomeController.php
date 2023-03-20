@@ -26,15 +26,26 @@ class HomeController extends Controller
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
         $orderFormInfos = [
-            $this->getCheckboxFormInfos('has_product_categories', 200),
-            $this->getCheckboxFormInfos('has_product_filters', 200),
+            $this->getCheckboxFormInfos('has_product_categories', 300),
+            $this->getCheckboxFormInfos('has_excel_product_import', 200),
+            $this->getCheckboxFormInfos('has_related_products', 300),
+            $this->getCheckboxFormInfos('has_product_order_by', 300),
+            $this->getCheckboxFormInfos('has_product_filters', 500),
             $this->getCheckboxFormInfos('has_product_ratings', 200),
             $this->getCheckboxFormInfos('has_product_comments', 200),
             $this->getCheckboxFormInfos('has_favorite_products', 200),
+            $this->getCheckboxFormInfos('has_featured_products', 300),
+            $this->getCheckboxFormInfos('has_cart', 500),
+            $this->getCheckboxFormInfos('has_coupon', 300),
+            $this->getCheckboxFormInfos('has_delivery_method', 100),
             $this->getCheckboxFormInfos('has_login', 200),
-            $this->getCheckboxFormInfos('has_admin', 200),
+            $this->getCheckboxFormInfos('has_facebook_login', 300),
+            $this->getCheckboxFormInfos('has_product_admin', 500),
+            $this->getCheckboxFormInfos('has_buyer_admin', 500),
+            $this->getCheckboxFormInfos('has_admin_log', 200),
+            $this->getCheckboxFormInfos('has_buy_statistics', 300),
             $this->getCheckboxFormInfos('has_buy_notifications', 200),
-            $this->getCheckboxFormInfos('has_monthly_reports', 200),
+            $this->getCheckboxFormInfos('has_news_blog', 400),
         ];
         $templateParams->form_item_sections = [
             $clientTableInfos->getFormInfos('contactUs.form'),
