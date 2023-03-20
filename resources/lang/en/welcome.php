@@ -95,12 +95,7 @@ return [
             'kovacs_szilard' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
         ],
     ],
-<<<<<<< HEAD
-    'latest' => [
-        'title' => 'Our latest works',
-=======
     'our_works' => [
         'title' => 'Our works',
->>>>>>> d8c90d5a8940bda215d6dd64c3a4910d628483af
     ],
 ];
