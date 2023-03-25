@@ -10690,7 +10690,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()((_map_image_png__WEBPACK_IMPORTED_MODULE_2___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-5b2e7b5c] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-5b2e7b5c] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-5b2e7b5c] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\nsection[data-v-5b2e7b5c] {\n  background: white;\n}\n@media (min-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 9rem 0;\n}\n}\n@media (max-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 6rem 0;\n}\n}\n.page-section[data-v-5b2e7b5c] {\n  background-color: white;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.container[data-v-5b2e7b5c] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 500px;\n}\nform[data-v-5b2e7b5c] {\n  width: 100%;\n}\nform p[data-v-5b2e7b5c] {\n  margin-bottom: 3rem;\n  font-size: 24px;\n  font-weight: 700;\n}\n.buttons[data-v-5b2e7b5c] {\n  display: flex;\n  justify-content: center;\n}\n.btn[data-v-5b2e7b5c], .btn[data-v-5b2e7b5c]:disabled {\n  color: #fff;\n  background-color: #0091ad;\n  border-color: #0091ad;\n  margin: 0 20px;\n}\n.btn-xl[data-v-5b2e7b5c] {\n  padding: 1.25rem 2.5rem;\n  font-family: Roboto, sans-serif;\n  font-size: 1.125rem;\n  font-weight: 700;\n  min-width: 150px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-5b2e7b5c] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-5b2e7b5c] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-5b2e7b5c] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\nsection[data-v-5b2e7b5c] {\n  background: white;\n}\n@media (min-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 9rem 0;\n}\n}\n@media (max-width: 768px) {\n.page-section[data-v-5b2e7b5c] {\n    padding: 6rem 0;\n}\n}\n.page-section[data-v-5b2e7b5c] {\n  background-color: white;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.container[data-v-5b2e7b5c] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 550px;\n  max-width: 100%;\n}\nform[data-v-5b2e7b5c] {\n  width: 100%;\n}\nform p[data-v-5b2e7b5c] {\n  margin-bottom: 3rem;\n  font-size: 24px;\n  font-weight: 700;\n}\n.buttons[data-v-5b2e7b5c] {\n  display: flex;\n  justify-content: center;\n}\n.btn[data-v-5b2e7b5c], .btn[data-v-5b2e7b5c]:disabled {\n  color: #fff;\n  background-color: #0091ad;\n  border-color: #0091ad;\n  margin: 0 20px;\n}\n.btn-xl[data-v-5b2e7b5c] {\n  padding: 1.25rem 2.5rem;\n  font-family: Roboto, sans-serif;\n  font-size: 1.125rem;\n  font-weight: 700;\n  min-width: 150px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10738,7 +10738,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-4c9f1d48] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-4c9f1d48] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-4c9f1d48] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-4c9f1d48] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-4c9f1d48], .form-select[data-v-4c9f1d48], option[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-4c9f1d48]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-4c9f1d48] {\n  margin: 0;\n}\n.is-invalid[data-v-4c9f1d48] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-check[data-v-4c9f1d48] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-4c9f1d48] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091AD;\n  border-color: #0091AD;\n  color: white;\n  padding: 0.7rem;\n  margin-right: 2rem;\n}\ninput[data-v-4c9f1d48]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}\n.form-item[data-v-4c9f1d48] {\n  display: flex;\n  align-items: flex-start;\n}\np[data-v-4c9f1d48] {\n  font-size: 1.2rem;\n  margin: 0 0 0 2rem;\n  color: #0091AD;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-4c9f1d48] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-4c9f1d48] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-4c9f1d48] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.form-group[data-v-4c9f1d48] {\n  padding-bottom: 1.5rem;\n}\n.form-control[data-v-4c9f1d48], .form-select[data-v-4c9f1d48], option[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #25283d;\n  background-color: #ADD8E6;\n  background-clip: padding-box;\n  border: 1px solid #fff;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n}\n.form-control[data-v-4c9f1d48]:focus {\n  border-color: #25283d;\n  box-shadow: none;\n}\n\n/* Doesn't work with refactor */\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 400 */\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-webkit-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]::-moz-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\n[data-v-4c9f1d48]:-ms-input-placeholder {\n  font-family: \"Roboto Slab\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-weight: 400;\n  color: #25283d;\n  opacity: 0.4;\n}\np.help-block[data-v-4c9f1d48] {\n  margin: 0;\n}\n.is-invalid[data-v-4c9f1d48] {\n  border-color: #dc3545;\n}\n.invalid-feedback[data-v-4c9f1d48] {\n  display: block;\n  width: 100%;\n  margin-top: 0.25rem;\n  font-size: 0.875em;\n  font-weight: bold;\n  color: #dc3545;\n}\n.form-item[data-v-4c9f1d48] {\n  display: flex;\n  align-items: flex-start;\n  width: 100%;\n}\n.form-check[data-v-4c9f1d48] {\n  margin-bottom: 2rem;\n  display: flex;\n  align-items: center;\n}\ninput[data-v-4c9f1d48] {\n  height: auto;\n  padding: 1.25rem;\n  background: #0091ad;\n  border-color: #0091ad;\n  color: white;\n  padding: 0.7rem;\n  margin-right: 2rem;\n}\ninput[data-v-4c9f1d48]:checked {\n  background-color: #25283d;\n  border-color: #25283d;\n}\n.price[data-v-4c9f1d48] {\n  font-size: 1.2rem;\n  margin-left: 2rem;\n  color: #0091ad;\n}\n@media (max-width: 425px) {\n.price[data-v-4c9f1d48] {\n    font-size: 0.9rem;\n    margin-left: 1rem;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11393,7 +11393,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-7e384148], .title[data-v-7e384148] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-7e384148], .content[data-v-7e384148] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-7e384148] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.text-center[data-v-7e384148] {\n  text-align: left !important;\n  padding: 0 0 3rem 0;\n}\n.title[data-v-7e384148] {\n  font-size: 1.2rem;\n  margin-top: 0;\n  margin-bottom: 0.5rem;\n}\n.content[data-v-7e384148] {\n  font-style: normal;\n  min-width: 356px;\n}\n.title[data-v-7e384148] {\n  color: #25283d;\n}\n.content[data-v-7e384148] {\n  color: #25283d;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".primary-text[data-v-7e384148], .title[data-v-7e384148] {\n  font-weight: 700;\n  font-family: \"Open Sans\", sans-serif;\n}\n.secondary-text[data-v-7e384148], .content[data-v-7e384148] {\n  font-weight: 400;\n  font-family: Roboto, sans-serif;\n}\n.button[data-v-7e384148] {\n  stroke: none;\n  cursor: pointer;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n  vertical-align: middle;\n  align-self: flex-start;\n  color: #fff !important;\n  text-transform: uppercase;\n  text-decoration: none;\n  text-align: center;\n  font-weight: 500;\n  font-size: 0.875rem;\n  letter-spacing: 1px;\n  line-height: 1.4;\n  outline-width: 0;\n  padding: 10px 30px;\n  background-color: #0091ad !important;\n  border-radius: 0;\n}\n.text-center[data-v-7e384148] {\n  text-align: left !important;\n  padding: 0 0 3rem 0;\n}\n.title[data-v-7e384148] {\n  font-size: 1.2rem;\n  margin-top: 0;\n  margin-bottom: 0.5rem;\n}\n.content[data-v-7e384148] {\n  font-style: normal;\n  width: 356px;\n}\n@media (max-width: 425px) {\n.content[data-v-7e384148] {\n    width: 168px;\n}\n}\n.title[data-v-7e384148] {\n  color: #25283d;\n}\n.content[data-v-7e384148] {\n  color: #25283d;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12838,11 +12838,11 @@ __webpack_require__.r(__webpack_exports__);
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/ismeros.vaok/',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/darvas-istvan/',
               class: 'fab fa-linkedin-in',
             },
           ],
@@ -12856,15 +12856,15 @@ __webpack_require__.r(__webpack_exports__);
           image_url: 'images/Articles/bagota_jozsef.jpg',
           icons: [
             {
-              url: '',
+              url: 'https://twitter.com/JBagota',
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/jbagota/',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/jbagota/',
               class: 'fab fa-linkedin-in',
             },
           ],
@@ -12882,7 +12882,7 @@ __webpack_require__.r(__webpack_exports__);
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/csaba.benedek.106',
               class: 'fab fa-facebook-f',
             },
             {
@@ -12904,7 +12904,7 @@ __webpack_require__.r(__webpack_exports__);
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/szilard.kovacs.754918',
               class: 'fab fa-facebook-f',
             },
             {
@@ -13494,298 +13494,291 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-
 window.mergeComponentClasses = function (componentClasses) {
-    /*if (!componentClasses[0]) {
+  /*if (!componentClasses[0]) {
 
 	}*/
-    if (componentClasses[0].data) {
-        componentClasses[0] = componentClasses[0].data().addedClasses
+  if (componentClasses[0].data) {
+    componentClasses[0] = componentClasses[0].data().addedClasses;
+  }
+  let currentComponentClasses = Object.assign({}, componentClasses[0]);
+  for (let i = 1; i < componentClasses.length; ++i) {
+    if (componentClasses[i].data) {
+      componentClasses[i] = componentClasses[i].data().addedClasses;
     }
-    let currentComponentClasses = Object.assign({}, componentClasses[0])
-    for (let i = 1; i < componentClasses.length; ++i) {
-        if (componentClasses[i].data) {
-            componentClasses[i] = componentClasses[i].data().addedClasses
+    for (const [key, value] of Object.entries(componentClasses[i])) {
+      let currentValue;
+      if (Array.isArray(value)) {
+        currentValue = value;
+      } else {
+        currentValue = [value];
+      }
+      if (key in currentComponentClasses) {
+        if (!Array.isArray(currentComponentClasses[key])) {
+          // && !currentComponentClasses[key].contains(value)
+          currentComponentClasses[key] = [currentComponentClasses[key]];
         }
-        for (const [key, value] of Object.entries(componentClasses[i])) {
-            let currentValue
-            if (Array.isArray(value)) {
-                currentValue = value
-            } else {
-                currentValue = [value]
-            }
-            if (key in currentComponentClasses) {
-                if (!Array.isArray(currentComponentClasses[key])) {
-                    // && !currentComponentClasses[key].contains(value)
-                    currentComponentClasses[key] = [
-                        currentComponentClasses[key],
-                    ]
-                }
-                currentComponentClasses[key] =
-                    currentComponentClasses[key].concat(value)
-            } else {
-                currentComponentClasses[key] = value
-            }
-        }
+        currentComponentClasses[key] =
+          currentComponentClasses[key].concat(value);
+      } else {
+        currentComponentClasses[key] = value;
+      }
     }
-    return currentComponentClasses
-}
+  }
+  return currentComponentClasses;
+};
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    install(Vue) {
-        __webpack_require__(/*! js-helper-methods */ "./node_modules/js-helper-methods/src/index.js")
-        if (!window.originalMergeStrategy) {
-            window.originalMergeStrategy = Vue.config.optionMergeStrategies.data
-        }
-        Vue.config.optionMergeStrategies.data = function strategy(
-            toVal,
-            fromVal,
-            vm
-        ) {
-            if (
-                toVal &&
-                typeof toVal === 'function' &&
-                fromVal &&
-                typeof fromVal === 'function'
-            ) {
-                return function () {
-                    let originalData = toVal()
-                    let newData = fromVal()
-                    let mergedData = window.originalMergeStrategy(
-                        toVal,
-                        fromVal,
-                        vm
-                    )
-                    let data = mergedData()
-                    if (
-                        'addedClasses' in originalData &&
-                        'addedClasses' in newData
-                    ) {
-                        data.addedClasses = mergeComponentClasses([
-                            originalData.addedClasses,
-                            newData.addedClasses,
-                        ])
-                    }
-                    return data
-                }
-            } else {
-                return window.originalMergeStrategy(toVal, fromVal, vm)
-            }
-        }
+  install(Vue) {
+    __webpack_require__(/*! js-helper-methods */ "./node_modules/js-helper-methods/src/index.js");
+    if (!window.originalMergeStrategy) {
+      window.originalMergeStrategy = Vue.config.optionMergeStrategies.data;
+    }
+    Vue.config.optionMergeStrategies.data = function strategy(
+      toVal,
+      fromVal,
+      vm
+    ) {
+      if (
+        toVal &&
+        typeof toVal === 'function' &&
+        fromVal &&
+        typeof fromVal === 'function'
+      ) {
+        return function () {
+          let originalData = toVal();
+          let newData = fromVal();
+          let mergedData = window.originalMergeStrategy(toVal, fromVal, vm);
+          let data = mergedData();
+          if ('addedClasses' in originalData && 'addedClasses' in newData) {
+            data.addedClasses = mergeComponentClasses([
+              originalData.addedClasses,
+              newData.addedClasses,
+            ]);
+          }
+          return data;
+        };
+      } else {
+        return window.originalMergeStrategy(toVal, fromVal, vm);
+      }
+    };
 
-        registerVueComponent(
-            'dynamic-template',
-            (__webpack_require__(/*! ./Template/Component.vue */ "./node_modules/helper-vue-components/src/Template/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Template/Component.vue'
-        )
-        registerVueComponent(
-            'landing-page',
-            (__webpack_require__(/*! ./LandingPage/Component.vue */ "./node_modules/helper-vue-components/src/LandingPage/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/LandingPage/Component.vue'
-        )
-        registerVueComponent(
-            'navigation-link',
-            (__webpack_require__(/*! ./NavigationBar/NavigationLinks/NavigationLink/Component.vue */ "./node_modules/helper-vue-components/src/NavigationBar/NavigationLinks/NavigationLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/NavigationBar/NavigationLinks/NavigationLink/Component.vue'
-        )
-        registerVueComponent(
-            'dropdown-navigation-link',
-            (__webpack_require__(/*! ./NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue */ "./node_modules/helper-vue-components/src/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue'
-        )
-        registerVueComponent(
-            'black-footer',
-            (__webpack_require__(/*! ./Footer/BlackFooter/Component.vue */ "./node_modules/helper-vue-components/src/Footer/BlackFooter/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Footer/BlackFooter/Component.vue'
-        )
+    registerVueComponent(
+      'dynamic-template',
+      (__webpack_require__(/*! ./Template/Component.vue */ "./node_modules/helper-vue-components/src/Template/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Template/Component.vue'
+    );
+    registerVueComponent(
+      'landing-page',
+      (__webpack_require__(/*! ./LandingPage/Component.vue */ "./node_modules/helper-vue-components/src/LandingPage/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/LandingPage/Component.vue'
+    );
+    registerVueComponent(
+      'navigation-link',
+      (__webpack_require__(/*! ./NavigationBar/NavigationLinks/NavigationLink/Component.vue */ "./node_modules/helper-vue-components/src/NavigationBar/NavigationLinks/NavigationLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/NavigationBar/NavigationLinks/NavigationLink/Component.vue'
+    );
+    registerVueComponent(
+      'dropdown-navigation-link',
+      (__webpack_require__(/*! ./NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue */ "./node_modules/helper-vue-components/src/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue'
+    );
+    registerVueComponent(
+      'black-footer',
+      (__webpack_require__(/*! ./Footer/BlackFooter/Component.vue */ "./node_modules/helper-vue-components/src/Footer/BlackFooter/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Footer/BlackFooter/Component.vue'
+    );
 
-        registerVueComponent(
-            'vue-link',
-            (__webpack_require__(/*! ./Link/Component.vue */ "./node_modules/helper-vue-components/src/Link/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Link/Component.vue'
-        )
-        registerVueComponent(
-            'button-icon-link',
-            (__webpack_require__(/*! ./IconLinks/ButtonIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/ButtonIconLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/ButtonIconLink/Component.vue'
-        )
-        registerVueComponent(
-            'button-icon-link2',
-            (__webpack_require__(/*! ./IconLinks/ButtonIconLink2/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/ButtonIconLink2/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/ButtonIconLink2/Component.vue'
-        )
-        registerVueComponent(
-            'rounded-icon-link',
-            (__webpack_require__(/*! ./IconLinks/RoundedIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/RoundedIconLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/RoundedIconLink/Component.vue'
-        )
-        registerVueComponent(
-            'icon-link-with-right-text',
-            (__webpack_require__(/*! ./IconLinks/IconWithRightText/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/IconWithRightText/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/IconWithRightText/Component.vue'
-        )
-        registerVueComponent(
-            'wertically-icon-links',
-            (__webpack_require__(/*! ./IconLinks/WerticallyIconLinks/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/WerticallyIconLinks/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/WerticallyIconLinks/Component.vue'
-        )
-        registerVueComponent(
-            'delete-icon-link',
-            (__webpack_require__(/*! ./IconLinks/DeleteIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/DeleteIconLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/DeleteIconLink/Component.vue'
-        )
-        registerVueComponent(
-            'edit-icon-link',
-            (__webpack_require__(/*! ./IconLinks/EditIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/EditIconLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/EditIconLink/Component.vue'
-        )
-        registerVueComponent(
-            'create-icon-link',
-            (__webpack_require__(/*! ./IconLinks/CreateIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/CreateIconLink/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/IconLinks/CreateIconLink/Component.vue'
-        )
+    registerVueComponent(
+      'vue-link',
+      (__webpack_require__(/*! ./Link/Component.vue */ "./node_modules/helper-vue-components/src/Link/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Link/Component.vue'
+    );
+    registerVueComponent(
+      'button-icon-link',
+      (__webpack_require__(/*! ./IconLinks/ButtonIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/ButtonIconLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/ButtonIconLink/Component.vue'
+    );
+    registerVueComponent(
+      'button-icon-link2',
+      (__webpack_require__(/*! ./IconLinks/ButtonIconLink2/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/ButtonIconLink2/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/ButtonIconLink2/Component.vue'
+    );
+    registerVueComponent(
+      'rounded-icon-link',
+      (__webpack_require__(/*! ./IconLinks/RoundedIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/RoundedIconLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/RoundedIconLink/Component.vue'
+    );
+    registerVueComponent(
+      'icon-link-with-right-text',
+      (__webpack_require__(/*! ./IconLinks/IconWithRightText/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/IconWithRightText/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/IconWithRightText/Component.vue'
+    );
+    registerVueComponent(
+      'wertically-icon-links',
+      (__webpack_require__(/*! ./IconLinks/WerticallyIconLinks/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/WerticallyIconLinks/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/WerticallyIconLinks/Component.vue'
+    );
+    registerVueComponent(
+      'delete-icon-link',
+      (__webpack_require__(/*! ./IconLinks/DeleteIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/DeleteIconLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/DeleteIconLink/Component.vue'
+    );
+    registerVueComponent(
+      'edit-icon-link',
+      (__webpack_require__(/*! ./IconLinks/EditIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/EditIconLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/EditIconLink/Component.vue'
+    );
+    registerVueComponent(
+      'create-icon-link',
+      (__webpack_require__(/*! ./IconLinks/CreateIconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/CreateIconLink/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/IconLinks/CreateIconLink/Component.vue'
+    );
 
-        registerVueComponent(
-            'brand-image',
-            (__webpack_require__(/*! ./BrandImage/Component.vue */ "./node_modules/helper-vue-components/src/BrandImage/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/BrandImage/Component.vue'
-        )
-        registerVueComponent(
-            'dynamic-component',
-            (__webpack_require__(/*! ./DynamicComponent/Component.vue */ "./node_modules/helper-vue-components/src/DynamicComponent/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/DynamicComponent/Component.vue'
-        )
-        registerVueComponent(
-            'development-child',
-            (__webpack_require__(/*! ./DevelopmentTest/Child.vue */ "./node_modules/helper-vue-components/src/DevelopmentTest/Child.vue")["default"]),
-            Vue,
-			'helper-vue-components/DevelopmentTest/Child.vue'
-        )
-        registerVueComponent(
-            'ajax-component',
-            (__webpack_require__(/*! ./AjaxComponent.vue */ "./node_modules/helper-vue-components/src/AjaxComponent.vue")["default"]),
-            Vue,
-			'helper-vue-components/AjaxComponent.vue'
-        )
-        registerVueComponent(
-            'ajax-table',
-            (__webpack_require__(/*! ./AjaxTable.vue */ "./node_modules/helper-vue-components/src/AjaxTable.vue")["default"]),
-            Vue,
-			'helper-vue-components/AjaxTable.vue'
-        )
-        registerVueComponent(
-            'right-content',
-            (__webpack_require__(/*! ./RightContent/Component.vue */ "./node_modules/helper-vue-components/src/RightContent/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/RightContent/Component.vue'
-        )
-        registerVueComponent(
-            'video-background',
-            (__webpack_require__(/*! ./VideoBackground/Component.vue */ "./node_modules/helper-vue-components/src/VideoBackground/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/VideoBackground/Component.vue'
-        )
-        registerVueComponent(
-            'vue-table',
-            (__webpack_require__(/*! ./Tables/Table/Component.vue */ "./node_modules/helper-vue-components/src/Tables/Table/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Tables/Table/Component.vue'
-        )
-        registerVueComponent(
-            'vue-table-with-edit-buttons',
-            (__webpack_require__(/*! ./Tables/TableWithEditButtons/Component.vue */ "./node_modules/helper-vue-components/src/Tables/TableWithEditButtons/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Tables/TableWithEditButtons/Component.vue'
-        )
+    registerVueComponent(
+      'brand-image',
+      (__webpack_require__(/*! ./BrandImage/Component.vue */ "./node_modules/helper-vue-components/src/BrandImage/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/BrandImage/Component.vue'
+    );
+    registerVueComponent(
+      'dynamic-component',
+      (__webpack_require__(/*! ./DynamicComponent/Component.vue */ "./node_modules/helper-vue-components/src/DynamicComponent/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/DynamicComponent/Component.vue'
+    );
+    registerVueComponent(
+      'development-child',
+      (__webpack_require__(/*! ./DevelopmentTest/Child.vue */ "./node_modules/helper-vue-components/src/DevelopmentTest/Child.vue")["default"]),
+      Vue,
+      'helper-vue-components/DevelopmentTest/Child.vue'
+    );
+    registerVueComponent(
+      'ajax-component',
+      (__webpack_require__(/*! ./AjaxComponent.vue */ "./node_modules/helper-vue-components/src/AjaxComponent.vue")["default"]),
+      Vue,
+      'helper-vue-components/AjaxComponent.vue'
+    );
+    registerVueComponent(
+      'ajax-table',
+      (__webpack_require__(/*! ./AjaxTable.vue */ "./node_modules/helper-vue-components/src/AjaxTable.vue")["default"]),
+      Vue,
+      'helper-vue-components/AjaxTable.vue'
+    );
+    registerVueComponent(
+      'right-content',
+      (__webpack_require__(/*! ./RightContent/Component.vue */ "./node_modules/helper-vue-components/src/RightContent/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/RightContent/Component.vue'
+    );
+    registerVueComponent(
+      'video-background',
+      (__webpack_require__(/*! ./VideoBackground/Component.vue */ "./node_modules/helper-vue-components/src/VideoBackground/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/VideoBackground/Component.vue'
+    );
+    registerVueComponent(
+      'vue-table',
+      (__webpack_require__(/*! ./Tables/Table/Component.vue */ "./node_modules/helper-vue-components/src/Tables/Table/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Tables/Table/Component.vue'
+    );
+    registerVueComponent(
+      'vue-table-with-edit-buttons',
+      (__webpack_require__(/*! ./Tables/TableWithEditButtons/Component.vue */ "./node_modules/helper-vue-components/src/Tables/TableWithEditButtons/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Tables/TableWithEditButtons/Component.vue'
+    );
 
-        registerVueComponent(
-            'vue-select',
-            (__webpack_require__(/*! ./Form/Select/Component.vue */ "./node_modules/helper-vue-components/src/Form/Select/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/Select/Component.vue'
-        )
-        registerVueComponent(
-            'vue-form',
-            (__webpack_require__(/*! ./Form/Form/Component.vue */ "./node_modules/helper-vue-components/src/Form/Form/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/Form/Component.vue'
-        )
-        registerVueComponent(
-            'multi-page-form',
-            (__webpack_require__(/*! ./Form/MultiPageForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/MultiPageForm/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/MultiPageForm/Component.vue'
-        )
-        registerVueComponent(
-            'bootstrap-multi-page-form',
-            (__webpack_require__(/*! ./Form/BootstrapMultiPageForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/BootstrapMultiPageForm/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/BootstrapMultiPageForm/Component.vue'
-        )
-        registerVueComponent(
-            'bootstrap-form',
-            (__webpack_require__(/*! ./Form/BootstrapForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/BootstrapForm/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/BootstrapForm/Component.vue'
-        )
-        registerVueComponent(
-            'form-item-with-validation-errors',
-            (__webpack_require__(/*! ./Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue */ "./node_modules/helper-vue-components/src/Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue'
-        )
-        registerVueComponent(
-            'form-item-with-label',
-            (__webpack_require__(/*! ./Form/FormItems/FormItemWithLabel/Component.vue */ "./node_modules/helper-vue-components/src/Form/FormItems/FormItemWithLabel/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Form/FormItems/FormItemWithLabel/Component.vue'
-        )
-        registerVueComponent(
-            'csrf-input',
-            (__webpack_require__(/*! ./CsrfInput/Component.vue */ "./node_modules/helper-vue-components/src/CsrfInput/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/CsrfInput/Component.vue'
-        )
+    registerVueComponent(
+      'vue-select',
+      (__webpack_require__(/*! ./Form/Select/Component.vue */ "./node_modules/helper-vue-components/src/Form/Select/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/Select/Component.vue'
+    );
+    registerVueComponent(
+      'vue-form',
+      (__webpack_require__(/*! ./Form/Form/Component.vue */ "./node_modules/helper-vue-components/src/Form/Form/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/Form/Component.vue'
+    );
+    registerVueComponent(
+      'multi-page-form',
+      (__webpack_require__(/*! ./Form/MultiPageForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/MultiPageForm/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/MultiPageForm/Component.vue'
+    );
+    registerVueComponent(
+      'bootstrap-multi-page-form',
+      (__webpack_require__(/*! ./Form/BootstrapMultiPageForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/BootstrapMultiPageForm/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/BootstrapMultiPageForm/Component.vue'
+    );
+    registerVueComponent(
+      'bootstrap-form',
+      (__webpack_require__(/*! ./Form/BootstrapForm/Component.vue */ "./node_modules/helper-vue-components/src/Form/BootstrapForm/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/BootstrapForm/Component.vue'
+    );
+    registerVueComponent(
+      'form-item-with-validation-errors',
+      (__webpack_require__(/*! ./Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue */ "./node_modules/helper-vue-components/src/Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/FormItemsWithoutLabel/FormItemWithValidationErrors/Component.vue'
+    );
+    registerVueComponent(
+      'form-item-with-label',
+      (__webpack_require__(/*! ./Form/FormItems/FormItemWithLabel/Component.vue */ "./node_modules/helper-vue-components/src/Form/FormItems/FormItemWithLabel/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Form/FormItems/FormItemWithLabel/Component.vue'
+    );
+    registerVueComponent(
+      'csrf-input',
+      (__webpack_require__(/*! ./CsrfInput/Component.vue */ "./node_modules/helper-vue-components/src/CsrfInput/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/CsrfInput/Component.vue'
+    );
 
-        registerVueComponent(
-            'bootstrap-pagination',
-            (__webpack_require__(/*! ./Pagintation/BootstrapPagination/Pagination/Component.vue */ "./node_modules/helper-vue-components/src/Pagintation/BootstrapPagination/Pagination/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Pagintation/BootstrapPagination/Pagination/Component.vue'
-        )
-        registerVueComponent(
-            'bootstrap-pagination-item',
-            (__webpack_require__(/*! ./Pagintation/BootstrapPagination/Item/Component.vue */ "./node_modules/helper-vue-components/src/Pagintation/BootstrapPagination/Item/Component.vue")["default"]),
-            Vue,
-			'helper-vue-components/Pagintation/BootstrapPagination/Item/Component.vue'
-        )
+    registerVueComponent(
+      'bootstrap-pagination',
+      (__webpack_require__(/*! ./Pagintation/BootstrapPagination/Pagination/Component.vue */ "./node_modules/helper-vue-components/src/Pagintation/BootstrapPagination/Pagination/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Pagintation/BootstrapPagination/Pagination/Component.vue'
+    );
+    registerVueComponent(
+      'bootstrap-pagination-item',
+      (__webpack_require__(/*! ./Pagintation/BootstrapPagination/Item/Component.vue */ "./node_modules/helper-vue-components/src/Pagintation/BootstrapPagination/Item/Component.vue")["default"]),
+      Vue,
+      'helper-vue-components/Pagintation/BootstrapPagination/Item/Component.vue'
+    );
 
-        Vue.component(
-            'VSelect',
-            (__webpack_require__(/*! ./Form/VSelect/Component.vue */ "./node_modules/helper-vue-components/src/Form/VSelect/Component.vue")["default"])
-        )
-        __webpack_require__(/*! ./Form/FormItems/register.js */ "./node_modules/helper-vue-components/src/Form/FormItems/register.js")["default"].install(Vue)
-        __webpack_require__(/*! ./Form/FormItemsWithoutLabel/register.js */ "./node_modules/helper-vue-components/src/Form/FormItemsWithoutLabel/register.js")["default"].install(Vue)
-        __webpack_require__(/*! ./Form/BootstrapFormItems/FormItems/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FormItems/register.js")["default"].install(Vue)
-        __webpack_require__(/*! ./Form/BootstrapFormItems/FormItemsWithoutLabel/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/register.js")["default"].install(Vue)
-        __webpack_require__(/*! ./Form/BootstrapFormItems/FilterFormItems/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FilterFormItems/register.js")["default"].install(Vue)
-    },
+    Vue.component('VSelect', (__webpack_require__(/*! ./Form/VSelect/Component.vue */ "./node_modules/helper-vue-components/src/Form/VSelect/Component.vue")["default"]));
+    (__webpack_require__(/*! ./Form/FormItems/register.js */ "./node_modules/helper-vue-components/src/Form/FormItems/register.js")["default"].install)(Vue);
+    (__webpack_require__(/*! ./Form/FormItemsWithoutLabel/register.js */ "./node_modules/helper-vue-components/src/Form/FormItemsWithoutLabel/register.js")["default"].install)(Vue);
+    (__webpack_require__(/*! ./Form/BootstrapFormItems/FormItems/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FormItems/register.js")["default"].install)(
+      Vue
+    );
+    (__webpack_require__(/*! ./Form/BootstrapFormItems/FormItemsWithoutLabel/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/register.js")["default"].install)(
+      Vue
+    );
+    (__webpack_require__(/*! ./Form/BootstrapFormItems/FilterFormItems/register.js */ "./node_modules/helper-vue-components/src/Form/BootstrapFormItems/FilterFormItems/register.js")["default"].install)(
+      Vue
+    );
+  },
 });
 
 
@@ -48405,7 +48398,7 @@ __webpack_require__.r(__webpack_exports__);
                 type: String
             },
             price: {
-                type: String
+                type: Number
             },
             added_classes: {
                 type: Object,
@@ -51670,13 +51663,9 @@ __webpack_require__.r(__webpack_exports__);
         methods: {
             //Only work with reference to property to change
             changeDeepData(propertyToChange, deepPropertyName, deepPropertyValue) {
-                console.log(propertyToChange)
-                console.log(deepPropertyName)
-                console.log(deepPropertyValue)
                 if (propertyToChange && propertyToChange.data) {
                     propertyToChange.data[deepPropertyName] = deepPropertyValue
                 }
-                console.log('asd')
             },
             initDeepWatcher(watcherName, handler) {
                 let self = this
@@ -52113,11 +52102,6 @@ __webpack_require__.r(__webpack_exports__);
             return {
                 currentValue: null,
                 currentValueChanges: []
-            }
-        },
-        mounted() {
-            if (this.value == null) {
-                this.$emit('update:value', '')
             }
         },
         watch: {
@@ -54629,9 +54613,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var just_clone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! just-clone */ "./node_modules/just-clone/index.mjs");
-
-    
 
     /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
         props: {
@@ -55983,10 +55964,12 @@ __webpack_require__.r(__webpack_exports__);
                     invalidHtmlElement.reportValidity()
                 }
                 else if (this.currentPageNumber < this.form_item_sections.length - 1) {
-                    ++this.currentPageNumber
-                    if (this.onNextPage) {
-                        this.onNextPage()
-                    }
+                    setTimeout(() => {
+                        ++this.currentPageNumber
+                        if (this.onNextPage) {
+                            this.onNextPage()
+                        }
+                    }, 100)
                 }
             },
             getInvalidFormSection() {
@@ -56001,6 +55984,14 @@ __webpack_require__.r(__webpack_exports__);
             back() {
                 if (this.currentPageNumber > 0) {
                     --this.currentPageNumber
+                }
+            },
+            getHiddenStyle(formItemSections) {
+                if (formItemSections == this.form_item_sections[this.currentPageNumber]) {
+                    return ''
+                }
+                else {
+                    return 'display: none'
                 }
             }
         }
@@ -56896,7 +56887,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _IconLink_Component_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../IconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/IconLink/Component.vue");
+/* harmony import */ var _IconLink_Component_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../IconLink/Component.vue */ "./node_modules/helper-vue-components/src/IconLinks/IconLink/Component.vue");
 
     
 
@@ -56908,19 +56899,19 @@ __webpack_require__.r(__webpack_exports__);
             icon_class: {
                 type: String,
                 default: 'fas fa-trash'
-            }
-        },
+            },
             added_classes: {
                 type: Object,
-                    default () {
-                        return {
-                            root: [
-                                'mx-2',
-                                'btn'
-                            ]
-                        }
+                default () {
+                    return {
+                        root: [
+                            'mx-2',
+                            'btn'
+                        ]
+                    }
+                }
             }
-        }
+        },
     });
 
 
@@ -58971,7 +58962,6 @@ __webpack_require__.r(__webpack_exports__);
                 do {
                     this.configChanged = false
                     config = this.replaceUpperConfigTemplates(config, globalParams)
-                    console.log(config)
                 }
                 while (this.configChanged)
                 return config
@@ -65195,35 +65185,42 @@ var render = function render() {
           },
           [
             _c("csrf-input"),
-            _vm._l(
-              _vm.form_item_sections[this.currentPageNumber],
-              function (formItemSection) {
-                return _c(
-                  _vm.getConvertedType(formItemSection.type),
-                  _vm._b(
-                    {
-                      key: formItemSection.data.name,
-                      ref: formItemSection.data.name,
-                      refInFor: true,
-                      tag: "component",
-                      attrs: { value: formItemSection.data.value },
-                      on: {
-                        "update:value": (newValue) => {
-                          _vm.valueChanged(formItemSection, newValue)
+            _vm._l(_vm.form_item_sections, function (formItemSections) {
+              return _c(
+                "div",
+                _vm._l(formItemSections, function (formItemSection) {
+                  return _c(
+                    _vm.getConvertedType(formItemSection.type),
+                    _vm._b(
+                      {
+                        key: formItemSection.data.name,
+                        ref: formItemSection.data.name,
+                        refInFor: true,
+                        tag: "component",
+                        style: _vm.getHiddenStyle(formItemSections),
+                        attrs: { value: formItemSection.data.value },
+                        on: {
+                          "update:value": (newValue) => {
+                            _vm.valueChanged(formItemSection, newValue)
+                          },
                         },
                       },
-                    },
-                    "component",
-                    formItemSection.data,
-                    false
+                      "component",
+                      formItemSection.data,
+                      false
+                    )
                   )
-                )
-              }
-            ),
+                }),
+                1
+              )
+            }),
             _vm.currentPageNumber > 0
               ? _c("p", [
                   _vm._v(
-                    _vm._s(_vm.sum_price_label) + ": " + _vm._s(_vm.sumPrice)
+                    _vm._s(_vm.sum_price_label) +
+                      ": " +
+                      _vm._s(_vm.sumPrice) +
+                      " RON"
                   ),
                 ])
               : _vm._e(),
@@ -65354,7 +65351,7 @@ var render = function render() {
       _c("dynamic-web-contact-us-small-text-content", {
         attrs: { title: _vm.title_label, content: _vm.description_label },
       }),
-      _c("p", [_vm._v(_vm._s(_vm.price))]),
+      _c("p", { staticClass: "price" }, [_vm._v(_vm._s(_vm.price) + " RON")]),
     ],
     1
   )
