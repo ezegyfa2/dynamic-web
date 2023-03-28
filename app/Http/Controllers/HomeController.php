@@ -21,7 +21,6 @@ class HomeController extends Controller
     }
 
     public function contactUs() {
-        LanguageMethods::checkLanguage();
         $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/contactUs.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
         $templateParams->form_item_sections = $this->getOrderFormInfos();
@@ -94,12 +93,7 @@ class HomeController extends Controller
         if (!isset($templateParams->navbar)) {
             $templateParams->navbar = new stdClass;
         }
-        $templateParams->navbar->languages = array_map(function($language) {
-            return (object)[
-                'name' => strtoupper($language),
-                'url' => '/language/' . $language
-            ];
-        }, LanguageMethods::getTranslatedLanguages());
+        $templateParams->navbar->languages = LanguageMethods::getLanguageUrlObjects();
         if (Session::has('success_message')) {
             $templateParams->success_messages = [ __(Session::get('success_message')) ];
         }

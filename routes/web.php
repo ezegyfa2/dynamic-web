@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'welcome']);
-Route::get('/contact-us', [HomeController::class, 'contactUs']);
-Route::post('/contact-us', [HomeController::class, 'storeContactMessage']);
-Route::post('/contact-us/clients', [HomeController::class, 'storeClient']);
-
-LanguageMethods::registerRoute();
+Route::middleware(['setLanguage'])->group(function () {
+    LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'welcome']);
+    LanguageMethods::createGetRouteWithLanguage('/contact-us', [HomeController::class, 'contactUs']);
+    Route::post('/contact-us', [HomeController::class, 'storeContactMessage']);
+    Route::post('/contact-us/clients', [HomeController::class, 'storeClient']);
+});
