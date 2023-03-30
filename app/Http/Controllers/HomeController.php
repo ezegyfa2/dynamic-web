@@ -23,14 +23,63 @@ class HomeController extends Controller
     public function contactUs() {
         $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/contactUs.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
-        $templateParams->form_item_sections = $this->getOrderFormInfos();
+        $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
+        $clientFormInfos = $clientTableInfos->getFormInfos('contactUs.form');
+        $orderTypeFormInfo = (object) [
+            'type' => 'radio',
+            'data' => (object) [
+                'name' => 'order_type',
+                'title' => __('contactUs.form.order_type.title'),
+                'required' => true,
+                'options' => [
+                    (object) [
+                        'label' => __('contactUs.form.order_type.options.presentation_website'),
+                        'value' => 0,
+                    ],
+                    (object) [
+                        'label' => __('contactUs.form.order_type.options.webshop'),
+                        'value' => 1,
+                    ],
+                ],
+            ],
+        ];
+        $clientFormInfos[] = $orderTypeFormInfo;
+        $fakeFormInfos = [(object) [
+            'type' => 'radio',
+            'data' => (object) [
+                'name' => 'asdasd',
+                'title' => __('contactUs.form.order_type.title'),
+                'required' => true,
+                'options' => [
+                    (object) [
+                        'label' => __('contactUs.form.order_type.options.presentation_website'),
+                        'value' => 0,
+                    ],
+                    (object) [
+                        'label' => __('contactUs.form.order_type.options.webshop'),
+                        'value' => 1,
+                    ],
+                ],
+            ],
+        ]];
+        $templateParams->form_item_sections = [ $clientFormInfos, ...$this->getWebshopFormInfos() ];
+        $templateParams->client_form_item_sections = $clientFormInfos;
+        $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
+        $templateParams->webshop_form_item_sections = $this->getWebshopFormInfos();
         return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
     }
 
-    protected function getOrderFormInfos() {
-        $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
-        $orderFormInfos = [$clientTableInfos->getFormInfos('contactUs.form'), []];
-        $formInfos = [
+    protected function getPresentationWebsiteFormInfos() {
+        $presentationWebsiteFormInfos = [
+            $this->getCheckboxFormInfos('has_services_page', 300),
+            $this->getCheckboxFormInfos('has_contact_us_page', 200),
+            $this->getCheckboxFormInfos('has_catalog_page', 300),
+        ];
+        return $this->getMultiPageFormInfos($presentationWebsiteFormInfos);
+    }
+
+    protected function getWebshopFormInfos() {
+        $webshopFormInfos = [
             $this->getCheckboxFormInfos('has_product_categories', 300),
             $this->getCheckboxFormInfos('has_excel_product_import', 200),
             $this->getCheckboxFormInfos('has_related_products', 300),
@@ -52,18 +101,23 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_buy_notifications', 200),
             $this->getCheckboxFormInfos('has_news_blog', 400),
         ];
+        return $this->getMultiPageFormInfos($webshopFormInfos);
+    }
+
+    protected function getMultiPageFormInfos($formInfos) {
+        $multiPageFormInfos = [[]];
         $formInfoCount = 0;
-        $currentPageNumber = 1;
+        $currentPageNumber = 0;
         foreach ($formInfos as $formInfo) {
             if ($formInfoCount == 5) {
                 ++$currentPageNumber;
                 $formInfoCount = 0;
-                array_push($orderFormInfos, []);
+                array_push($multiPageFormInfos, []);
             }
-            array_push($orderFormInfos[$currentPageNumber], $formInfo);
+            array_push($multiPageFormInfos[$currentPageNumber], $formInfo);
             ++$formInfoCount;
         }
-        return $orderFormInfos;
+        return $multiPageFormInfos;
     }
 
     protected function getCheckboxFormInfos($name, $price) {
