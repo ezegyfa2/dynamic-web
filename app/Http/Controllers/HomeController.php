@@ -44,24 +44,6 @@ class HomeController extends Controller
             ],
         ];
         $clientFormInfos[] = $orderTypeFormInfo;
-        $fakeFormInfos = [(object) [
-            'type' => 'radio',
-            'data' => (object) [
-                'name' => 'asdasd',
-                'title' => __('contactUs.form.order_type.title'),
-                'required' => true,
-                'options' => [
-                    (object) [
-                        'label' => __('contactUs.form.order_type.options.presentation_website'),
-                        'value' => 0,
-                    ],
-                    (object) [
-                        'label' => __('contactUs.form.order_type.options.webshop'),
-                        'value' => 1,
-                    ],
-                ],
-            ],
-        ]];
         $templateParams->form_item_sections = [ $clientFormInfos, ...$this->getWebshopFormInfos() ];
         $templateParams->client_form_item_sections = $clientFormInfos;
         $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
@@ -133,7 +115,14 @@ class HomeController extends Controller
     }
 
     public function storeContactMessage(Request $request) {
-        return HttpMethods::getStoreRequest($request, 'orders', 'contactUs.success_message', '/');
+        switch ($request->get('order_type')) {
+            case 0:
+                return HttpMethods::getStoreRequest($request, 'presentation_website_orders', 'contactUs.success_message', '/');
+            case 1:
+                return HttpMethods::getStoreRequest($request, 'webshop_orders', 'contactUs.success_message', '/');
+            default:
+                throw new \Exception('Invalid order type');
+        }
     }
 
     public function storeClient(Request $request) {
