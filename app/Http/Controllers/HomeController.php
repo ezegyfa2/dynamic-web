@@ -58,6 +58,7 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_catalog_page', 300),
             $this->getCheckboxFormInfos('has_login', 200),
             $this->getCheckboxFormInfos('has_admin', 500),
+            $this->getCheckboxFormInfos('has_booking engine', 300),
         ];
         return $this->getMultiPageFormInfos($presentationWebsiteFormInfos);
     }

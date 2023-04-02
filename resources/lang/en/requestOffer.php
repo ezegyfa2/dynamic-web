@@ -99,7 +99,7 @@ return [
     'back_button_title' => 'BACK',
     'button_title' => 'SUBMIT',
     'title' => 'CONTACT',
-    'subtitle' => 'Submit yout order and we contact you soon',
+    'subtitle' => 'Create yout order and select your website features',
     'success_message' => 'Your order has been successfully saved, we will reply soon',
     'sum_price' => [
         'label' => 'Price',
