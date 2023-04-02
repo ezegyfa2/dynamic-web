@@ -20,24 +20,24 @@ class HomeController extends Controller
         return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_welcome', $templateParams, 'app');
     }
 
-    public function contactUs() {
-        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/contactUs.json');
+    public function requestOffer() {
+        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json');
         $templateParams = $this->getTemplateLayoutParams($templatePath, '');
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
-        $clientFormInfos = $clientTableInfos->getFormInfos('contactUs.form');
+        $clientFormInfos = $clientTableInfos->getFormInfos('requestOffer.form');
         $orderTypeFormInfo = (object) [
             'type' => 'radio',
             'data' => (object) [
                 'name' => 'order_type',
-                'title' => __('contactUs.form.order_type.title'),
+                'title' => __('requestOffer.form.order_type.title'),
                 'required' => true,
                 'options' => [
                     (object) [
-                        'label' => __('contactUs.form.order_type.options.presentation_website'),
+                        'label' => __('requestOffer.form.order_type.options.presentation_website'),
                         'value' => 0,
                     ],
                     (object) [
-                        'label' => __('contactUs.form.order_type.options.webshop'),
+                        'label' => __('requestOffer.form.order_type.options.webshop'),
                         'value' => 1,
                     ],
                 ],
@@ -48,36 +48,38 @@ class HomeController extends Controller
         $templateParams->client_form_item_sections = $clientFormInfos;
         $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
         $templateParams->webshop_form_item_sections = $this->getWebshopFormInfos();
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_contact_us', $templateParams, 'app');
+        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_request_offer', $templateParams, 'app');
     }
 
     protected function getPresentationWebsiteFormInfos() {
         $presentationWebsiteFormInfos = [
-            $this->getCheckboxFormInfos('has_services_page', 300),
-            $this->getCheckboxFormInfos('has_contact_us_page', 200),
+            $this->getCheckboxFormInfos('has_home_page', 500, true, true),
+            $this->getCheckboxFormInfos('has_contact_us_page', 300),
             $this->getCheckboxFormInfos('has_catalog_page', 300),
+            $this->getCheckboxFormInfos('has_login', 200),
+            $this->getCheckboxFormInfos('has_admin', 500),
         ];
         return $this->getMultiPageFormInfos($presentationWebsiteFormInfos);
     }
 
     protected function getWebshopFormInfos() {
         $webshopFormInfos = [
-            $this->getCheckboxFormInfos('has_product_categories', 300),
+            $this->getCheckboxFormInfos('has_home_page', 500, true, true),
+            $this->getCheckboxFormInfos('has_products_page', 400, true, true),
+            $this->getCheckboxFormInfos('has_cart', 400, true, true),
+            $this->getCheckboxFormInfos('has_contact_us_page', 300),
             $this->getCheckboxFormInfos('has_excel_product_import', 200),
             $this->getCheckboxFormInfos('has_related_products', 300),
-            $this->getCheckboxFormInfos('has_product_order_by', 300),
             $this->getCheckboxFormInfos('has_product_filters', 500),
-            $this->getCheckboxFormInfos('has_product_ratings', 200),
-            $this->getCheckboxFormInfos('has_product_comments', 200),
+            $this->getCheckboxFormInfos('has_product_ratings', 400),
             $this->getCheckboxFormInfos('has_favorite_products', 200),
             $this->getCheckboxFormInfos('has_featured_products', 300),
-            $this->getCheckboxFormInfos('has_cart', 500),
             $this->getCheckboxFormInfos('has_coupon', 300),
             $this->getCheckboxFormInfos('has_delivery_method', 100),
             $this->getCheckboxFormInfos('has_login', 200),
-            $this->getCheckboxFormInfos('has_facebook_login', 300),
-            $this->getCheckboxFormInfos('has_product_admin', 500),
-            $this->getCheckboxFormInfos('has_buyer_admin', 500),
+            $this->getCheckboxFormInfos('has_facebook_login', 200),
+            $this->getCheckboxFormInfos('has_product_admin', 400),
+            $this->getCheckboxFormInfos('has_buyer_admin', 400),
             $this->getCheckboxFormInfos('has_admin_log', 200),
             $this->getCheckboxFormInfos('has_buy_statistics', 300),
             $this->getCheckboxFormInfos('has_buy_notifications', 200),
@@ -102,31 +104,32 @@ class HomeController extends Controller
         return $multiPageFormInfos;
     }
 
-    protected function getCheckboxFormInfos($name, $price) {
+    protected function getCheckboxFormInfos($name, $price, $locked = false, $value = false) {
         return (object) [
-            'type' => 'checkbox-input-with-text-content',
+            'type' => $locked ? 'locked-checkbox-input-with-text-content' : 'checkbox-input-with-text-content',
             'data' => (object) [
                 'name' => $name,
-                'title_label' => __('contactUs.form.' . $name . '.title_label'),
-                'description_label' => __('contactUs.form.' . $name . '.description_label'),
-                'price' => $price
+                'title_label' => __('requestOffer.form.' . $name . '.title_label'),
+                'description_label' => __('requestOffer.form.' . $name . '.description_label'),
+                'price' => $price,
+                'value' => $value,
             ]
         ];
     }
 
-    public function storeContactMessage(Request $request) {
+    public function storeOffer(Request $request) {
         switch ($request->get('order_type')) {
             case 0:
-                return HttpMethods::getStoreRequest($request, 'presentation_website_orders', 'contactUs.success_message', '/');
+                return HttpMethods::getStoreRequest($request, 'presentation_website_orders', 'requestOffer.success_message', '/');
             case 1:
-                return HttpMethods::getStoreRequest($request, 'webshop_orders', 'contactUs.success_message', '/');
+                return HttpMethods::getStoreRequest($request, 'webshop_orders', 'requestOffer.success_message', '/');
             default:
                 throw new \Exception('Invalid order type');
         }
     }
 
     public function storeClient(Request $request) {
-        return HttpMethods::getApiStoreRequest($request, 'clients', 'contactUs.success_message', '/');
+        return HttpMethods::getApiStoreRequest($request, 'clients', 'requestOffer.success_message', '/');
     }
 
     public function getTemplateLayoutParams(string $templatePath, string $paramPrefix) {

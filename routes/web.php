@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Ezegyfa\LaravelHelperMethods\Language\LanguageMethods;
 use Illuminate\Support\Facades\Route;
+use Ezegyfa\LaravelHelperMethods\ServerCommandMethods;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware(['setLanguage'])->group(function () {
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'welcome']);
-    LanguageMethods::createGetRouteWithLanguage('/contact-us', [HomeController::class, 'contactUs']);
-    Route::post('/contact-us', [HomeController::class, 'storeContactMessage']);
-    Route::post('/contact-us/clients', [HomeController::class, 'storeClient']);
+    LanguageMethods::createGetRouteWithLanguage('/request-offer', [HomeController::class, 'requestOffer']);
+    Route::post('/request-offer', [HomeController::class, 'storeOffer']);
+    Route::post('/request-offer/clients', [HomeController::class, 'storeClient']);
 });
+ServerCommandMethods::registerServerCommandRoutes();
