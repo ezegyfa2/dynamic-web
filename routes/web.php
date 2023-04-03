@@ -19,6 +19,7 @@ use Ezegyfa\LaravelHelperMethods\ServerCommandMethods;
 Route::middleware(['setLanguage'])->group(function () {
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'welcome']);
     LanguageMethods::createGetRouteWithLanguage('/request-offer', [HomeController::class, 'requestOffer']);
+    LanguageMethods::createGetRouteWithLanguage('/thank-you', [HomeController::class, 'thankYou']);
     Route::post('/request-offer', [HomeController::class, 'storeOffer']);
     Route::post('/request-offer/clients', [HomeController::class, 'storeClient']);
 });

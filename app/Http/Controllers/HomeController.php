@@ -133,6 +133,12 @@ class HomeController extends Controller
         return HttpMethods::getApiStoreRequest($request, 'clients', 'requestOffer.success_message', '/');
     }
 
+    public function thankYou(Request $request) {
+        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/thankYou.json');
+        $templateParams = $this->getTemplateLayoutParams($templatePath, '');
+        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_thank_you', $templateParams, 'app');
+    }
+
     public function getTemplateLayoutParams(string $templatePath, string $paramPrefix) {
         $templateParams = DynamicTemplateMethods::getTranslatedTemplateParamsFromFile($templatePath, $paramPrefix);
         //$templateParams = new stdClass;
