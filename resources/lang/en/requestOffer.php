@@ -14,9 +14,28 @@ return [
         'city' => [
             'placeholder' => 'City',
         ],
-        'has_product_categories' => [
-            'title_label' => 'Product categories',
-            'description_label' => 'Products can be grouped into different categories. Users can search for products within each category',
+        'order_type' => [
+            'options' => [
+                'presentation_website' => 'Presentation website',
+                'webshop' => 'Webshop',
+            ],
+        ],
+
+        'has_home_page' => [
+            'title_label' => 'Home page',
+            'description_label' => 'Starting page of the website. It contains a description of the product/service and the company and users can access other sub-pages of the website from this page.',
+        ],
+        'has_products_page' => [
+            'title_label' => 'Products page',
+            'description_label' => 'The products listing page',
+        ],
+        'has_cart' => [
+            'title_label' => 'Cart',
+            'description_label' => 'Users put their purchases in a basket and then buy selected products in a single order',
+        ],
+        'has_contact_us_page' => [
+            'title_label' => 'Contact us page',
+            'description_label' => 'Users can send a message to the site owner by filling in a form. The form can contain many details (personal details, subject of the message, etc.)',
         ],
         'has_excel_product_import' => [
             'title_label' => 'Export/Import productlist from excel',
@@ -26,21 +45,13 @@ return [
             'title_label' => 'Related products',
             'description_label' => 'View the related products on the product website',
         ],
-        'has_product_order_by' => [
-            'title_label' => 'Product order by',
-            'description_label' => 'Users can sort the product list by product characteristics (price, date, etc.)',
-        ],
         'has_product_filters' => [
             'title_label' => 'Product filters',
             'description_label' => 'Users can search for specific products by keyword, price or other product attributes',
         ],
         'has_product_ratings' => [
             'title_label' => 'Product Ratings',
-            'description_label' => 'Users can rate products from one to five. The average rating is displayed on the product page',
-        ],
-        'has_product_comments' => [
-            'title_label' => 'Product Comments',
-            'description_label' => 'Users have the possibility to write reviews about products which will be displayed on the product page',
+            'description_label' => 'Users can rate products from one to five and can write reviews about products which will be displayed on the product page. The average rating is displayed on the product page',
         ],
         'has_favorite_products' => [
             'title_label' => 'Favorite products',
@@ -49,10 +60,6 @@ return [
         'has_featured_products' => [
             'title_label' => 'Featured products',
             'description_label' => 'The website owner may display certain products. Featured products are listed higher in the product list than other products',
-        ],
-        'has_cart' => [
-            'title_label' => 'Cart',
-            'description_label' => 'Users put their purchases in a basket and then buy selected products in a single order',
         ],
         'has_coupon' => [
             'title_label' => 'Coupons',
@@ -94,11 +101,24 @@ return [
             'title_label' => 'News/Blog',
             'description_label' => 'A separate page for news/blog',
         ],
+        
+        'has_catalog_page' => [
+            'title_label' => 'Catalog page',
+            'description_label' => 'The products listing page',
+        ],
+        'has_admin' => [
+            'title_label' => 'Admin panel',
+            'description_label' => 'A user interface that allows the site owner to list and edit the site database',
+        ],
+        'has_booking_engine' => [
+            'title_label' => 'Booking engine',
+            'description_label' => 'Users can book an appointment via the website',
+        ],
     ],
     'next_button_title' => 'NEXT',
     'back_button_title' => 'BACK',
     'button_title' => 'SUBMIT',
-    'title' => 'CONTACT',
+    'title' => 'Request offer',
     'subtitle' => 'Create yout order and select your website features',
     'success_message' => 'Your order has been successfully saved, we will reply soon',
     'sum_price' => [

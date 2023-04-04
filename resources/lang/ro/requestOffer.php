@@ -14,9 +14,28 @@ return [
         'city' => [
             'placeholder' => 'Oraș',
         ],
-        'has_product_categories' => [
-            'title_label' => 'Categorii de produse',
-            'description_label' => 'Produsele pot fi grupate în diferite categorii. Utilizatorii pot căuta produse în cadrul fiecărei categorii.',
+        'order_type' => [
+            'options' => [
+                'presentation_website' => 'Bemutató oldal',
+                'webshop' => 'Webshop',
+            ],
+        ],
+
+        'has_home_page' => [
+            'title_label' => 'Pagina home',
+            'description_label' => 'Pagina principală a site-ului. Aceasta conține o descriere a produsului/serviciului și a companiei, iar utilizatorii pot accesa alte subpagini ale site-ului web de pe această pagină.',
+        ],
+        'has_products_page' => [
+            'title_label' => 'Pagina de produse',
+            'description_label' => 'Pagina de listare a produselor',
+        ],
+        'has_cart' => [
+            'title_label' => 'Coș',
+            'description_label' => 'Utilizatorii își pun cumpărăturile într-un coș și apoi cumpără produsele selectate într-o singură comandă',
+        ],
+        'has_contact_us_page' => [
+            'title_label' => 'Pagina de contact',
+            'description_label' => 'Utilizatorii pot trimite un mesaj proprietarului site-ului prin completarea unui formular. Formularul poate conține mai multe detalii (date personale, subiectul mesajului etc.).',
         ],
         'has_excel_product_import' => [
             'title_label' => 'Exportați/Importați lista de produse din Excel',
@@ -26,13 +45,9 @@ return [
             'title_label' => 'Produse înrudite',
             'description_label' => 'Vizualizați produsele conexe pe site-ul web al produsului',
         ],
-        'has_product_order_by' => [
-            'title_label' => 'Comandă produsele după',
-            'description_label' => 'Utilizatorii pot ordona lista de produse în funcție de caracteristicile produsului (preț, dată etc.)',
-        ],
         'has_product_filters' => [
             'title_label' => 'Filtre de produse',
-            'description_label' => 'Utilizatorii pot căuta produse specifice în funcție de cuvinte cheie, preț sau alte atribute ale produsului',
+            'description_label' => 'Utilizatorii pot căuta produse specifice în funcție de cuvinte cheie, preț sau alte atribute ale produsului. Utilizatorii pot ordona lista de produse în funcție de caracteristicile produsului (preț, dată etc.)',
         ],
         'has_product_ratings' => [
             'title_label' => 'Product Ratings',
@@ -49,10 +64,6 @@ return [
         'has_featured_products' => [
             'title_label' => 'Produse recomandate',
             'description_label' => 'Proprietarul site-ului poate afișa anumite produse. Produsele recomandate sunt listate mai sus în lista de produse decât alte produse',
-        ],
-        'has_cart' => [
-            'title_label' => 'Coș',
-            'description_label' => 'Utilizatorii își pun cumpărăturile într-un coș și apoi cumpără produsele selectate într-o singură comandă',
         ],
         'has_coupon' => [
             'title_label' => 'Cupoane',
@@ -93,6 +104,19 @@ return [
         'has_news_blog' => [
             'title_label' => 'News/Blog',
             'description_label' => 'O pagină separată pentru știri/blog',
+        ],
+        
+        'has_catalog_page' => [
+            'title_label' => 'Pagina de catalog',
+            'description_label' => 'Pagina de listare a produselor',
+        ],
+        'has_booking_engine' => [
+            'title_label' => 'Funcția de rezervare',
+            'description_label' => 'Utilizatorii pot rezerva o programare prin intermediul site-ului web',
+        ],
+        'has_admin' => [
+            'title_label' => 'Panoul de administrare',
+            'description_label' => 'O interfață utilizator care permite proprietarului site-ului să listeze și să editeze baza de date a site-ului',
         ],
     ],
     'next_button_title' => 'URMĂTORUL',

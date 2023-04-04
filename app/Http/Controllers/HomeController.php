@@ -44,7 +44,7 @@ class HomeController extends Controller
             ],
         ];
         $clientFormInfos[] = $orderTypeFormInfo;
-        $templateParams->form_item_sections = [ $clientFormInfos, ...$this->getWebshopFormInfos() ];
+        $templateParams->form_item_sections = [];
         $templateParams->client_form_item_sections = $clientFormInfos;
         $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
         $templateParams->webshop_form_item_sections = $this->getWebshopFormInfos();
@@ -57,8 +57,8 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_contact_us_page', 300),
             $this->getCheckboxFormInfos('has_catalog_page', 300),
             $this->getCheckboxFormInfos('has_login', 200),
+            $this->getCheckboxFormInfos('has_booking_engine', 300),
             $this->getCheckboxFormInfos('has_admin', 500),
-            $this->getCheckboxFormInfos('has_booking engine', 300),
         ];
         return $this->getMultiPageFormInfos($presentationWebsiteFormInfos);
     }

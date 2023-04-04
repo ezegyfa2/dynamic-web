@@ -29,6 +29,7 @@ return [
         'title' => 'Intră online',
         'content' => ' Pe lângă faptul că este rapid accesibil, un site web vă permite să obțineți produsul sau serviciul dvs. oriunde în lume. Cu toate acestea, cea mai mare provocare cu care vă confruntați este aceea de a face ca site-ul dvs. să fie găsit în această lume online aglomerată. Un site web le oferă potențialilor clienți o platformă simplă, unică, prin care aceștia pot ajunge să vă cunoască pe dumneavoastră și afacerea dumneavoastră, sporindu-vă vizibilitatea și vânzările. ',
     ],
+    'article_button_content' => 'Cere ofertă',
     'workflow' => [
         'title' => 'Cum dezvoltăm site-uri web',
         'subtitle' => 'Folosind procese de dezvoltare de ultimă generație, dezvoltăm site-ul web ținând cont de nevoile clientului și de elementele operaționale ale companiei',
@@ -60,5 +61,10 @@ return [
     ],
     'our_works' => [
         'title' => 'Lucrările noastre',
+    ],
+    'request_offer' => [
+        'title' => 'Cere ofertă',
+        'content' => 'Obțineți o ofertă specială, personalizată pentru site-ul dvs. web',
+        'button_content' => 'Cere ofertă',
     ],
 ];

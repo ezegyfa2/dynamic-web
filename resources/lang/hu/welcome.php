@@ -67,6 +67,7 @@ return [
         'title' => 'Kerüljön fel a világhálóra',
         'content' => ' A gyors elérés mellett egy weboldal lehetővé teszi, hogy a világ bármely pontjára eljuthasson terméke vagy szolgáltatása. Azonban a legnagyobb kihívás, amivel szembe kell néznie, hogy ebben a forgalmas online világban weboldalát megtalálják. A weboldal leendő ügyfelei számára egy egyszerű, egyablakos platformot biztosít, ahol megismerhetik önt és vállalkozását, így növelve ismertségét és értékesítését. ',
     ],
+    'article_button_content' => 'Kérjen árajánlatot',
     'workflow' => [
         'title' => 'Hogyan fejlesztünk weboldalakat',
         'subtitle' => 'A legmodernebb fejlesztői folyamatokat használva lefejlesszük a weboldalt figyelembe véve a kliens igényeit és a vállalat működését/elemeit',
@@ -98,5 +99,10 @@ return [
     ],
     'our_works' => [
         'title' => 'Munkáink',
+    ],
+    'request_offer' => [
+        'title' => 'Kérjen árajánlatot',
+        'content' => 'Kérjen speciális, személyre szabott ajánlatot weboldalára',
+        'button_content' => 'Kérjen árajánlatot',
     ],
 ];

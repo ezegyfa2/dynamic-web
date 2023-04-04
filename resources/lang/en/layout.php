@@ -8,7 +8,7 @@ return [
         'how_we_do' => 'How we do',
         'our_team' => 'Our team',
         'our_works' => 'Our works',
-        'contact_us' => 'Contact us',
+        'request_offer' => 'Request offer',
     ],
     'header' => [
         'title' => 'Start your business today',

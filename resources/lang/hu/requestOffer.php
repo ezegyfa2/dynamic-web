@@ -14,10 +14,30 @@ return [
         'city' => [
             'placeholder' => 'Város',
         ],
-        'has_product_categories' => [
-            'title_label' => 'Termékkategóriák',
-            'description_label' => 'A termékek különböző kategóriákba sorolhatók. A felhasználók az egyes kategóriákon belül kereshetnek termékeket',
+        'order_type' => [
+            'options' => [
+                'presentation_website' => 'Bemutató oldal',
+                'webshop' => 'Webshop',
+            ],
         ],
+
+        'has_home_page' => [
+            'title_label' => 'Home oldal',
+            'description_label' => 'A weboldal nyitó oldala. Tartalmazza a termék/szolgáltatás és a vállalat leírását továbbá a felhasználók erről az oldalról juthatnak el a weboldal más aloldalaira.',
+        ],
+        'has_products_page' => [
+            'title_label' => 'Termékek oldal',
+            'description_label' => 'A termékeket felsoroló oldal',
+        ],
+        'has_cart' => [
+            'title_label' => 'Kosár',
+            'description_label' => 'A felhasználók a vásárlásaikat egy kosárba helyezik, majd a kiválasztott termékeket egyetlen megrendeléssel megvásárolhatják',
+        ],
+        'has_contact_us_page' => [
+            'title_label' => 'Kapcsolat oldal',
+            'description_label' => 'A felhasználók egy form kitöltésével üzenhetnek az oldal tulajdonosának. A formban számos részlet megadható (személyes adatok, az üzenet témája stb.)',
+        ],
+
         'has_excel_product_import' => [
             'title_label' => 'Terméklista exportálása/Importálása excelből',
             'description_label' => 'A weboldal tulajdonosa excel fájlon keresztül tölthet fel adatokat a termékekről',
@@ -26,13 +46,9 @@ return [
             'title_label' => 'Kapcsolódó termékek',
             'description_label' => 'A termék weboldalán megtekinthetőek a kapcsolodó termékek',
         ],
-        'has_product_order_by' => [
-            'title_label' => 'A termékek sorrendje',
-            'description_label' => 'A felhasználók a terméklistát termékjellemzők (ár, dátum stb.) szerint rendezhetik',
-        ],
         'has_product_filters' => [
             'title_label' => 'Termékszűrők',
-            'description_label' => 'A felhasználók kulcsszó, ár vagy egyéb termékjellemzők alapján kereshetnek bizonyos termékeket',
+            'description_label' => 'A felhasználók kulcsszó, ár vagy egyéb termékjellemzők alapján kereshetnek bizonyos termékeket. A felhasználók a terméklistát termékjellemzők (ár, dátum stb.) szerint rendezhetik',
         ],
         'has_product_ratings' => [
             'title_label' => 'Termékértékelések',
@@ -49,10 +65,6 @@ return [
         'has_featured_products' => [
             'title_label' => 'Kiemelt termékek',
             'description_label' => 'A weboldal tulajdonosa kiemelhet bizonyos termékeket. A kiemelt termékek a terméklistában előrébb szerepelnek, mint a többi termék',
-        ],
-        'has_cart' => [
-            'title_label' => 'Kosár',
-            'description_label' => 'A felhasználók a vásárlásaikat egy kosárba helyezik, majd a kiválasztott termékeket egyetlen megrendeléssel megvásárolhatják',
         ],
         'has_coupon' => [
             'title_label' => 'Kuponok',
@@ -93,6 +105,19 @@ return [
         'has_news_blog' => [
             'title_label' => 'Hírek/Blog',
             'description_label' => 'Külön oldal a hírek/blog számára',
+        ],
+        
+        'has_catalog_page' => [
+            'title_label' => 'Katalógus oldal',
+            'description_label' => 'A termékeket felsoroló oldal',
+        ],
+        'has_booking_engine' => [
+            'title_label' => 'Foglalási funkció',
+            'description_label' => 'A felhasználók időpontot foglalhatnak a weboldalon keresztűl',
+        ],
+        'has_admin' => [
+            'title_label' => 'Admin panel',
+            'description_label' => 'Egy felhasználói felület, amely lehetővé teszi a webhely tulajdonosának a webhely adatbázisának kilistázását és szerkesztését.',
         ],
     ],
     'next_button_title' => 'KÖVETKEZŐ',

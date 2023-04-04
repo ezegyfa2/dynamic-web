@@ -66,6 +66,7 @@ return [
         'title' => 'Go online',
         'content' => ' In addition to being quickly accessible, a website allows you to get your product or service anywhere in the world. However, the biggest challenge you face is getting your website found in this busy online world. A website provides your prospective customers with a simple, one-stop platform where they can get to know you and your business, increasing your visibility and sales. ',
     ],
+    'article_button_content' => 'Request offer',
     'workflow' => [
         'title' => 'How we develop websites',
         'subtitle' => 'Using state-of-the-art development processes, we develop the website taking into account the clients needs and the operational/elements of the company',
@@ -97,5 +98,10 @@ return [
     ],
     'our_works' => [
         'title' => 'Our works',
+    ],
+    'request_offer' => [
+        'title' => 'Request offer',
+        'content' => 'Get a special, personalised offer for your website',
+        'button_content' => 'Request offer',
     ],
 ];
