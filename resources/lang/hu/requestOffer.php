@@ -15,6 +15,7 @@ return [
             'placeholder' => 'Város',
         ],
         'order_type' => [
+            'title' => 'Válassza ki a weboldal típusát',
             'options' => [
                 'presentation_website' => 'Bemutató oldal',
                 'webshop' => 'Webshop',

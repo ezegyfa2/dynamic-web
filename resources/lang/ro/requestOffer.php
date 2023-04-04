@@ -15,6 +15,7 @@ return [
             'placeholder' => 'Oraș',
         ],
         'order_type' => [
+            'title' => 'Alegeți tipul de site web',
             'options' => [
                 'presentation_website' => 'Bemutató oldal',
                 'webshop' => 'Webshop',

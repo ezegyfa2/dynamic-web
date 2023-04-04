@@ -3,7 +3,6 @@
 return [
     'navbar' => [
         'title' => 'DYNAMIC-WEB',
-        'offers' => 'Offers',
         'services' => 'Services',
         'how_we_do' => 'How we do',
         'our_team' => 'Our team',

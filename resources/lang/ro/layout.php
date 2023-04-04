@@ -5,8 +5,10 @@ return [
         'title' => 'DYNAMIC-WEB',
         'offers' => 'Oferte',
         'services' => 'Servicii',
-        'contact_us' => 'Contactați-ne',
-        'about_us' => 'Despre noi',
+        'how_we_do' => 'Cum facem',
+        'our_team' => 'Echipa noastră',
+        'our_works' => 'Lucrările noastre',
+        'request_offer' => 'Cerere ofertă',
     ],
     'header' => [
         'title' => 'Începeți afacerea dvs. astăzi',

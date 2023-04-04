@@ -4,8 +4,10 @@ return [
     'navbar' => [
         'title' => 'DYNAMIC-WEB',
         'services' => 'Szolgáltatások',
-        'contact_us' => 'Kapcsolatfelvétel',
-        'about_us' => 'Rólunk',
+        'how_we_do' => 'Hogyan csináljuk',
+        'our_team' => 'A mi csapatunk',
+        'our_works' => 'Munkáink',
+        'request_offer' => 'Ajánlatkérés',
     ],
     'header' => [
         'title' => 'Indítsa el vállalatát még ma',

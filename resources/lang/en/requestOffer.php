@@ -15,6 +15,7 @@ return [
             'placeholder' => 'City',
         ],
         'order_type' => [
+            'title' => 'Choose your website type',
             'options' => [
                 'presentation_website' => 'Presentation website',
                 'webshop' => 'Webshop',
