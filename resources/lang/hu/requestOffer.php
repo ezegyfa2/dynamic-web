@@ -124,8 +124,8 @@ return [
     'next_button_title' => 'KÖVETKEZŐ',
     'back_button_title' => 'VISSZA',
     'button_title' => 'KÜLDÉS',
-    'title' => 'KAPCSOLAT',
-    'subtitle' => 'Küldje el megrendelését és hamarosan felvesszük Önnel a kapcsolatot',
+    'title' => 'Kérjen ajánlatot',
+    'subtitle' => 'Hozzon létre megrendelést és válassza ki a weboldal funkcióit',
     'success_message' => 'A megrendelését sikeresen elmentettük, hamarosan válaszolunk',
     'sum_price' => [
         'label' => 'Ár',

@@ -17,7 +17,7 @@ return [
         'order_type' => [
             'title' => 'Alegeți tipul de site web',
             'options' => [
-                'presentation_website' => 'Bemutató oldal',
+                'presentation_website' => 'Pagina de prezentare',
                 'webshop' => 'Webshop',
             ],
         ],
@@ -123,8 +123,8 @@ return [
     'next_button_title' => 'URMĂTORUL',
     'back_button_title' => 'ÎNAPOI',
     'button_title' => 'TRIMITEȚI COMANDA',
-    'title' => 'CONTACT',
-    'subtitle' => 'Trimiteți comanda și vă vom contacta în curând',
+    'title' => 'Cere oferta',
+    'subtitle' => 'Creați comanda dvs. și selectați caracteristicile site-ului dvs.',
     'success_message' => 'Comanda dvs. a fost salvată cu succes, vă vom răspunde în curând',
     'sum_price' => [
         'label' => 'Preț',

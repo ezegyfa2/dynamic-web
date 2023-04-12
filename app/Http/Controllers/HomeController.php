@@ -53,11 +53,11 @@ class HomeController extends Controller
 
     protected function getPresentationWebsiteFormInfos() {
         $presentationWebsiteFormInfos = [
-            $this->getCheckboxFormInfos('has_home_page', 500, true, true),
+            $this->getCheckboxFormInfos('has_home_page', 800, true, true),
             $this->getCheckboxFormInfos('has_contact_us_page', 300),
-            $this->getCheckboxFormInfos('has_catalog_page', 300),
+            $this->getCheckboxFormInfos('has_catalog_page', 500),
             $this->getCheckboxFormInfos('has_login', 200),
-            $this->getCheckboxFormInfos('has_booking_engine', 300),
+            $this->getCheckboxFormInfos('has_booking_engine', 500),
             $this->getCheckboxFormInfos('has_admin', 500),
         ];
         return $this->getMultiPageFormInfos($presentationWebsiteFormInfos);
@@ -68,6 +68,8 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_home_page', 500, true, true),
             $this->getCheckboxFormInfos('has_products_page', 400, true, true),
             $this->getCheckboxFormInfos('has_cart', 400, true, true),
+            $this->getCheckboxFormInfos('has_login', 200, true, true),
+            $this->getCheckboxFormInfos('has_facebook_login', 200),
             $this->getCheckboxFormInfos('has_contact_us_page', 300),
             $this->getCheckboxFormInfos('has_excel_product_import', 200),
             $this->getCheckboxFormInfos('has_related_products', 300),
@@ -75,10 +77,7 @@ class HomeController extends Controller
             $this->getCheckboxFormInfos('has_product_ratings', 400),
             $this->getCheckboxFormInfos('has_favorite_products', 200),
             $this->getCheckboxFormInfos('has_featured_products', 300),
-            $this->getCheckboxFormInfos('has_coupon', 300),
-            $this->getCheckboxFormInfos('has_delivery_method', 100),
-            $this->getCheckboxFormInfos('has_login', 200),
-            $this->getCheckboxFormInfos('has_facebook_login', 200),
+            $this->getCheckboxFormInfos('has_coupon', 500),
             $this->getCheckboxFormInfos('has_product_admin', 400),
             $this->getCheckboxFormInfos('has_buyer_admin', 400),
             $this->getCheckboxFormInfos('has_admin_log', 200),
@@ -146,7 +145,7 @@ class HomeController extends Controller
         if (!isset($templateParams->navbar)) {
             $templateParams->navbar = new stdClass;
         }
-        $templateParams->navbar->languages = LanguageMethods::getLanguageUrlObjects();
+        $templateParams->navbar->languages = LanguageMethods::getTranslationUrlObjects();
         if (Session::has('success_message')) {
             $templateParams->success_messages = [ __(Session::get('success_message')) ];
         }
