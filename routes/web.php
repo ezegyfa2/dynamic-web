@@ -3,7 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Ezegyfa\LaravelHelperMethods\Language\LanguageMethods;
 use Illuminate\Support\Facades\Route;
-use Ezegyfa\LaravelHelperMethods\ServerCommandMethods;
+use Ezegyfa\LaravelHelperMethods\ServerCommands\ServerCommandMethods;
 
 /*
 |--------------------------------------------------------------------------
