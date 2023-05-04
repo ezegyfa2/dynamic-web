@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="ip" content="{{ Request::ip() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
