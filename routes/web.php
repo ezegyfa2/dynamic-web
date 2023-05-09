@@ -16,7 +16,7 @@ use Ezegyfa\LaravelHelperMethods\ServerCommands\ServerCommandMethods;
 |
 */
 
-Route::middleware(['setLanguage'])->group(function () {
+Route::middleware(['setLanguage', 'https'])->group(function () {
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'welcome']);
     LanguageMethods::createTranslatedGetRoutes('/request-offer', [HomeController::class, 'requestOffer']);
     LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);

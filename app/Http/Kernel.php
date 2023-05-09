@@ -37,7 +37,6 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \Ezegyfa\LaravelHelperMethods\HttpsRedirecter::class,
         ],
 
         'api' => [
@@ -65,5 +64,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'setLanguage' => \Ezegyfa\LaravelHelperMethods\Language\Middleware::class,
+        'https' => \Ezegyfa\LaravelHelperMethods\HttpsRedirecter::class,
     ];
 }
