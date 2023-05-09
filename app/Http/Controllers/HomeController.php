@@ -146,6 +146,7 @@ class HomeController extends Controller
             $templateParams->navbar = new stdClass;
         }
         $templateParams->navbar->languages = LanguageMethods::getTranslationUrlObjects();
+        $templateParams->navbar->request_offer_url = '/' . __('routes.request-offer');
         if (Session::has('success_message')) {
             $templateParams->success_messages = [ __(Session::get('success_message')) ];
         }
