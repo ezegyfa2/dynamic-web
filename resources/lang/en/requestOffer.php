@@ -62,6 +62,18 @@ return [
             'title_label' => 'Featured products',
             'description_label' => 'The website owner may display certain products. Featured products are listed higher in the product list than other products',
         ],
+        'has_card_payment' => [
+            'title_label' => 'Card payment',
+            'description_label' => 'Users can pay with credit card',
+        ],
+        'has_smart_bill' => [
+            'title_label' => 'Smart bill',
+            'description_label' => 'Bills are generated automatically',
+        ],
+        'has_courier_integration' => [
+            'title_label' => 'Courier integration',
+            'description_label' => 'The website is linked to a delivery service',
+        ],
         'has_coupon' => [
             'title_label' => 'Coupons',
             'description_label' => 'The site owner may sell customer coupons that customers can use in their purchases',
@@ -102,7 +114,7 @@ return [
             'title_label' => 'News/Blog',
             'description_label' => 'A separate page for news/blog',
         ],
-        
+
         'has_catalog_page' => [
             'title_label' => 'Catalog page',
             'description_label' => 'The products listing page',

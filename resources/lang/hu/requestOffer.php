@@ -67,6 +67,18 @@ return [
             'title_label' => 'Kiemelt termékek',
             'description_label' => 'A weboldal tulajdonosa kiemelhet bizonyos termékeket. A kiemelt termékek a terméklistában előrébb szerepelnek, mint a többi termék',
         ],
+        'has_card_payment' => [
+            'title_label' => 'Kártyás fizetés',
+            'description_label' => 'A felhasználók fizethetnek hitelkártyával',
+        ],
+        'has_smart_bill' => [
+            'title_label' => 'Okos számlázás',
+            'description_label' => 'A számlák autómatikusan generálódnak',
+        ],
+        'has_courier_integration' => [
+            'title_label' => 'Futárszolgálat integráció',
+            'description_label' => 'A weboldal össze van kapcsolva egy kiszállító szolgáltatóval',
+        ],
         'has_coupon' => [
             'title_label' => 'Kuponok',
             'description_label' => 'A webhely tulajdonosa árusíthat vásárlói kuponokat, amelyeket a vásárlók vásárlásaik során felhasználhatnak',
@@ -107,7 +119,7 @@ return [
             'title_label' => 'Hírek/Blog',
             'description_label' => 'Külön oldal a hírek/blog számára',
         ],
-        
+
         'has_catalog_page' => [
             'title_label' => 'Katalógus oldal',
             'description_label' => 'A termékeket felsoroló oldal',

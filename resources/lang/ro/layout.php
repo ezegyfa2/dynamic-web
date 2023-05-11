@@ -8,7 +8,7 @@ return [
         'how_we_do' => 'Cum facem',
         'our_team' => 'Echipa noastră',
         'our_works' => 'Lucrările noastre',
-        'request_offer' => 'Cerere ofertă',
+        'request_offer' => 'Cere ofertă',
     ],
     'header' => [
         'title' => 'Începeți afacerea dvs. astăzi',

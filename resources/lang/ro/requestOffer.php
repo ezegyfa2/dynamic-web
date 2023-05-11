@@ -66,6 +66,18 @@ return [
             'title_label' => 'Produse recomandate',
             'description_label' => 'Proprietarul site-ului poate afișa anumite produse. Produsele recomandate sunt listate mai sus în lista de produse decât alte produse',
         ],
+        'has_card_payment' => [
+            'title_label' => 'Plata cu cardul',
+            'description_label' => 'Utilizatorii pot plăti cu cardul de credit',
+        ],
+        'has_smart_bill' => [
+            'title_label' => 'Factură inteligentă',
+            'description_label' => 'Facturile sunt generate automat',
+        ],
+        'has_courier_integration' => [
+            'title_label' => 'Integrarea curierului',
+            'description_label' => 'Site-ul este legat de un serviciu de livrare',
+        ],
         'has_coupon' => [
             'title_label' => 'Cupoane',
             'description_label' => 'Proprietarul site-ului poate vinde cupoane pentru clienți pe care aceștia le pot folosi la cumpărăturile lor',
@@ -106,7 +118,7 @@ return [
             'title_label' => 'News/Blog',
             'description_label' => 'O pagină separată pentru știri/blog',
         ],
-        
+
         'has_catalog_page' => [
             'title_label' => 'Pagina de catalog',
             'description_label' => 'Pagina de listare a produselor',
