@@ -120,9 +120,9 @@ class HomeController extends Controller
     public function storeOffer(Request $request) {
         switch ($request->get('order_type')) {
             case 0:
-                return HttpMethods::getStoreRequest($request, 'presentation_website_orders', 'requestOffer.success_message', '/');
+                return HttpMethods::getStoreRequest($request, 'presentation_website_orders', 'requestOffer.success_message', '/' . __('routes.thank-you'));
             case 1:
-                return HttpMethods::getStoreRequest($request, 'webshop_orders', 'requestOffer.success_message', '/');
+                return HttpMethods::getStoreRequest($request, 'webshop_orders', 'requestOffer.success_message', '/' . __('routes.thank-you'));
             default:
                 throw new \Exception('Invalid order type');
         }
