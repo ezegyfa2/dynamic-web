@@ -16,11 +16,11 @@ use Ezegyfa\LaravelHelperMethods\ServerCommands\ServerCommandMethods;
 |
 */
 
-Route::middleware(['setLanguage', 'https'])->group(function () {
+Route::middleware('setLanguage')->group(function () {
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'welcome']);
     LanguageMethods::createTranslatedGetRoutes('/request-offer', [HomeController::class, 'requestOffer']);
     LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);
-    Route::post('/request-offer', [HomeController::class, 'storeOffer']);
-    Route::post('/request-offer/clients', [HomeController::class, 'storeClient']);
+    LanguageMethods::createTranslatedPostRoutes('/request-offer', [HomeController::class, 'storeOffer']);
+    LanguageMethods::createTranslatedPostRoutes('/request-offer/clients', [HomeController::class, 'storeClient']);
 });
 ServerCommandMethods::registerServerCommandRoutes();

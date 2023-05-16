@@ -48,6 +48,7 @@ class HomeController extends Controller
         $templateParams->client_form_item_sections = $clientFormInfos;
         $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
         $templateParams->webshop_form_item_sections = $this->getWebshopFormInfos();
+        $templateParams->form_url = '/' . __('routes.request-offer');
         return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_request_offer', $templateParams, 'app');
     }
 
