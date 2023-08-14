@@ -14,15 +14,16 @@ use stdClass;
 class HomeController extends Controller
 {
     public function welcome() {
-        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/welcome.json');
-        $templateParams = $this->getTemplateLayoutParams($templatePath, '');
-        //$templateParams = [];
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_welcome', $templateParams, 'app');
+        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
+            'dynamic_web_welcome', 
+            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/welcome.json', 
+            $this->getTemplateLayoutParams(),
+            'app'
+        );
     }
 
     public function requestOffer() {
-        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json');
-        $templateParams = $this->getTemplateLayoutParams($templatePath, '');
+        $templateParams = $this->getTemplateLayoutParams();
         $clientTableInfos = DatabaseInfos::getTableInfos()['clients'];
         $clientFormInfos = $clientTableInfos->getFormInfos('requestOffer.form');
         $orderTypeFormInfo = (object) [
@@ -49,7 +50,12 @@ class HomeController extends Controller
         $templateParams->presentation_website_form_item_sections = $this->getPresentationWebsiteFormInfos();
         $templateParams->webshop_form_item_sections = $this->getWebshopFormInfos();
         $templateParams->form_url = '/' . __('routes.request-offer');
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_request_offer', $templateParams, 'app');
+        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
+            'dynamic_web_request_offer', 
+            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json',
+            $templateParams, 
+            'app'
+        );
     }
 
     protected function getPresentationWebsiteFormInfos() {
@@ -134,20 +140,20 @@ class HomeController extends Controller
     }
 
     public function thankYou(Request $request) {
-        $templatePath = base_path('node_modules/dynamic-web-vue-components/src/Templates/Compiled/thankYou.json');
-        $templateParams = $this->getTemplateLayoutParams($templatePath, '');
-        return DynamicTemplateMethods::getTemplateDynamicPage('dynamic_web_thank_you', $templateParams, 'app');
+        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
+            'dynamic_web_thank_you', 
+            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/thankYou.json',
+            $this->getTemplateLayoutParams(), 
+            'app'
+        );
     }
 
-    public function getTemplateLayoutParams(string $templatePath, string $paramPrefix) {
-        $templateParams = DynamicTemplateMethods::getTranslatedTemplateParamsFromFile($templatePath, $paramPrefix);
+    public function getTemplateLayoutParams() {
+        $templateParams = new \stdClass;
         //$templateParams = new stdClass;
         $templateParams->current_language = strtoupper(App::currentLocale());
-        if (!isset($templateParams->navbar)) {
-            $templateParams->navbar = new stdClass;
-        }
-        $templateParams->navbar->languages = LanguageMethods::getTranslationUrlObjects();
-        $templateParams->navbar->request_offer_url = '/' . __('routes.request-offer');
+        $templateParams->languages = LanguageMethods::getTranslationUrlObjects();
+        $templateParams->request_offer_url = '/' . __('routes.request-offer');
         if (Session::has('success_message')) {
             $templateParams->success_messages = [ __(Session::get('success_message')) ];
         }
