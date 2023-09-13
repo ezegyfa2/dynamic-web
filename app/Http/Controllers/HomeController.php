@@ -18,7 +18,7 @@ class HomeController extends Controller
             'dynamic_web_welcome', 
             'node_modules/dynamic-web-vue-components/src/Templates/Compiled/welcome.json', 
             $this->getTemplateLayoutParams(),
-            'app'
+            [ 'app' ]
         );
     }
 
@@ -54,13 +54,13 @@ class HomeController extends Controller
             'dynamic_web_request_offer', 
             'node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json',
             $templateParams, 
-            'app'
+            [ 'app' ]
         );
     }
 
     protected function getPresentationWebsiteFormInfos() {
         $presentationWebsiteFormInfos = [
-            $this->getCheckboxFormInfos('has_home_page', 800, true, true),
+            $this->getCheckboxFormInfos('has_home_page', 2500, true, true),
             $this->getCheckboxFormInfos('has_contact_us_page', 300),
             $this->getCheckboxFormInfos('has_catalog_page', 500),
             $this->getCheckboxFormInfos('has_login', 200),
@@ -72,7 +72,7 @@ class HomeController extends Controller
 
     protected function getWebshopFormInfos() {
         $webshopFormInfos = [
-            $this->getCheckboxFormInfos('has_home_page', 500, true, true),
+            $this->getCheckboxFormInfos('has_home_page', 3200, true, true),
             $this->getCheckboxFormInfos('has_products_page', 400, true, true),
             $this->getCheckboxFormInfos('has_cart', 400, true, true),
             $this->getCheckboxFormInfos('has_login', 200, true, true),
@@ -144,7 +144,7 @@ class HomeController extends Controller
             'dynamic_web_thank_you', 
             'node_modules/dynamic-web-vue-components/src/Templates/Compiled/thankYou.json',
             $this->getTemplateLayoutParams(), 
-            'app'
+            [ 'app' ]
         );
     }
 
