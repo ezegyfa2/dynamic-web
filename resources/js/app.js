@@ -8,7 +8,7 @@ require('./bootstrap')
 
 window.Vue = require('vue').default
 
-require('dynamic-web-vue-components').default.install(Vue)
+require('dynamic-web-vue-components/index').default.install(Vue)
 
 window.App = new Vue({
     el: '#app',
