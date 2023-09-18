@@ -1,4 +1,7 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/BasicPackages.js": "/js/BasicPackages.js",
+    "/js/layout.js": "/js/layout.js",
+    "/js/welcome.js": "/js/welcome.js",
+    "/js/requestOffer.js": "/js/requestOffer.js",
+    "/js/thankYou.js": "/js/thankYou.js"
 }
