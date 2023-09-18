@@ -16,9 +16,17 @@ class HomeController extends Controller
     public function welcome() {
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_welcome', 
-            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/welcome.json', 
+            'node_modules/dynamic-web-vue-components/src/Welcome/CompiledTemplate.json', 
             $this->getTemplateLayoutParams(),
-            [ 'app' ]
+            [ 
+                'layout',
+                'welcome',
+            ],
+            [ 
+                'fontawesome/css/fontawesome.min', 
+                'fontawesome/css/brands.min',
+                'fontawesome/css/solid.min' 
+            ]
         );
     }
 
@@ -54,7 +62,7 @@ class HomeController extends Controller
             'dynamic_web_request_offer', 
             'node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json',
             $templateParams, 
-            [ 'app' ]
+            [ 'requestOffer' ]
         );
     }
 
@@ -142,9 +150,16 @@ class HomeController extends Controller
     public function thankYou(Request $request) {
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_thank_you', 
-            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/thankYou.json',
+            'node_modules/dynamic-web-vue-components/src/ThankYou/CompiledTemplate.json',
             $this->getTemplateLayoutParams(), 
-            [ 'app' ]
+            [ 
+                'layout',
+                'thankYou',
+            ],
+            [ 
+                'fontawesome/css/fontawesome.min', 
+                'fontawesome/css/brands.min',
+            ]
         );
     }
 
