@@ -19,8 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('setLanguage')->group(function () {
     LanguageMethods::createTranslatedGetRoutes('/', [HomeController::class, 'welcome']);
     LanguageMethods::createTranslatedGetRoutes('/request-offer', [HomeController::class, 'requestOffer']);
-    LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);
     LanguageMethods::createTranslatedPostRoutes('/request-offer', [HomeController::class, 'storeOffer']);
     LanguageMethods::createTranslatedPostRoutes('/request-offer/clients', [HomeController::class, 'storeClient']);
+    LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);
+    LanguageMethods::createTranslatedGetRoutes('/privacy', [HomeController::class, 'privacy']);
 });
 ServerCommandMethods::registerServerCommandRoutes();
