@@ -13,9 +13,7 @@ return [
     'header' => [
         'title' => 'Începeți afacerea dvs. astăzi',
         'content' => 'Site-uri de afaceri și magazine web',
-        'button' => [
-            'title' => 'Vezi serviciile noastre',
-        ],
+        'button_title' => 'Vezi serviciile noastre',
     ],
     'footer' => [
         'copyright' => [

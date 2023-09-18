@@ -12,9 +12,7 @@ return [
     'header' => [
         'title' => 'Start your business today',
         'content' => 'Business websites and webshops',
-        'button' => [
-            'title' => 'View our services',
-        ]
+        'button_title' => 'View our services',
     ],
     'footer' => [
         'copyright' => [

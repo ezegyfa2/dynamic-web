@@ -25,6 +25,8 @@ mix.webpackConfig({
         }
     }
 });
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .vue()
+mix.js('resources/js/BasicPackages.js', 'public/js').vue()
+mix.js('resources/js/layout.js', 'public/js').vue()
+mix.js('resources/js/welcome.js', 'public/js').vue()
+mix.js('resources/js/requestOffer.js', 'public/js').vue()
+mix.js('resources/js/thankYou.js', 'public/js').vue()

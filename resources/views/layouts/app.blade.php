@@ -20,10 +20,14 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/' . ($scriptName ?? 'app') . '.js') }}" defer></script>
+    @foreach ($scriptPaths as $scriptPath)
+        <script src="{{ asset('js/' . $scriptPath . '.js') }}" defer></script>
+    @endforeach
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    @foreach ($stylePaths as $stylePath)
+        <link href="{{ asset('css/' . $stylePath . '.css') }}" rel="stylesheet" />
+    @endforeach
 
 </head>
 <body>
