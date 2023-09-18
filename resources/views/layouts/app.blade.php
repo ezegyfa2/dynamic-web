@@ -9,15 +9,19 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    @foreach ($scriptPaths as $scriptPath)
-        <script src="{{ asset('js/' . $scriptPath . '.js') }}" defer></script>
-    @endforeach
+    @if (isset($scriptPaths))
+        <!-- Scripts -->
+        @foreach ($scriptPaths as $scriptPath)
+            <script src="{{ asset('js/' . $scriptPath . '.js') }}" defer></script>
+        @endforeach
+    @endif
 
-    <!-- Styles -->
-    @foreach ($stylePaths as $stylePath)
-        <link href="{{ asset('css/' . $stylePath . '.css') }}" rel="stylesheet" />
-    @endforeach
+    @if (isset($scriptPaths))
+        <!-- Styles -->
+        @foreach ($stylePaths as $stylePath)
+            <link href="{{ asset('css/' . $stylePath . '.css') }}" rel="stylesheet" />
+        @endforeach
+    @endif
 
     @if (app()->environment('production'))
         <!-- Google Tag Manager -->

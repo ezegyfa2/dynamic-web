@@ -185,4 +185,8 @@ class HomeController extends Controller
         }
         return $templateParams;
     }
+
+    public function privacy() {
+        return view('privacy');
+    }
 }
