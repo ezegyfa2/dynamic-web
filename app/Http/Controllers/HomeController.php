@@ -60,9 +60,17 @@ class HomeController extends Controller
         $templateParams->form_url = '/' . __('routes.request-offer');
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_request_offer', 
-            'node_modules/dynamic-web-vue-components/src/Templates/Compiled/requestOffer.json',
+            'node_modules/dynamic-web-vue-components/src/RequestOffer/CompiledTemplate.json',
             $templateParams, 
-            [ 'requestOffer' ]
+            [ 
+                'layout',
+                'requestOffer',
+            ],
+            [ 
+                'fontawesome/css/fontawesome.min', 
+                'fontawesome/css/brands.min',
+                'fontawesome/css/solid.min' 
+            ]
         );
     }
 
