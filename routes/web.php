@@ -22,6 +22,6 @@ Route::middleware('setLanguage')->group(function () {
     LanguageMethods::createTranslatedPostRoutes('/request-offer', [HomeController::class, 'storeOffer']);
     LanguageMethods::createTranslatedPostRoutes('/request-offer/clients', [HomeController::class, 'storeClient']);
     LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);
-    LanguageMethods::createTranslatedGetRoutes('/privacy', [HomeController::class, 'privacy']);
+    LanguageMethods::createTranslatedGetRoutes('/privacy-policy', [HomeController::class, 'privacy']);
 });
 ServerCommandMethods::registerServerCommandRoutes();
