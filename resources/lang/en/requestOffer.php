@@ -131,6 +131,8 @@ return [
     'next_button_title' => 'NEXT',
     'back_button_title' => 'BACK',
     'button_title' => 'SUBMIT',
+    'privacy_policy_label' => 'I have read and agree to',
+    'privacy_policy_url_label' => 'the privacy policy',
     'title' => 'Request offer',
     'subtitle' => 'Create yout order and select your website features',
     'success_message' => 'Your order has been successfully saved, we will reply soon',
