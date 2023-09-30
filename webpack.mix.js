@@ -25,7 +25,7 @@ mix.webpackConfig({
         }
     }
 });
-mix.js('resources/js/BasicPackages.js', 'public/js').vue()
+mix.js('resources/js/basicPackages.js', 'public/js').vue()
 mix.js('resources/js/welcome.js', 'public/js').vue()
 mix.js('resources/js/requestOffer.js', 'public/js').vue()
 mix.js('resources/js/thankYou.js', 'public/js').vue()
