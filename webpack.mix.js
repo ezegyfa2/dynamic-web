@@ -18,15 +18,22 @@ mix.webpackConfig({
     },
     resolve: {
         alias: {
-            "@components": path.resolve(
+            "@nodeModules": path.resolve(
                 __dirname,
-                "resources/assets/js/components"
+                "node_modules"
             )
         }
     }
 });
 mix.js('resources/js/BasicPackages.js', 'public/js').vue()
-mix.js('resources/js/layout.js', 'public/js').vue()
 mix.js('resources/js/welcome.js', 'public/js').vue()
 mix.js('resources/js/requestOffer.js', 'public/js').vue()
 mix.js('resources/js/thankYou.js', 'public/js').vue()
+mix.copy('node_modules/dynamic-web-vue-components/src/Welcome/CompiledTemplate.json', 'app/Templates/welcome.json')
+mix.copy('node_modules/dynamic-web-vue-components/src/RequestOffer/CompiledTemplate.json', 'app/Templates/requestOffer.json')
+mix.copy('node_modules/dynamic-web-vue-components/src/ThankYou/CompiledTemplate.json', 'app/Templates/thankYou.json')
+let nodeModulesFolderPath = path.resolve(
+    __dirname,
+    "node_modules"
+)
+mix.copy(nodeModulesFolderPath + '/bootstrap/dist/css/bootstrap.min.css', 'public/css')
