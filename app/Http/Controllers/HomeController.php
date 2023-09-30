@@ -16,10 +16,9 @@ class HomeController extends Controller
     public function welcome() {
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_welcome', 
-            'node_modules/dynamic-web-vue-components/src/Welcome/CompiledTemplate.json', 
+            'welcome', 
             $this->getTemplateLayoutParams(),
             [ 
-                'layout',
                 'welcome',
             ],
             [ 
@@ -60,10 +59,9 @@ class HomeController extends Controller
         $templateParams->form_url = '/' . __('routes.request-offer');
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_request_offer', 
-            'node_modules/dynamic-web-vue-components/src/RequestOffer/CompiledTemplate.json',
+            'requestOffer',
             $templateParams, 
             [ 
-                'layout',
                 'requestOffer',
             ],
             [ 
@@ -158,10 +156,9 @@ class HomeController extends Controller
     public function thankYou(Request $request) {
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_thank_you', 
-            'node_modules/dynamic-web-vue-components/src/ThankYou/CompiledTemplate.json',
+            'thankYou',
             $this->getTemplateLayoutParams(), 
             [ 
-                'layout',
                 'thankYou',
             ],
             [ 
@@ -172,17 +169,8 @@ class HomeController extends Controller
     }
 
     public function getTemplateLayoutParams() {
-        $templateParams = new \stdClass;
-        //$templateParams = new stdClass;
-        $templateParams->current_language = strtoupper(App::currentLocale());
-        $templateParams->languages = LanguageMethods::getTranslationUrlObjects();
+        $templateParams = DynamicTemplateMethods::getTemplateLayoutParams();
         $templateParams->request_offer_url = '/' . __('routes.request-offer');
-        if (Session::has('success_message')) {
-            $templateParams->success_messages = [ __(Session::get('success_message')) ];
-        }
-        else if (request()->get('success_message')) {
-            $templateParams->success_messages = [ __(request()->get('success_message')) ];
-        }
         return $templateParams;
     }
 
