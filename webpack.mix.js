@@ -15,14 +15,6 @@ mix.webpackConfig({
                 ]
             }
         ]
-    },
-    resolve: {
-        alias: {
-            "@nodeModules": path.resolve(
-                __dirname,
-                "node_modules"
-            )
-        }
     }
 });
 mix.js('resources/js/basicPackages.js', 'public/js').vue()
