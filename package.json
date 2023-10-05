@@ -13,9 +13,11 @@
         "@popperjs/core": "^2.10.2",
         "axios": "^0.21",
         "bootstrap": "4.6.1",
+        "glob-all": "^3.3.1",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
+        "purgecss-webpack-plugin": "^5.0.0",
         "resolve-url-loader": "^3.1.2",
         "sass": "^1.32.11",
         "sass-loader": "^11.1.1",
@@ -25,7 +27,6 @@
     },
     "dependencies": {
         "bootstrap-select": "^1.14.0-beta3",
-        "data-collector-vue-components": "^1.0.0",
         "dynamic-web-vue-components": "*",
         "font-awesome": "^4.7.0",
         "jquery": "^3.6.0",
@@ -34,7 +35,9 @@
         "popper.js": "^1.16.1",
         "pug": "^3.0.2",
         "pug-plain-loader": "^1.1.0",
+        "purgecss-from-pug": "^5.0.0",
         "sha256": "^0.2.0",
-        "vue-select-picker-bootstrap": "^1.0.5"
+        "vue-select-picker-bootstrap": "^1.0.5",
+        "whatwg-fetch": "^3.6.19"
     }
 }
