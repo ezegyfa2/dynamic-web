@@ -1,10 +1,6 @@
 {
     "/js/basicPackages.js": "/js/basicPackages.js",
-    "/js/welcome.js": "/js/welcome.js",
-    "/js/requestOffer.js": "/js/requestOffer.js",
-    "/js/thankYou.js": "/js/thankYou.js",
-    "/app/Templates/welcome.json": "/app/Templates/welcome.json",
-    "/app/Templates/requestOffer.json": "/app/Templates/requestOffer.json",
-    "/app/Templates/thankYou.json": "/app/Templates/thankYou.json",
-    "/css/bootstrap.min.css": "/css/bootstrap.min.css"
+    "/js/ThankYou.js": "/js/ThankYou.js",
+    "/css/ThankYou.css": "/css/ThankYou.css",
+    "/app/Templates/ThankYou.json": "/app/Templates/ThankYou.json"
 }
