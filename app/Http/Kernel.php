@@ -37,6 +37,7 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \ErlandMuchasaj\LaravelGzip\Middleware\GzipEncodeResponse::class,
         ],
 
         'api' => [
