@@ -29,7 +29,12 @@
     @if (isset($scriptPaths))
         <!-- Styles -->
         @foreach ($stylePaths as $stylePath)
-            <link href="{{ asset('css/' . $stylePath . '.css') }}" rel="stylesheet" />
+            <link
+                href="{{ asset('css/' . $stylePath . '.css') }}"
+                as="preload" 
+                rel="stylesheet" 
+                onload="this.onload=null;this.rel='stylesheet'"
+            />
         @endforeach
     @endif
 
