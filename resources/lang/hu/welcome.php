@@ -91,10 +91,18 @@ return [
     'team' => [
         'title' => 'A csapatunk',
         'members' => [
-            'darvas_istvan' => 'Backend és frontend fejlesztő vagyok közel 5 év tasztalattal a hátam mögött. Részt veszek a weboldal külalakjának és funkcióinak a fejlesztésében.',
-            'bagota_jozsef' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
-            'benedek_csaba' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében',
-            'kovacs_szilard' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van'
+            'darvas_istvan' => [
+                'name' => 'Backend és frontend fejlesztő vagyok közel 5 év tasztalattal a hátam mögött. Részt veszek a weboldal külalakjának és funkcióinak a fejlesztésében.',
+            ],
+            'bagota_jozsef' => [
+                'name' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
+            ],
+            'benedek_csaba' => [
+                'name' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében',
+            ],
+            'kovacs_szilard' => [
+                'name' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van'
+            ],
         ]
     ],
     'our_works' => [

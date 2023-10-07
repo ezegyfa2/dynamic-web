@@ -53,10 +53,18 @@ return [
     'team' => [
         'title' => 'Echipa noastră',
         'members' => [
-            'darvas_istvan' => 'Sunt un dezvoltator backend și frontend cu aproape 5 ani de experiență. Sunt implicat în dezvoltarea aspectului și funcționalității site-ului web',
-            'bagota_jozsef' => 'Am proiectat layout-uri și imagini de site-uri web timp de 8 ani, folosind cele mai recente tehnologii și metode de design',
-            'benedek_csaba' => 'Lucrez ca dezvoltator Javascript, cu o experiență de peste 2 ani în dezvoltarea de funcționalități pe partea de client și server',
-            'kovacs_szilard' => 'Lucrez în domeniul dezvoltării front-end, dezvoltând aspectul și aspectul site-urilor web. Am aproape 2 ani de experiență',
+            'darvas_istvan' => [
+                'name' => 'Sunt un dezvoltator backend și frontend cu aproape 5 ani de experiență. Sunt implicat în dezvoltarea aspectului și funcționalității site-ului web',
+            ],
+            'bagota_jozsef' => [
+                'name' => 'Am proiectat layout-uri și imagini de site-uri web timp de 8 ani, folosind cele mai recente tehnologii și metode de design',
+            ],
+            'benedek_csaba' => [
+                'name' => 'Lucrez ca dezvoltator Javascript, cu o experiență de peste 2 ani în dezvoltarea de funcționalități pe partea de client și server',
+            ],
+            'kovacs_szilard' => [
+                'name' => 'Lucrez în domeniul dezvoltării front-end, dezvoltând aspectul și aspectul site-urilor web. Am aproape 2 ani de experiență',
+            ],
         ],
     ],
     'our_works' => [
