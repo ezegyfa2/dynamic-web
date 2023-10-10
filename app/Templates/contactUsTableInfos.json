@@ -3,7 +3,7 @@
         "type": "text-input",
         "data": {
             "name": "name",
-            "label": "contact_and_faq.contact_form.name.label",
+            "label": "welcome.contact_form.name.label",
             "default": null,
             "required": true,
             "validation_errors": [],
@@ -11,14 +11,14 @@
             "type": "text",
             "maxlength": 255,
             "minlength": 0,
-            "placeholder": "contact_and_faq.contact_form.name.placeholder"
+            "placeholder": "welcome.contact_form.name.placeholder"
         }
     },
     {
         "type": "text-input",
         "data": {
             "name": "email",
-            "label": "contact_and_faq.contact_form.email.label",
+            "label": "welcome.contact_form.email.label",
             "default": null,
             "required": true,
             "validation_errors": [],
@@ -26,14 +26,14 @@
             "type": "email",
             "maxlength": 255,
             "minlength": 0,
-            "placeholder": "contact_and_faq.contact_form.email.placeholder"
+            "placeholder": "welcome.contact_form.email.placeholder"
         }
     },
     {
         "type": "text-input",
         "data": {
             "name": "phone",
-            "label": "contact_and_faq.contact_form.phone.label",
+            "label": "welcome.contact_form.phone.label",
             "default": null,
             "required": true,
             "validation_errors": [],
@@ -41,18 +41,18 @@
             "type": "tel",
             "maxlength": 15,
             "minlength": 0,
-            "placeholder": "contact_and_faq.contact_form.phone.placeholder"
+            "placeholder": "welcome.contact_form.phone.placeholder"
         }
     },
     {
         "type": "textarea",
         "data": {
             "name": "message",
-            "label": "contact_and_faq.contact_form.message.label",
+            "label": "welcome.contact_form.message.label",
             "default": null,
             "required": true,
             "validation_errors": [],
-            "placeholder": "contact_and_faq.contact_form.message.placeholder"
+            "placeholder": "welcome.contact_form.message.placeholder"
         }
     }
 ]

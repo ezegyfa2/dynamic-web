@@ -55,15 +55,27 @@ return [
         'members' => [
             'darvas_istvan' => [
                 'name' => 'Sunt un dezvoltator backend și frontend cu aproape 5 ani de experiență. Sunt implicat în dezvoltarea aspectului și funcționalității site-ului web',
+                'twitter_aria_label' => 'Pagina de Twitter a lui István Darvas',
+                'facebook_aria_label' => 'Pagina de facebook a lui István Darvas',
+                'linkedin_aria_label' => 'Pagina de linkedin a lui István Darvas',
             ],
             'bagota_jozsef' => [
                 'name' => 'Am proiectat layout-uri și imagini de site-uri web timp de 8 ani, folosind cele mai recente tehnologii și metode de design',
+                'twitter_aria_label' => 'Pagina de Twitter a lui József Bagota',
+                'facebook_aria_label' => 'Pagina de facebook a lui József Bagota',
+                'linkedin_aria_label' => 'Pagina de linkedin a lui József Bagota',
             ],
             'benedek_csaba' => [
                 'name' => 'Lucrez ca dezvoltator Javascript, cu o experiență de peste 2 ani în dezvoltarea de funcționalități pe partea de client și server',
+                'twitter_aria_label' => 'Pagina de Twitter a lui Csaba Benedek',
+                'facebook_aria_label' => 'Pagina de facebook a lui Csaba Benedek',
+                'linkedin_aria_label' => 'Pagina de linkedin a lui Csaba Benedek',
             ],
             'kovacs_szilard' => [
                 'name' => 'Lucrez în domeniul dezvoltării front-end, dezvoltând aspectul și aspectul site-urilor web. Am aproape 2 ani de experiență',
+                'twitter_aria_label' => 'Pagina de Twitter a lui Szilárd Kovács',
+                'facebook_aria_label' => 'Pagina de facebook a lui Szilárd Kovács',
+                'linkedin_aria_label' => 'Pagina de linkedin a lui Szilárd Kovács',
             ],
         ],
     ],
@@ -74,5 +86,22 @@ return [
         'title' => 'Cere ofertă',
         'content' => 'Obțineți o ofertă specială, personalizată pentru site-ul dvs. web',
         'button_content' => 'Cere ofertă',
+    ],
+    'contact_form' => [
+        'title' => 'CONTACT',
+        'subtitle' => 'Scrieți comanda dvs. în caseta de mesaje',
+        'name' => [
+            'placeholder' => 'Nume',
+        ],
+        'email' => [
+            'placeholder' => 'Email',
+        ],
+        'phone' => [
+            'placeholder' => 'Telefon',
+        ],
+        'message' => [
+            'placeholder' => 'Mesaj',
+        ],
+        'button_title' => 'TRIMITEȚI MESAJE',
     ],
 ];

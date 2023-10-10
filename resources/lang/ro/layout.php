@@ -17,9 +17,11 @@ return [
     ],
     'footer' => [
         'copyright' => [
-            'company_name' => '© 2022 DYNAMIC-CONSULTING-WEB.',
+            'company_name' => '© 2023 DYNAMIC-CONSULTING-WEB.',
             'content' => 'Toate drepturile rezervate.',
         ],
         'privacy_policy' => 'Politica de confidențialitate',
+        'facebook_aria_label' => 'Pagina de facebook a companiei',
+        'linkedin_aria_label' => 'Pagina de linkedin a companiei',
     ],
 ];

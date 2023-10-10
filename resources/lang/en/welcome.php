@@ -92,15 +92,27 @@ return [
         'members' => [
             'darvas_istvan' => [
                 'name' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the websites look and functionality',
+                'twitter_aria_label' => 'István Darvas&amp;apos;s twitter page',
+                'facebook_aria_label' => 'István Darvas&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'István Darvas&amp;apos;s linkedin page'
             ],
             'bagota_jozsef' => [
                 'name' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods',
+                'twitter_aria_label' => 'József Bagota&amp;apos;s twitter page',
+                'facebook_aria_label' => 'József Bagota&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'József Bagota&amp;apos;s linkedin page'
             ],
             'benedek_csaba' => [
                 'name' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality',
+                'twitter_aria_label' => 'Csaba Benedek&amp;apos;s twitter page',
+                'facebook_aria_label' => 'Csaba Benedek&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'Csaba Benedek&amp;apos;s linkedin page'
             ],
             'kovacs_szilard' => [
                 'name' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
+                'twitter_aria_label' => 'Szilárd Kovács&amp;apos;s twitter page',
+                'facebook_aria_label' => 'Szilárd Kovács&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'Szilárd Kovács&amp;apos;s linkedin page'
             ],
         ],
     ],
@@ -111,5 +123,22 @@ return [
         'title' => 'Request offer',
         'content' => 'Get a special, personalised offer for your website',
         'button_content' => 'Request offer',
+    ],
+    'contact_form' => [
+        'title' => 'CONTACT US',
+        'subtitle' => 'Write your order to the message box',
+        'name' => [
+            'placeholder' => 'Name',
+        ],
+        'email' => [
+            'placeholder' => 'Email',
+        ],
+        'phone' => [
+            'placeholder' => 'Phone',
+        ],
+        'message' => [
+            'placeholder' => 'Message',
+        ],
+        'button_title' => 'SEND MESSAGE',
     ],
 ];

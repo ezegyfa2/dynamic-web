@@ -16,9 +16,11 @@ return [
     ],
     'footer' => [
         'copyright' => [
-            'company_name' => '© 2022 DYNAMIC-CONSULTING-WEB.',
+            'company_name' => '© 2023 DYNAMIC-CONSULTING-WEB.',
             'content' => 'Minden jog fenntartva.',
         ],
         'privacy_policy' => 'Adatvédelmi irányelvek',
+        'facebook_aria_label' => 'A cég facebook oldala',
+        'linkedin_aria_label' => 'A cég linkedin oldala',
     ],
 ];

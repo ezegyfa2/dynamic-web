@@ -16,9 +16,11 @@ return [
     ],
     'footer' => [
         'copyright' => [
-            'company_name' => '© 2022 DYNAMIC-CONSULTING-WEB.',
+            'company_name' => '© 2023 DYNAMIC-CONSULTING-WEB.',
             'content' => 'All rights reserved.',
         ],
         'privacy_policy' => 'Privacy policy',
+        'facebook_aria_label' => 'Company&amp;apos;s facebook page',
+        'linkedin_aria_label' => 'Company&amp;apos;s linkedin page',
     ],
 ];

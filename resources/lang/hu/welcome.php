@@ -93,15 +93,27 @@ return [
         'members' => [
             'darvas_istvan' => [
                 'name' => 'Backend és frontend fejlesztő vagyok közel 5 év tasztalattal a hátam mögött. Részt veszek a weboldal külalakjának és funkcióinak a fejlesztésében.',
+                'twitter_aria_label' => 'Darvas István twitter oldala',
+                'facebook_aria_label' => 'Darvas István facebook oldala',
+                'linkedin_aria_label' => 'Darvas István linkedin oldala'
             ],
             'bagota_jozsef' => [
                 'name' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
+                'twitter_aria_label' => 'Bagota József twitter oldala',
+                'facebook_aria_label' => 'Bagota József facebook oldala',
+                'linkedin_aria_label' => 'Bagota József linkedin oldala'
             ],
             'benedek_csaba' => [
                 'name' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében',
+                'twitter_aria_label' => 'Benedek Csaba twitter oldala',
+                'facebook_aria_label' => 'Benedek Csaba facebook oldala',
+                'linkedin_aria_label' => 'Benedek Csaba linkedin oldala'
             ],
             'kovacs_szilard' => [
-                'name' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van'
+                'name' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van',
+                'twitter_aria_label' => 'Kovács Szilárd twitter oldala',
+                'facebook_aria_label' => 'Kovács Szilárd facebook oldala',
+                'linkedin_aria_label' => 'Kovács Szilárd linkedin oldala'
             ],
         ]
     ],
@@ -112,5 +124,22 @@ return [
         'title' => 'Kérjen árajánlatot',
         'content' => 'Kérjen speciális, személyre szabott ajánlatot weboldalára',
         'button_content' => 'Kérjen árajánlatot',
+    ],
+    'contact_form' => [
+        'title' => 'KAPCSOLAT',
+        'subtitle' => 'Írja a megrendelését a szövegdobozba',
+        'name' => [
+            'placeholder' => 'Név',
+        ],
+        'email' => [
+            'placeholder' => 'Email',
+        ],
+        'phone' => [
+            'placeholder' => 'Telefon',
+        ],
+        'message' => [
+            'placeholder' => 'Üzenet',
+        ],
+        'button_title' => 'KÜLDÉS',
     ],
 ];
