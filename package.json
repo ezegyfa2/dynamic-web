@@ -29,6 +29,7 @@
     },
     "dependencies": {
         "bootstrap-select": "^1.14.0-beta3",
+        "bootstrap-vue": "^2.23.1",
         "font-awesome": "^4.7.0",
         "jquery": "^3.6.0",
         "just-clone": "^5.1.0",
