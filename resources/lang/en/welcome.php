@@ -3,38 +3,40 @@
 return [
     'meta_description' => 'Quality website development at affordable price, online presence insurance, low modification cost, Transylvania, region Harghita, Odorheiu Secuiesc',
     'offers' => [
-        'basic' => [
-            'title' => 'BASIC',
+        'presentation' => [
+            'title' => 'Presentation page',
             'content' => 'Landing pages and web shops with some basic functions',
             'parts' => [
                 'responsive_layouts' => 'Responsive layouts',
                 'modern_design' => 'Modern, aesthetic design',
-                'user_friendly' => 'User-friendly interface',
-                'admin_panel' => 'Admin panel to add or edit products',
-                'product_list' => 'Product list with image galleries',
-                'seo_optimizing' => 'SEO optimization',
+                'seo_optimization' => 'SEO optimization',
+                'admin_panel' => 'Modifiable and modernizable architecture',
+                'fast_loading' => 'Fast loading',
+                'ssl' => 'SSL',
+                'backup' => 'Weekly backup',
             ],
         ],
-        'normal' => [
-            'title' => 'NORMAL',
+        'webshop' => [
+            'title' => 'Webshop',
             'content' => 'Web stores with many products and categories',
             'parts' => [
-                'basic_parts' => 'All the advantages of the basic package',
-                'many_product' => 'Many products with varied features',
-                'product_categories' => 'Product categories',
-                'product_filters' => 'Searches and filters in the product list',
-                'users' => 'User login/registration',
+                'basic_parts' => 'All the advantages of Presentation page package',
+                'card_using' => 'Payment by card',
+                'automatic_invoicing' => 'Automatic invoicing',
+                'admin_page' => 'Admin page',
+                'customer_reviews' => 'Customer reviews',
+                'weekly_reviews' => 'Weekly reviews',
             ],
         ],
-        'premium' => [
-            'title' => 'PREMIUM',
+        'online_marketplace' => [
+            'title' => 'Online marketplace',
             'content' => 'Full webshop and marketing campaign',
             'parts' => [
-                'normal_parts' => 'All the benefits of the standard package',
-                'marketing' => 'Facebook and google ads',
-                'optmizing' => 'Marketing campaign optimization',
-                'custom_design' => 'Synchronize design and marketing',
-                'reports' => 'Regular reports on purchases and new customers',
+                'normal_parts' => 'All the benefits of the Webshop package',
+                'user_products' => 'All products uploaded by users',
+                'chat' => 'Chat',
+                'supplier_profiles' => 'Supplier profiles',
+                'promotions' => 'Promotions',
             ],
         ],
         'button_title' => 'PURCHASE',
