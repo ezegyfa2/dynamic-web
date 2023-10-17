@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'meta_description' => 'Quality website development at affordable price, online presence insurance, low modification cost, Transylvania, region Harghita, Odorheiu Secuiesc',
     'offers' => [
         'basic' => [
             'title' => 'BASIC',

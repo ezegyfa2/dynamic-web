@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'meta_description' => 'Minőségi weboldal fejlesztés elérhető áron, online jelenlét biztosítás, alacsony módosítási költség, Erdély, Hargita megye, Székelyudvarhely',
     'offers' => [
         'basic' => [
             'title' => 'BASIC',
@@ -55,9 +56,8 @@ return [
         ],
     ],
     'article1' => [
-        'title' => 'Javítsa hitelességét!',
-        'content' => ' Az üzleti életben nem ritka, hogy több olyan vállalkozás van a piacon, mely az ön termékéhez vagy szolgálatásához hasonlót kínál. '
-            .' Annak érdekében, hogy kitűnjön vetélytársai közül létfontosságú a hitelesség. Mivel az ügyfelek elvárják, hogy a megbízható vállalkozások rendelkezzenek honlappal és közösségi média fiókkal, szüksége van egy vonzó, professzionális weboldalra, mely segít önnek egy erős online jelenlétet kialakítani, és segít minőségi információkat közölni a fogyasztókkal. ',
+        'title' => 'Modernizalhato es modosithato',
+        'content' => 'Ahogy azt cegunk neve is sugallja (Dynamic), weboldalaink elsosorban a rugalmassaggal es a modosithatosaggal emelkednek ki a piac weboldalai kozul. Minden oldal fejlesztesenel kiemelt figyelmet forditunk a strukturaltsagra es a minosegre ezert a kesobbi modositasokat es felujitasokat olcson es rovid ido alatt meg tudjuk valositani, az eredmeny pedig ugyanugy minosegi weboldal lessz mint az eredeti. A folyamatosan valtozo trendek miatt a weboldalak rugalmassaga egyre inkabb fontosabb tenyezove valik. Azok a weboldalak amik napjainkban modernnek szamitanak 2-3 ev mulva mar elavultnak szamitanak tovabbi 1-2 ev mulva pedig egy hanyag vallalkozas latszatat keltik. Ebben az esetben az oldal tulajdonosa keptelen lessz felujitani oldalat ez viszont sok esetben ugyanakkora koltseggel jar mint egy teljesen uj weboldal. Nalunk a felujitas ennek a koltsegnek csupan a toredeke.',
         'image_alt' => 'javítsa hitelességét',
     ],
     'article2' => [

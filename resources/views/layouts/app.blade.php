@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <!-- CSRF Token -->
+    <meta name="description" content="{{ Ezegyfa\LaravelHelperMethods\Language\LanguageMethods::getMetaDescription() }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="ip" content="{{ Request::ip() }}">
 
