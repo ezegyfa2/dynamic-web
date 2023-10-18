@@ -58,19 +58,19 @@ return [
         ],
     ],
     'article1' => [
-        'title' => 'Improve your credibility',
-        'content' => ' In business, it is not uncommon to have several companies in the market that offer a similar product or service to yours.  In order to stand out from your competitors, credibility is vital. Because customers expect trustworthy businesses to have a website and social media accounts, you need an attractive, professional website to help you build a strong online presence and communicate quality information to consumers. ',
-        'image_alt' => 'Improve your credibility',
+        'title' => 'Modernizable and modifiable',
+        'content' => 'As the name of our company suggests (Dynamic), our websites stand out from the rest of the market primarily because of their flexibility and adaptability. We pay particular attention to structure and quality in the development of each site, so that subsequent modifications and upgrades can be carried out cheaply and quickly, and the result will be a website of the same quality as the original. With trends constantly changing, the flexibility of websites is becoming an increasingly important factor. A website that is considered modern today will be outdated in 2-3 years, and in 1-2 years it will look like a sloppy business. In this case, the site owner will be forced to revamp his site, which in many cases will cost the same as a completely new website. In our case, the renovation is only a fraction of this cost.',
+        'image_alt' => 'Modernizable and modifiable',
     ],
     'article2' => [
-        'title' => '24/7 Contact',
-        'content' => ' In business, it is important to always be available to your customers. One of the biggest advantages of a website is that anyone, anywhere, anytime can use it conveniently because it is always available. This means that your customers can use the services and access the information they need about your business outside of working hours and in their free time. ',
-        'image_alt' => '24/7 Contact',
+        'title' => 'Optimized and aesthetic look',
+        'content' => 'Nowadays, only websites that load in at least one second and comply with SEO optimization principles are allowed to be at the top of the Google search results. Our company uses the latest technologies and design patterns to develop fast-loading, secure and aesthetically pleasing websites, ensuring our clients&amp;apos; preferred rankings in the google search results',
+        'image_alt' => 'Optimized and aesthetic look',
     ],
     'article3' => [
-        'title' => 'Go online',
-        'content' => ' In addition to being quickly accessible, a website allows you to get your product or service anywhere in the world. However, the biggest challenge you face is getting your website found in this busy online world. A website provides your prospective customers with a simple, one-stop platform where they can get to know you and your business, increasing your visibility and sales. ',
-        'image_alt' => 'Go online',
+        'title' => 'Operation and maintenance',
+        'content' => 'We provide online hosting for all our websites, guaranteeing fast loading times and secure operation. The data stored on the server is backed up continuously so that it can be restored to its previous state in the event of any failure. The hosting is backed up by ongoing consultation and bug fixing',
+        'image_alt' => 'Operation and maintenance',
     ],
     'article_button_content' => 'Request offer',
     'workflow' => [
