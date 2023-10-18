@@ -12,7 +12,7 @@ return [
     'header' => [
         'title' => 'Indítsa el vállalatát még ma',
         'content' => 'Üzleti weboldalak és webáruházak',
-        'button_title' => 'Szolgáltatásaink megtekintése',
+        'button_title' => 'Szolgáltatásaink',
     ],
     'footer' => [
         'copyright' => [
