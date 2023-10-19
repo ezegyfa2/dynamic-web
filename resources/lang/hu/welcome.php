@@ -59,7 +59,7 @@ return [
     ],
     'article1' => [
         'title' => 'Modernizálható és módosítható',
-        'content' => 'Ahogy, azt cégünk neve is sugallja (Dynamic), weboldalaink elsősorban a rugalmassággal és a módosíthatósággal emelkednek ki a piac weboldalai közül. Minden oldal fejlesztésénél kiemelt figyelmet fordítunk a strukturáltságra és a minőségre, ezért a későbbi módosításokat és felújításokat olcsón es rövid idő alatt meg tudjuk valósítani, az eredmény pedig ugyanúgy minőségi weboldal lesz, mint az eredeti. A folyamatosan változó trendek miatt a weboldalak rugalmassága egyre inkább fontosabb tényezővé válik. Azok a weboldalak, amik napjainkban modernnek számítanak 2-3 év múlva már elavultnak számítanak, további 1-2 év múlva pedig egy hanyag vállalkozás látszatát keltik. Ebben az esetben az oldal tulajdonosa kénytelen lesz felújítani oldalát, ez viszont sok esetben ugyanakkora költséggel jár, mint egy teljesen új weboldal. Nálunk a felújítás ennek a költségnek csupán a töredéke.',
+        'content' => 'Ahogy, azt cégünk neve is sugallja (Dynamic), weboldalaink elsősorban a rugalmassággal és a módosíthatósággal emelkednek ki a piac weboldalai közül. Minden oldal fejlesztésénél kiemelt figyelmet fordítunk a strukturáltságra és a minőségre, ezért a későbbi módosításokat és felújításokat olcsón es rövid idő alatt meg tudjuk valósítani, az eredmény pedig ugyanúgy minőségi weboldal lesz, mint az eredeti.',
         'image_alt' => 'Modernizálható és módosítható',
     ],
     'article2' => [
