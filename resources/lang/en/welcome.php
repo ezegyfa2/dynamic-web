@@ -101,28 +101,32 @@ return [
         'title' => 'Our team',
         'members' => [
             'darvas_istvan' => [
-                'name' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the websites look and functionality',
+                'title' => 'István Darvas',
+                'content' => 'I am a backend and frontend developer with almost 5 years of experience. I develop the look and functionality of the website.',
                 'image_alt' => 'István Darvas&amp;apos;s picture',
                 'twitter_aria_label' => 'István Darvas&amp;apos;s twitter page',
                 'facebook_aria_label' => 'István Darvas&amp;apos;s facebook page',
                 'linkedin_aria_label' => 'István Darvas&amp;apos;s linkedin page'
             ],
             'bagota_jozsef' => [
-                'name' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods',
+                'title' => 'József Bagota',
+                'content' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods.',
                 'image_alt' => 'József Bagota&amp;apos;s picture',
                 'twitter_aria_label' => 'József Bagota&amp;apos;s twitter page',
                 'facebook_aria_label' => 'József Bagota&amp;apos;s facebook page',
                 'linkedin_aria_label' => 'József Bagota&amp;apos;s linkedin page'
             ],
             'benedek_csaba' => [
-                'name' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality',
+                'title' => 'Csaba Benedek',
+                'content' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality.',
                 'image_alt' => 'Csaba Benedek&amp;apos;s picture',
                 'twitter_aria_label' => 'Csaba Benedek&amp;apos;s twitter page',
                 'facebook_aria_label' => 'Csaba Benedek&amp;apos;s facebook page',
                 'linkedin_aria_label' => 'Csaba Benedek&amp;apos;s linkedin page'
             ],
             'kovacs_szilard' => [
-                'name' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
+                'title' => 'Szilárd Kovács',
+                'content' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience.',
                 'image_alt' => 'Szilárd Kovács&amp;apos;s picture',
                 'twitter_aria_label' => 'Szilárd Kovács&amp;apos;s twitter page',
                 'facebook_aria_label' => 'Szilárd Kovács&amp;apos;s facebook page',

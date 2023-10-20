@@ -101,28 +101,32 @@ return [
         'title' => 'A csapatunk',
         'members' => [
             'darvas_istvan' => [
-                'name' => 'Backend és frontend fejlesztő vagyok közel 5 év tasztalattal a hátam mögött. Részt veszek a weboldal külalakjának és funkcióinak a fejlesztésében.',
+                'title' => 'Darvas István',
+                'content' => 'Backend és frontend fejlesztő vagyok közel 5 év tapasztalattal. A weboldal külalakjának és funkcióinak a fejlesztését végzem.',
                 'image_alt' => 'Darvas István képe',
                 'twitter_aria_label' => 'Darvas István twitter oldala',
                 'facebook_aria_label' => 'Darvas István facebook oldala',
                 'linkedin_aria_label' => 'Darvas István linkedin oldala'
             ],
             'bagota_jozsef' => [
-                'name' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
+                'title' => 'Bagota József',
+                'content' => '8 éve tervezem weboldalak külalakjait és arculatait a legmodernebb designer technológiákkal és módszerekkel.',
                 'image_alt' => 'Bagota József képe',
                 'twitter_aria_label' => 'Bagota József twitter oldala',
                 'facebook_aria_label' => 'Bagota József facebook oldala',
                 'linkedin_aria_label' => 'Bagota József linkedin oldala'
             ],
             'benedek_csaba' => [
-                'name' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében',
+                'title' => 'Benedek Csaba',
+                'content' => 'Javascript fejlesztőként dolgozom, több mint 2 év tapasztalatom van kliens és szerveroldali funkciók fejlesztésében.',
                 'image_alt' => 'Benedek Csaba képe',
                 'twitter_aria_label' => 'Benedek Csaba twitter oldala',
                 'facebook_aria_label' => 'Benedek Csaba facebook oldala',
                 'linkedin_aria_label' => 'Benedek Csaba linkedin oldala'
             ],
             'kovacs_szilard' => [
-                'name' => 'Frontend fejlesztéssel foglalkozom, a weboldalak külalakját fejlesztem le. Közel 2 év tapasztalatom van',
+                'title' => 'Kovács Szilárd',
+                'content' => 'Frontend fejlesztéssel foglalkozom. Közel 2 év tapasztalattal rendelkezem. A weboldalak külalakját fejlesztem le.',
                 'image_alt' => 'Kovács Szilárd képe',
                 'twitter_aria_label' => 'Kovács Szilárd twitter oldala',
                 'facebook_aria_label' => 'Kovács Szilárd facebook oldala',
