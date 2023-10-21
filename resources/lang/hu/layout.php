@@ -5,13 +5,13 @@ return [
         'title' => 'DYNAMIC-WEB',
         'services' => 'Szolgáltatások',
         'how_we_do' => 'Hogyan csináljuk',
-        'our_team' => 'A mi csapatunk',
-        'our_works' => 'Munkáink',
-        'request_offer' => 'Ajánlatkérés',
+        'our_team' => 'Csapatunk',
+        'our_works' => 'Korábbi munkáink',
+        'request_offer' => 'Kérjen árajánlatot',
     ],
     'header' => [
-        'title' => 'Indítsa el vállalatát még ma',
-        'content' => 'Üzleti weboldalak és webáruházak',
+        'title' => 'Növelje vállalkozása forgalmát',
+        'content' => 'Online jelenlét elérhető áron',
         'button_title' => 'Szolgáltatásaink',
     ],
     'footer' => [

@@ -45,16 +45,17 @@ return [
         'title' => 'Szolgáltatásaink',
         'subtitle' => '',
         'site_building' => [
-            'title' => 'Oldalépítés',
-            'subtitle' => 'Online jelenlétet biztosítunk az Ön cégének',
+            'title' => 'Weboldal fejlesztés',
+            'subtitle' => 'A bemutató weboldaltól az online piacterekig minden webolal fejlesztését elvállaljuk, legyen szó bármilyen egyedi megoldásról',
         ],
         'admin' => [
-            'title' => 'Admin panel',
-            'subtitle' => 'Átlátható felület az adatok karbantartásához',
+            'title' => 'Üzemeltetés és karbantartás',
+            'subtitle' => 'A szervertől a biztonsági funkciókig és az ellenőrzésekig mindent biztosítunk, ami weboldalának gyors és biztonságos működéséhez szükséges
+            ',
         ],
         'maintance' => [
-            'title' => 'Karbantartás',
-            'subtitle' => 'A webhely kezelése és a fellépő hibák javítása',
+            'title' => 'Módosítás és modernizálás',
+            'subtitle' => 'Az oldal folyamatos vizsgálatával időről időre módosítási javaslatokat teszünk, így biztosítjuk, hogy weboldala mindig megfeleljen a legmodernebb trendeknek és a vásárlói igényeknek',
         ],
     ],
     'article1' => [
@@ -151,7 +152,7 @@ return [
         'button_content' => 'Kérjen árajánlatot',
     ],
     'contact_form' => [
-        'title' => 'KAPCSOLAT',
+        'title' => 'KÉRJEN ÁRAJÁNLATOT',
         'subtitle' => 'Írja a megrendelését a szövegdobozba',
         'name' => [
             'placeholder' => 'Név',

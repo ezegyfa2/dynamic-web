@@ -6,12 +6,12 @@ return [
         'services' => 'Services',
         'how_we_do' => 'How we do',
         'our_team' => 'Our team',
-        'our_works' => 'Our works',
+        'our_works' => 'Latest works',
         'request_offer' => 'Request offer',
     ],
     'header' => [
-        'title' => 'Start your business today',
-        'content' => 'Business websites and webshops',
+        'title' => 'Increase your business',
+        'content' => 'Online presence at affordable prices',
         'button_title' => 'View our services',
     ],
     'footer' => [
