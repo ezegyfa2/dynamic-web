@@ -4,7 +4,7 @@ return [
     'meta_description' => 'Quality website development at affordable price, online presence insurance, low modification cost, Transylvania, region Harghita, Odorheiu Secuiesc',
     'offers' => [
         'presentation' => [
-            'title' => 'Presentation page',
+            'title' => 'Landing page',
             'content' => 'Landing pages and web shops with some basic functions',
             'parts' => [
                 'responsive_layouts' => 'Responsive layouts',
@@ -29,7 +29,7 @@ return [
             ],
         ],
         'online_marketplace' => [
-            'title' => 'Online marketplace',
+            'title' => 'Marketplace',
             'content' => 'Full webshop and marketing campaign',
             'parts' => [
                 'normal_parts' => 'All the benefits of the Webshop package',
