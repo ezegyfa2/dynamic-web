@@ -60,7 +60,7 @@ return [
     ],
     'article1' => [
         'title' => 'Modernizable and modifiable',
-        'content' => 'As the name of our company suggests (Dynamic), our websites stand out from the rest of the market primarily because of their flexibility and adaptability. We pay particular attention to structure and quality in the development of each site, so that subsequent modifications and upgrades can be carried out cheaply and quickly, and the result will be a website of the same quality as the original. With trends constantly changing, the flexibility of websites is becoming an increasingly important factor. A website that is considered modern today will be outdated in 2-3 years, and in 1-2 years it will look like a sloppy business. In this case, the site owner will be forced to revamp his site, which in many cases will cost the same as a completely new website. In our case, the renovation is only a fraction of this cost.',
+        'content' => 'As the name of our company suggests (Dynamic), our websites stand out from the rest of the market primarily because of their flexibility and adaptability. We pay particular attention to structure and quality in the development of each site, so that subsequent modifications and upgrades can be carried out cheaply and quickly, and the result will be a website of the same quality as the original.',
         'image_alt' => 'Modernizable and modifiable',
     ],
     'article2' => [
