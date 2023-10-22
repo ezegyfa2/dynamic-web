@@ -10,7 +10,7 @@ return [
         'request_offer' => 'Kérjen árajánlatot',
     ],
     'header' => [
-        'title' => 'Növelje vállalkozása forgalmát',
+        'title' => 'Növelje cége forgalmát',
         'content' => 'Online jelenlét elérhető áron',
         'button_title' => 'Szolgáltatásaink',
     ],
