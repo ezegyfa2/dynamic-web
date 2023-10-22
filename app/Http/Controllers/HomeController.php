@@ -206,7 +206,7 @@ class HomeController extends Controller
             $errorMessages = HttpMethods::updateErrors($e->errors(), $e->validator->failed());
             return redirect()->back()->withInput(request()->all())->withErrors($errorMessages);
         }
-        return redirect('/contact-and-faq')->with('success_message', __('welcome.contact_success'));
+        return redirect(__('routes.thank-you'))->with('success_message', __('welcome.contact_success'));
     }
 
     public function getTemplateLayoutParams() {
