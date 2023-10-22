@@ -14,10 +14,17 @@ use stdClass;
 class HomeController extends Controller
 {
     public function welcome() {
+        $templateParams = DynamicTemplateMethods::getTemplateLayoutParams();
+        $templateParams->contact_form = new \stdClass;
+        $templateParams->contact_form->form_item_sections = json_decode(file_get_contents(base_path('app/Templates/contactUsTableInfos.json')));
+        foreach ($templateParams->contact_form->form_item_sections as $formItemSection) {
+            $formItemSection->data->label = __($formItemSection->data->label);
+            $formItemSection->data->placeholder = __($formItemSection->data->placeholder);
+        }
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'dynamic_web_welcome', 
             'welcome', 
-            $this->getTemplateLayoutParams(),
+            $templateParams,
             [ 
                 'welcome',
             ],

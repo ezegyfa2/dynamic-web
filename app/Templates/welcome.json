@@ -1,1 +1,739 @@
-{"type":"page","data":{"success_message_sections":[],"navigation_bar_section":{"type":"dynamic-web-navigation-bar","data":{"title":"DYNAMIC-WEB","title_url":"/","link_sections":[{"type":"dynamic-web-navigation-link","data":{"url":"/#services","content":"--layout.navbar.services"}},{"type":"dynamic-web-navigation-link","data":{"url":"/#how_we_do","content":"--layout.navbar.how_we_do"}},{"type":"dynamic-web-navigation-link","data":{"url":"/#our_team","content":"--layout.navbar.our_team"}},{"type":"dynamic-web-navigation-link","data":{"url":"/#our_works","content":"--layout.navbar.our_works"}},{"type":"dynamic-web-button-navigation-link","data":{"url":"/request-offer","content":"--layout.navbar.request_offer"}},{"type":"dynamic-web-dropdown-navigation-link","data":{"badge_content":"EN","dropdown_section":{"type":"dynamic-web-list-dropdown","data":{"dropdown_item_sections":[{"type":"dynamic-web-link-dropdown-item","data":{"url":"http://dynamic-web.test/en","content":"EN"}},{"type":"dynamic-web-link-dropdown-item","data":{"url":"http://dynamic-web.test/hu","content":"HU"}},{"type":"dynamic-web-link-dropdown-item","data":{"url":"http://dynamic-web.test/ro","content":"RO"}}],"dropdown_link_id":"dropdown17"}}}}]}},"content_sections":[{"type":"dynamic-web-header","data":{"title_section":{"type":"right-content","data":{"content_section":{"type":"dynamic-web-upper-line-text-content","data":{"title":"--layout.header.title","content":"--layout.header.content","button_title":"--layout.header.button_title","button_link":"#services"}}}}}},{"type":"dynamic-web-services","data":{"id":"services","title_section":{"type":"dynamic-web-medium-text-content","data":{"title":"--welcome.services.title","content":"--welcome.services.subtitle"}},"text_content_sections":[{"type":"dynamic-web-text-content-with-icon","data":{"icon_class":"fa-solid fa-globe","title":"--welcome.services.site_building.title","content":"--welcome.services.site_building.subtitle"}},{"type":"dynamic-web-text-content-with-icon","data":{"icon_class":"fa-solid fa-solar-panel","title":"--welcome.services.admin.title","content":"--welcome.services.admin.subtitle"}},{"type":"dynamic-web-text-content-with-icon","data":{"icon_class":"fa-solid fa-wrench","title":"--welcome.services.maintance.title","content":"--welcome.services.maintance.subtitle"}}]}},{"type":"description-section-container","data":{"description_sections":[{"type":"dynamic-web-description-section","data":{"text_content_section":{"type":"dynamic-web-article-small-text-content","data":{"title":"--welcome.article1.title","content":"--welcome.article1.content","button_content":"--welcome.article_button_content","url":"/request-offer","added_classes":{".content":["mb-0"]}}},"image_url":"images/Articles/blonde-woman-floral-dress-cafe.jpg","image_alt":"..."}},{"type":"dynamic-web-description-section","data":{"text_content_section":{"type":"dynamic-web-article-small-text-content","data":{"title":"--welcome.article2.title","content":"--welcome.article2.content","button_content":"--welcome.article_button_content","url":"/request-offer","added_classes":{".content":["mb-0"]}}},"image_url":"images/Articles/e-commerce-shop-online-homepage-sale-concept.jpg","image_alt":"..."}},{"type":"dynamic-web-description-section","data":{"text_content_section":{"type":"dynamic-web-article-small-text-content","data":{"title":"--welcome.article3.title","content":"--welcome.article3.content","button_content":"--welcome.article_button_content","url":"/request-offer","added_classes":{".content":["mb-0"]}}},"image_url":"images/Articles/hands-holding-credit-card-typing-laptop.jpg","image_alt":"..."}}]}},{"type":"dynamic-web-how-we-do","data":{"title_section":{"type":"dynamic-web-medium-text-content","data":{"title":"--welcome.workflow.title","content":"--welcome.workflow.subtitle"}},"timeline_section":{"type":"dynamic-web-timeline","data":{"timeline_item_sections":[{"type":"dynamic-web-timeline-item","data":{"image_url":"images/roadmap/vazlat.jpg","content_sections":[{"type":"dynamic-web-two-title-text-content","data":{"title":"--welcome.workflow.sketch.title","content":"--welcome.workflow.sketch.content"}}]}},{"type":"dynamic-web-timeline-item","data":{"image_url":"images/roadmap/tervezes.jpg","is_inverted":true,"content_sections":[{"type":"dynamic-web-two-title-text-content","data":{"title":"--welcome.workflow.design.title","content":"--welcome.workflow.design.content"}}]}},{"type":"dynamic-web-timeline-item","data":{"image_url":"images/roadmap/fejlesztes.jpg","content_sections":[{"type":"dynamic-web-two-title-text-content","data":{"title":"--welcome.workflow.develop.title","content":"--welcome.workflow.develop.content"}}]}},{"type":"dynamic-web-timeline-item","data":{"image_url":"images/roadmap/teszteles.jpg","is_inverted":true,"with_line":false,"content_sections":[{"type":"dynamic-web-two-title-text-content","data":{"title":"--welcome.workflow.test.title","content":"--welcome.workflow.test.content"}}]}},{"type":"dynamic-web-medium-text-content-with-button","data":{"title":"--welcome.request_offer.title","content":"--welcome.request_offer.content","url":"/request-offer","button_content":"--welcome.request_offer.button_content"}}]}}}},{"type":"dynamic-web-team","data":{"title_section":{"type":"dynamic-web-team-medium-text-content","data":{"title":"--welcome.team.title"}},"member_sections":[{"type":"dynamic-web-team-member","data":{"image_url":"images/Articles/darvas_istvan.jpg","image_alt":"...","title_section":{"type":"dynamic-web-small-text-content","data":{"title":"Darvas Istvan","content":"--welcome.team.members.darvas_istvan"}},"contact_icons_section":{"type":"wertically-icon-links","data":{"icon_sections":[{"type":"dynamic-web-button-icon-link","data":{"url":"https://twitter.com/DarvasIstvan1","icon_class":"fab fa-twitter"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.facebook.com/ismeros.vaok/","icon_class":"fab fa-facebook-f"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.linkedin.com/in/darvas-istvan-2a921a26b/","icon_class":"fab fa-linkedin-in"}}]}}}},{"type":"dynamic-web-team-member","data":{"image_url":"images/Articles/bagota_jozsef.jpg","image_alt":"...","title_section":{"type":"dynamic-web-small-text-content","data":{"title":"Bagota Jozsef","content":"--welcome.team.members.bagota_jozsef"}},"contact_icons_section":{"type":"wertically-icon-links","data":{"icon_sections":[{"type":"dynamic-web-button-icon-link","data":{"url":"https://twitter.com/JBagota","icon_class":"fab fa-twitter"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.facebook.com/jbagota","icon_class":"fab fa-facebook-f"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.linkedin.com/in/jbagota/","icon_class":"fab fa-linkedin-in"}}]}}}},{"type":"dynamic-web-team-member","data":{"image_url":"images/Articles/benedek_csaba.jpg","image_alt":"...","title_section":{"type":"dynamic-web-small-text-content","data":{"title":"Benedek Csaba","content":"--welcome.team.members.benedek_csaba"}},"contact_icons_section":{"type":"wertically-icon-links","data":{"icon_sections":[{"type":"dynamic-web-button-icon-link","data":{"url":"https://twitter.com/CsabaBenedek27","icon_class":"fab fa-twitter"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.facebook.com/csaba.benedek.106","icon_class":"fab fa-facebook-f"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.linkedin.com/in/csaba-benedek-87522b26b","icon_class":"fab fa-linkedin-in"}}]}}}},{"type":"dynamic-web-team-member","data":{"image_url":"images/Articles/kovacs_szilard.jpg","image_alt":"...","title_section":{"type":"dynamic-web-small-text-content","data":{"title":"Kovacs Szilard","content":"--welcome.team.members.kovacs_szilard"}},"contact_icons_section":{"type":"wertically-icon-links","data":{"icon_sections":[{"type":"dynamic-web-button-icon-link","data":{"url":"https://twitter.com/kSzili03","icon_class":"fab fa-twitter"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.facebook.com/szilard.kovacs.754918","icon_class":"fab fa-facebook-f"}},{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.linkedin.com/in/szil%C3%A1rd-kov%C3%A1cs-71615326b/","icon_class":"fab fa-linkedin-in"}}]}}}}]}},{"type":"dynamic-web-latest-works","data":{"title_section":{"type":"dynamic-web-medium-text-content","data":{"title":"--welcome.our_works.title"}},"images":[{"image_alt":"","image_url":"images/latestworks/7554326.jpg"},{"image_alt":"","image_url":"images/latestworks/6207747.jpg"},{"image_alt":"","image_url":"images/latestworks/7534274.jpg"},{"image_alt":"","image_url":"images/latestworks/8285773.jpg"},{"image_alt":"","image_url":"images/latestworks/5471806.jpg"},{"image_alt":"","image_url":"images/latestworks/4264527.jpg"},{"image_alt":"","image_url":"images/latestworks/4141109.jpg"},{"image_alt":"","image_url":"images/latestworks/3175709.jpg"}],"request_offer_section":{"type":"dynamic-web-medium-text-content-with-button","data":{"title":"--welcome.request_offer.title","content":"--welcome.request_offer.content","url":"/request-offer","button_content":"--welcome.request_offer.button_content"}}}}],"footer_section":{"type":"dynamic-web-footer","data":{"icon_links_section":{"type":"wertically-icon-links","data":{"icon_sections":[{"type":"dynamic-web-button-icon-link","data":{"url":"https://www.facebook.com/profile.php?id=100084068406799","icon_class":"fab fa-facebook-f"}},{"type":"dynamic-web-button-icon-link","data":{"url":"","icon_class":"fa-brands fa-linkedin-in"}}]}},"footer_link_sections":[{"type":"dynamic-web-dark-link","data":{"url":"/privacy_policy","content":"--layout.footer.privacy_policy","added_classes":{"root":"me-3"}}}],"copyright":{"company_name":"--layout.footer.copyright.company_name","content":"--layout.footer.copyright.content"}}}}}
+{
+    "type": "page",
+    "data": {
+        "success_message_sections": [],
+        "navigation_bar_section": {
+            "type": "dynamic-web-navigation-bar",
+            "data": {
+                "title": "DYNAMIC-WEB",
+                "title_url": "/",
+                "link_sections": [
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#services",
+                            "content": "--layout.navbar.services"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#how_we_do",
+                            "content": "--layout.navbar.how_we_do"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_team",
+                            "content": "--layout.navbar.our_team"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_works",
+                            "content": "--layout.navbar.our_works"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-button-navigation-link",
+                        "data": {
+                            "url": "/#contact_us",
+                            "content": "--layout.navbar.request_offer"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-dropdown-navigation-link",
+                        "data": {
+                            "badge_content": "HU",
+                            "dropdown_section": {
+                                "type": "dynamic-web-list-dropdown",
+                                "data": {
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/hu",
+                                                "content": "HU"
+                                            }
+                                        }
+                                    ],
+                                    "dropdown_link_id": "dropdown66"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "content_sections": [
+            {
+                "type": "dynamic-web-header",
+                "data": {
+                    "title_section": {
+                        "type": "right-content",
+                        "data": {
+                            "content_section": {
+                                "type": "dynamic-web-upper-line-text-content",
+                                "data": {
+                                    "title": "--layout.header.title",
+                                    "content": "--layout.header.content",
+                                    "button_title": "--layout.header.button_title",
+                                    "button_link": "#services"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "dynamic-web-services",
+                "data": {
+                    "id": "services",
+                    "title_section": {
+                        "type": "dynamic-web-medium-text-content",
+                        "data": {
+                            "title": "--welcome.services.title",
+                            "content": "--welcome.services.subtitle"
+                        }
+                    },
+                    "text_content_sections": [
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fa-solid fa-globe",
+                                "title": "--welcome.services.site_building.title",
+                                "content": "--welcome.services.site_building.subtitle"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fa-solid fa-solar-panel",
+                                "title": "--welcome.services.admin.title",
+                                "content": "--welcome.services.admin.subtitle"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fa-solid fa-wrench",
+                                "title": "--welcome.services.maintance.title",
+                                "content": "--welcome.services.maintance.subtitle"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "dynamic-web-offer-container",
+                "data": {
+                    "id": "offers",
+                    "column_sections": [
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.basic.title",
+                                        "content": "--welcome.offers.basic.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.basic.parts.responsive_layouts",
+                                    "--welcome.offers.basic.parts.modern_design",
+                                    "--welcome.offers.basic.parts.user_friendly",
+                                    "--welcome.offers.basic.parts.admin_panel",
+                                    "--welcome.offers.basic.parts.product_list",
+                                    "--welcome.offers.basic.parts.seo_optimizing"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.normal.title",
+                                        "content": "--welcome.offers.normal.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.normal.parts.basic_parts",
+                                    "--welcome.offers.normal.parts.many_product",
+                                    "--welcome.offers.normal.parts.product_categories",
+                                    "--welcome.offers.normal.parts.product_filters",
+                                    "--welcome.offers.normal.parts.users"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.premium.title",
+                                        "content": "--welcome.offers.premium.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.premium.parts.normal_parts",
+                                    "--welcome.offers.premium.parts.marketing",
+                                    "--welcome.offers.premium.parts.optmizing",
+                                    "--welcome.offers.premium.parts.custom_design",
+                                    "--welcome.offers.premium.parts.reports"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "fluid-description-section-container",
+                "data": {
+                    "description_sections": [
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-article-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article1.title",
+                                        "content": "--welcome.article1.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "articles/easyToModify",
+                                "image_alt": "--welcome.article1.image_alt"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-article-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article2.title",
+                                        "content": "--welcome.article2.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.webp",
+                                "image_alt": "--welcome.article2.image_alt"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-article-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article3.title",
+                                        "content": "--welcome.article3.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "images/articles/hands-holding-credit-card-typing-laptop.webp",
+                                "image_alt": "--welcome.article3.image_alt"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "dynamic-web-how-we-do",
+                "data": {
+                    "title_section": {
+                        "type": "dynamic-web-medium-text-content",
+                        "data": {
+                            "title": "--welcome.workflow.title",
+                            "content": "--welcome.workflow.subtitle"
+                        }
+                    },
+                    "timeline_section": {
+                        "type": "dynamic-web-timeline",
+                        "data": {
+                            "timeline_item_sections": [
+                                {
+                                    "type": "dynamic-web-timeline-item",
+                                    "data": {
+                                        "image_url": "images/roadmap/vazlat.webp",
+                                        "image_alt": "--welcome.workflow.sketch.image_alt",
+                                        "content_sections": [
+                                            {
+                                                "type": "dynamic-web-two-title-text-content",
+                                                "data": {
+                                                    "title": "--welcome.workflow.sketch.title",
+                                                    "content": "--welcome.workflow.sketch.content"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "dynamic-web-timeline-item",
+                                    "data": {
+                                        "image_url": "images/roadmap/tervezes.webp",
+                                        "image_alt": "--welcome.workflow.design.image_alt",
+                                        "is_inverted": true,
+                                        "content_sections": [
+                                            {
+                                                "type": "dynamic-web-two-title-text-content",
+                                                "data": {
+                                                    "title": "--welcome.workflow.design.title",
+                                                    "content": "--welcome.workflow.design.content"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "dynamic-web-timeline-item",
+                                    "data": {
+                                        "image_url": "images/roadmap/fejlesztes.webp",
+                                        "image_alt": "--welcome.workflow.develop.image_alt",
+                                        "content_sections": [
+                                            {
+                                                "type": "dynamic-web-two-title-text-content",
+                                                "data": {
+                                                    "title": "--welcome.workflow.develop.title",
+                                                    "content": "--welcome.workflow.develop.content"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "dynamic-web-timeline-item",
+                                    "data": {
+                                        "image_url": "images/roadmap/teszteles.webp",
+                                        "image_alt": "--welcome.workflow.test.image_alt",
+                                        "is_inverted": true,
+                                        "with_line": false,
+                                        "content_sections": [
+                                            {
+                                                "type": "dynamic-web-two-title-text-content",
+                                                "data": {
+                                                    "title": "--welcome.workflow.test.title",
+                                                    "content": "--welcome.workflow.test.content"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "dynamic-web-medium-text-content-with-button",
+                                    "data": {
+                                        "title": "--welcome.request_offer.title",
+                                        "content": "--welcome.request_offer.content",
+                                        "url": "#contact_us",
+                                        "button_content": "--welcome.request_offer.button_content"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "type": "dynamic-web-team",
+                "data": {
+                    "title_section": {
+                        "type": "dynamic-web-team-medium-text-content",
+                        "data": {
+                            "title": "--welcome.team.title"
+                        }
+                    },
+                    "member_sections": [
+                        {
+                            "type": "dynamic-web-team-member",
+                            "data": {
+                                "image_url": "images/team/darvas_istvan.webp",
+                                "image_alt": "--welcome.team.members.darvas_istvan.image_alt",
+                                "title_section": {
+                                    "type": "dynamic-web-small-text-content",
+                                    "data": {
+                                        "title": "Darvas Istvan",
+                                        "content": "--welcome.team.members.darvas_istvan.name"
+                                    }
+                                },
+                                "contact_icons_section": {
+                                    "type": "wertically-icon-links",
+                                    "data": {
+                                        "icon_sections": [
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://twitter.com/DarvasIstvan1",
+                                                    "icon_class": "fab fa-twitter",
+                                                    "aria_label": "--welcome.team.members.darvas_istvan.twitter_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.facebook.com/ismeros.vaok/",
+                                                    "icon_class": "fab fa-facebook-f",
+                                                    "aria_label": "--welcome.team.members.darvas_istvan.facebook_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.linkedin.com/in/darvas-istvan-2a921a26b/",
+                                                    "icon_class": "fab fa-linkedin-in",
+                                                    "aria_label": "--welcome.team.members.darvas_istvan.linkedin_aria_label"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-team-member",
+                            "data": {
+                                "image_url": "images/team/bagota_jozsef.webp",
+                                "image_alt": "--welcome.team.members.bagota_jozsef.image_alt",
+                                "title_section": {
+                                    "type": "dynamic-web-small-text-content",
+                                    "data": {
+                                        "title": "Bagota Jozsef",
+                                        "content": "--welcome.team.members.bagota_jozsef.name"
+                                    }
+                                },
+                                "contact_icons_section": {
+                                    "type": "wertically-icon-links",
+                                    "data": {
+                                        "icon_sections": [
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://twitter.com/JBagota",
+                                                    "icon_class": "fab fa-twitter",
+                                                    "aria_label": "--welcome.team.members.bagota_jozsef.twitter_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.facebook.com/jbagota",
+                                                    "icon_class": "fab fa-facebook-f",
+                                                    "aria_label": "--welcome.team.members.bagota_jozsef.facebook_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.linkedin.com/in/jbagota/",
+                                                    "icon_class": "fab fa-linkedin-in",
+                                                    "aria_label": "--welcome.team.members.bagota_jozsef.linkedin_aria_label"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-team-member",
+                            "data": {
+                                "image_url": "images/team/benedek_csaba.webp",
+                                "image_alt": "--welcome.team.members.benedek_csaba.image_alt",
+                                "title_section": {
+                                    "type": "dynamic-web-small-text-content",
+                                    "data": {
+                                        "title": "Benedek Csaba",
+                                        "content": "--welcome.team.members.benedek_csaba.name"
+                                    }
+                                },
+                                "contact_icons_section": {
+                                    "type": "wertically-icon-links",
+                                    "data": {
+                                        "icon_sections": [
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://twitter.com/CsabaBenedek27",
+                                                    "icon_class": "fab fa-twitter",
+                                                    "aria_label": "--welcome.team.members.benedek_csaba.twitter_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.facebook.com/csaba.benedek.106",
+                                                    "icon_class": "fab fa-facebook-f",
+                                                    "aria_label": "--welcome.team.members.benedek_csaba.facebook_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.linkedin.com/in/csaba-benedek-87522b26b",
+                                                    "icon_class": "fab fa-linkedin-in",
+                                                    "aria_label": "--welcome.team.members.benedek_csaba.linkedin_aria_label"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-team-member",
+                            "data": {
+                                "image_url": "images/team/kovacs_szilard.webp",
+                                "image_alt": "--welcome.team.members.kovacs_szilard.image_alt",
+                                "title_section": {
+                                    "type": "dynamic-web-small-text-content",
+                                    "data": {
+                                        "title": "Kovacs Szilard",
+                                        "content": "--welcome.team.members.kovacs_szilard.name"
+                                    }
+                                },
+                                "contact_icons_section": {
+                                    "type": "wertically-icon-links",
+                                    "data": {
+                                        "icon_sections": [
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://twitter.com/kSzili03",
+                                                    "icon_class": "fab fa-twitter",
+                                                    "aria_label": "--welcome.team.members.kovacs_szilard.twitter_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.facebook.com/szilard.kovacs.754918",
+                                                    "icon_class": "fab fa-facebook-f",
+                                                    "aria_label": "--welcome.team.members.kovacs_szilard.facebook_aria_label"
+                                                }
+                                            },
+                                            {
+                                                "type": "dynamic-web-button-icon-link",
+                                                "data": {
+                                                    "url": "https://www.linkedin.com/in/szil%C3%A1rd-kov%C3%A1cs-71615326b/",
+                                                    "icon_class": "fab fa-linkedin-in",
+                                                    "aria_label": "--welcome.team.members.kovacs_szilard.linkedin_aria_label"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "dynamic-web-latest-works",
+                "data": {
+                    "title_section": {
+                        "type": "dynamic-web-medium-text-content",
+                        "data": {
+                            "title": "--welcome.our_works.title"
+                        }
+                    },
+                    "images": [
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/7554326.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/6207747.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/7534274.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/8285773.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/5471806.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/4264527.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/4141109.webp"
+                        },
+                        {
+                            "image_alt": "--welcome.our_works.image_alt",
+                            "image_url": "images/latestworks/3175709.webp"
+                        }
+                    ],
+                    "request_offer_section": {
+                        "type": "dynamic-web-medium-text-content-with-button",
+                        "data": {
+                            "title": "--welcome.request_offer.title",
+                            "content": "--welcome.request_offer.content",
+                            "url": "#contact_us",
+                            "button_content": "--welcome.request_offer.button_content"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "dynamic-web-contact-form",
+                "data": {
+                    "id": "contact_us",
+                    "url": "/contact-and-faq",
+                    "title_section": {
+                        "type": "dynamic-web-white-medium-text-content",
+                        "data": {
+                            "title": "--welcome.contact_form.title",
+                            "content": "--welcome.contact_form.subtitle"
+                        }
+                    },
+                    "form_item_sections": [
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "name",
+                                "label": "welcome.contact_form.name.label",
+                                "default": null,
+                                "required": true,
+                                "validation_errors": [],
+                                "form_item_type": "input",
+                                "type": "text",
+                                "maxlength": 255,
+                                "minlength": 0,
+                                "placeholder": "Név"
+                            }
+                        },
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "email",
+                                "label": "welcome.contact_form.email.label",
+                                "default": null,
+                                "required": true,
+                                "validation_errors": [],
+                                "form_item_type": "input",
+                                "type": "email",
+                                "maxlength": 255,
+                                "minlength": 0,
+                                "placeholder": "Email"
+                            }
+                        },
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "phone",
+                                "label": "welcome.contact_form.phone.label",
+                                "default": null,
+                                "required": true,
+                                "validation_errors": [],
+                                "form_item_type": "input",
+                                "type": "tel",
+                                "maxlength": 15,
+                                "minlength": 0,
+                                "placeholder": "Telefon"
+                            }
+                        },
+                        {
+                            "type": "textarea",
+                            "data": {
+                                "name": "message",
+                                "label": "welcome.contact_form.message.label",
+                                "default": null,
+                                "required": true,
+                                "validation_errors": [],
+                                "placeholder": "Üzenet"
+                            }
+                        }
+                    ],
+                    "button_title": "--welcome.contact_form.button_title"
+                }
+            }
+        ],
+        "footer_section": {
+            "type": "dynamic-web-footer",
+            "data": {
+                "icon_links_section": {
+                    "type": "wertically-icon-links",
+                    "data": {
+                        "icon_sections": [
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "https://www.facebook.com/profile.php?id=100084068406799",
+                                    "icon_class": "fab fa-facebook-f",
+                                    "aria_label": "--layout.footer.facebook_aria_label"
+                                }
+                            },
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "https://www.linkedin.com/company/100687086",
+                                    "icon_class": "fa-brands fa-linkedin-in",
+                                    "aria_label": "--layout.footer.linkedin_aria_label"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "footer_link_sections": [
+                    {
+                        "type": "dynamic-web-dark-link",
+                        "data": {
+                            "url": "/privacy_policy",
+                            "content": "--layout.footer.privacy_policy",
+                            "added_classes": {
+                                "root": "me-3"
+                            }
+                        }
+                    }
+                ],
+                "copyright": {
+                    "company_name": "--layout.footer.copyright.company_name",
+                    "content": "--layout.footer.copyright.content"
+                }
+            }
+        }
+    }
+}
