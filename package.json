@@ -40,6 +40,7 @@
         "pug-plain-loader": "^1.1.0",
         "purgecss-from-pug": "^5.0.0",
         "sha256": "^0.2.0",
+        "sharp": "^0.32.6",
         "vue-select-picker-bootstrap": "^1.0.5",
         "whatwg-fetch": "^3.6.19"
     }
