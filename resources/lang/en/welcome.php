@@ -45,16 +45,17 @@ return [
         'title' => 'Our services',
         'subtitle' => '',
         'site_building' => [
-            'title' => 'Site building',
-            'subtitle' => 'We provide an online presence for your business',
+            'title' => 'Website development',
+            'subtitle' => 'We develop all types of websites, from presentation websites to online marketplaces, whatever your specific needs',
         ],
         'admin' => [
-            'title' => 'Admin panel',
-            'subtitle' => 'Transparent interface for data maintenance',
+            'title' => 'Operations and Maintenance',
+            'subtitle' => 'From server to security features and controls, we provide everything you need to keep your website running fast and secure
+            ',
         ],
         'maintance' => [
-            'title' => 'Maintenance',
-            'subtitle' => 'Site management and troubleshooting',
+            'title' => 'Modification and modernization',
+            'subtitle' => 'By constantly reviewing the site, we will periodically suggest changes to ensure that your website is always up to date with the latest trends and customer needs',
         ],
     ],
     'article1' => [
@@ -151,7 +152,7 @@ return [
         'button_content' => 'Request offer',
     ],
     'contact_form' => [
-        'title' => 'CONTACT US',
+        'title' => 'Request offer',
         'subtitle' => 'Write your order to the message box',
         'name' => [
             'placeholder' => 'Name',
