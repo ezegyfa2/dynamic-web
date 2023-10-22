@@ -5,7 +5,7 @@ return [
     'offers' => [
         'presentation' => [
             'title' => 'Bemutató oldal',
-            'content' => 'Landing pages és webshopok néhány alapfunkcióval',
+            'content' => 'Online jelenlét vállalkozása számára',
             'parts' => [
                 'responsive_layouts' => 'Mobilbarát felület',
                 'modern_design' => 'Modern, esztétikus design',
@@ -18,7 +18,7 @@ return [
         ],
         'webshop' => [
             'title' => 'Webshop',
-            'content' => 'Webáruházak sok termékkel és kategóriával',
+            'content' => 'Tegye elérhetővé termékeit online',
             'parts' => [
                 'basic_parts' => 'A bemutató oldal összes előnye',
                 'card_using' => 'Kártyás fizetés',
@@ -30,7 +30,7 @@ return [
         ],
         'online_marketplace' => [
             'title' => 'Online piactér',
-            'content' => 'Teljes webshop és marketing kampány',
+            'content' => 'Biztositson online felületet eladók és vásárlók számára egyaránt',
             'parts' => [
                 'normal_parts' => 'A Webshop összes előnye',
                 'user_products' => 'Felhasználók által feltöltött összes termékek',
@@ -153,7 +153,7 @@ return [
     ],
     'contact_form' => [
         'title' => 'KÉRJEN ÁRAJÁNLATOT',
-        'subtitle' => 'Írja a megrendelését a szövegdobozba',
+        'subtitle' => 'Írja meg személyre szabott megrendelését',
         'name' => [
             'placeholder' => 'Név',
         ],
