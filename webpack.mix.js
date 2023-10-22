@@ -30,13 +30,13 @@ global.currentWebpackConfig = {
 
 mix.webpackConfig(currentWebpackConfig)
 //mix.js('resources/js/basicPackages.js', 'public/js').vue()
-//mix.js('resources/js/welcome.js', 'public/js').vue()
+mix.js('resources/js/welcome.js', 'public/js').vue().compress()
 //mix.sass('resources/sass/welcome.scss', 'public/css/')
 /*mix.copy(
     path.join('node_modules', 'dynamic-web-vue-components', 'src', 'Welcome', 'CompiledTemplate.json'), 
     path.join('app', 'Templates', 'Welcome.json')
 )*/
-compileAssets(mix, 'dynamic-web-vue-components', [ 'Welcome' ])
+//compileAssets(mix, 'dynamic-web-vue-components', [ 'Welcome' ])
 //compileAssets(mix, 'dynamic-web-vue-components', [ 'RequestOffer' ])
 //compileAssets(mix, 'dynamic-web-vue-components', [ 'ThankYou' ])
 //replaceComponentRegistrations('./node_modules/helper-vue-components/src')

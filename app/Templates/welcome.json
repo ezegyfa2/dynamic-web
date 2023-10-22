@@ -54,19 +54,19 @@
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://dynamic-web.test/en",
+                                                "url": "http://localhost:8888/en",
                                                 "content": "EN"
                                             }
                                         },
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://dynamic-web.test/hu",
+                                                "url": "http://localhost:8888/hu",
                                                 "content": "HU"
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown66"
+                                    "dropdown_link_id": "dropdown64"
                                 }
                             }
                         }
@@ -144,17 +144,18 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.basic.title",
-                                        "content": "--welcome.offers.basic.content"
+                                        "title": "--welcome.offers.presentation.title",
+                                        "content": "--welcome.offers.presentation.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.basic.parts.responsive_layouts",
-                                    "--welcome.offers.basic.parts.modern_design",
-                                    "--welcome.offers.basic.parts.user_friendly",
-                                    "--welcome.offers.basic.parts.admin_panel",
-                                    "--welcome.offers.basic.parts.product_list",
-                                    "--welcome.offers.basic.parts.seo_optimizing"
+                                    "--welcome.offers.presentation.parts.responsive_layouts",
+                                    "--welcome.offers.presentation.parts.modern_design",
+                                    "--welcome.offers.presentation.parts.seo_optimization",
+                                    "--welcome.offers.presentation.parts.admin_panel",
+                                    "--welcome.offers.presentation.parts.fast_loading",
+                                    "--welcome.offers.presentation.parts.ssl",
+                                    "--welcome.offers.presentation.parts.backup"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
@@ -166,16 +167,17 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.normal.title",
-                                        "content": "--welcome.offers.normal.content"
+                                        "title": "--welcome.offers.webshop.title",
+                                        "content": "--welcome.offers.webshop.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.normal.parts.basic_parts",
-                                    "--welcome.offers.normal.parts.many_product",
-                                    "--welcome.offers.normal.parts.product_categories",
-                                    "--welcome.offers.normal.parts.product_filters",
-                                    "--welcome.offers.normal.parts.users"
+                                    "--welcome.offers.webshop.parts.basic_parts",
+                                    "--welcome.offers.webshop.parts.card_using",
+                                    "--welcome.offers.webshop.parts.automatic_invoicing",
+                                    "--welcome.offers.webshop.parts.admin_page",
+                                    "--welcome.offers.webshop.parts.customer_reviews",
+                                    "--welcome.offers.webshop.parts.weekly_reviews"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
@@ -187,16 +189,16 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.premium.title",
-                                        "content": "--welcome.offers.premium.content"
+                                        "title": "--welcome.offers.online_marketplace.title",
+                                        "content": "--welcome.offers.online_marketplace.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.premium.parts.normal_parts",
-                                    "--welcome.offers.premium.parts.marketing",
-                                    "--welcome.offers.premium.parts.optmizing",
-                                    "--welcome.offers.premium.parts.custom_design",
-                                    "--welcome.offers.premium.parts.reports"
+                                    "--welcome.offers.online_marketplace.parts.normal_parts",
+                                    "--welcome.offers.online_marketplace.parts.user_products",
+                                    "--welcome.offers.online_marketplace.parts.chat",
+                                    "--welcome.offers.online_marketplace.parts.supplier_profiles",
+                                    "--welcome.offers.online_marketplace.parts.promotions"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
@@ -247,7 +249,7 @@
                                         }
                                     }
                                 },
-                                "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.webp",
+                                "image_url": "articles/modernAestheticDesign",
                                 "image_alt": "--welcome.article2.image_alt"
                             }
                         },
@@ -268,7 +270,7 @@
                                         }
                                     }
                                 },
-                                "image_url": "images/articles/hands-holding-credit-card-typing-laptop.webp",
+                                "image_url": "articles/hostingMaintenance",
                                 "image_alt": "--welcome.article3.image_alt"
                             }
                         }
@@ -292,7 +294,7 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "images/roadmap/vazlat.webp",
+                                        "image_url": "roadmap/outline",
                                         "image_alt": "--welcome.workflow.sketch.image_alt",
                                         "content_sections": [
                                             {
@@ -308,7 +310,7 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "images/roadmap/tervezes.webp",
+                                        "image_url": "roadmap/design",
                                         "image_alt": "--welcome.workflow.design.image_alt",
                                         "is_inverted": true,
                                         "content_sections": [
@@ -325,7 +327,7 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "images/roadmap/fejlesztes.webp",
+                                        "image_url": "roadmap/development",
                                         "image_alt": "--welcome.workflow.develop.image_alt",
                                         "content_sections": [
                                             {
@@ -341,7 +343,7 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "images/roadmap/teszteles.webp",
+                                        "image_url": "roadmap/testing",
                                         "image_alt": "--welcome.workflow.test.image_alt",
                                         "is_inverted": true,
                                         "with_line": false,
@@ -383,13 +385,13 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/team/darvas_istvan.webp",
+                                "image_url": "team/darvasi",
                                 "image_alt": "--welcome.team.members.darvas_istvan.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
-                                        "title": "Darvas Istvan",
-                                        "content": "--welcome.team.members.darvas_istvan.name"
+                                        "title": "--welcome.team.members.darvas_istvan.title",
+                                        "content": "--welcome.team.members.darvas_istvan.content"
                                     }
                                 },
                                 "contact_icons_section": {
@@ -428,13 +430,13 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/team/bagota_jozsef.webp",
+                                "image_url": "team/bagotaj",
                                 "image_alt": "--welcome.team.members.bagota_jozsef.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
-                                        "title": "Bagota Jozsef",
-                                        "content": "--welcome.team.members.bagota_jozsef.name"
+                                        "title": "--welcome.team.members.bagota_jozsef.title",
+                                        "content": "--welcome.team.members.bagota_jozsef.content"
                                     }
                                 },
                                 "contact_icons_section": {
@@ -473,13 +475,13 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/team/benedek_csaba.webp",
+                                "image_url": "team/benedekcs",
                                 "image_alt": "--welcome.team.members.benedek_csaba.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
-                                        "title": "Benedek Csaba",
-                                        "content": "--welcome.team.members.benedek_csaba.name"
+                                        "title": "--welcome.team.members.benedek_csaba.title",
+                                        "content": "--welcome.team.members.benedek_csaba.content"
                                     }
                                 },
                                 "contact_icons_section": {
@@ -518,13 +520,13 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/team/kovacs_szilard.webp",
+                                "image_url": "team/kovacssz",
                                 "image_alt": "--welcome.team.members.kovacs_szilard.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
-                                        "title": "Kovacs Szilard",
-                                        "content": "--welcome.team.members.kovacs_szilard.name"
+                                        "title": "--welcome.team.members.kovacs_szilard.title",
+                                        "content": "--welcome.team.members.kovacs_szilard.content"
                                     }
                                 },
                                 "contact_icons_section": {
@@ -575,35 +577,38 @@
                     "images": [
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/7554326.webp"
+                            "image_url": "latestworks/electrician",
+                            "url": "https://bartos-electric.site/"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/6207747.webp"
+                            "image_url": "latestworks/fruits",
+                            "url": "https://best-fruits.site/"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/7534274.webp"
+                            "image_url": "latestworks/ediWheel",
+                            "url": "https://edi-wheel.site/"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/8285773.webp"
+                            "image_url": "latestworks/travel"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/5471806.webp"
+                            "image_url": "latestworks/webshop"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/4264527.webp"
+                            "image_url": "latestworks/dentist"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/4141109.webp"
+                            "image_url": "latestworks/wildNature"
                         },
                         {
                             "image_alt": "--welcome.our_works.image_alt",
-                            "image_url": "images/latestworks/3175709.webp"
+                            "image_url": "latestworks/learningLanguages"
                         }
                     ],
                     "request_offer_section": {
@@ -721,7 +726,7 @@
                     {
                         "type": "dynamic-web-dark-link",
                         "data": {
-                            "url": "/privacy_policy",
+                            "url": "--routes.privacy-policy",
                             "content": "--layout.footer.privacy_policy",
                             "added_classes": {
                                 "root": "me-3"
