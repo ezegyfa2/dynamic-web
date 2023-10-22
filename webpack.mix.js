@@ -30,7 +30,8 @@ global.currentWebpackConfig = {
 
 mix.webpackConfig(currentWebpackConfig)
 //mix.js('resources/js/basicPackages.js', 'public/js').vue()
-mix.js('resources/js/welcome.js', 'public/js').vue().compress()
+//mix.js('resources/js/welcome.js', 'public/js').vue()
+//mix.js('resources/js/thankYou.js', 'public/js').vue()
 //mix.sass('resources/sass/welcome.scss', 'public/css/')
 /*mix.copy(
     path.join('node_modules', 'dynamic-web-vue-components', 'src', 'Welcome', 'CompiledTemplate.json'), 
@@ -38,7 +39,7 @@ mix.js('resources/js/welcome.js', 'public/js').vue().compress()
 )*/
 //compileAssets(mix, 'dynamic-web-vue-components', [ 'Welcome' ])
 //compileAssets(mix, 'dynamic-web-vue-components', [ 'RequestOffer' ])
-//compileAssets(mix, 'dynamic-web-vue-components', [ 'ThankYou' ])
+compileAssets(mix, 'dynamic-web-vue-components', [ 'ThankYou' ])
 //replaceComponentRegistrations('./node_modules/helper-vue-components/src')
 
 //headerBackgroundImageGenerator.generate()

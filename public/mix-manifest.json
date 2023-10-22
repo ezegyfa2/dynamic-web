@@ -1,3 +1,6 @@
 {
-    "/js/welcome.js": "/js/welcome.js"
+    "/js/basicPackages.js": "/js/basicPackages.js",
+    "/js/thankYou.js": "/js/thankYou.js",
+    "/css/thankYou.css": "/css/thankYou.css",
+    "/app/Templates/thankYou.json": "/app/Templates/thankYou.json"
 }
