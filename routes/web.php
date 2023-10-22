@@ -22,6 +22,7 @@ Route::middleware('setLanguage')->group(function () {
     //LanguageMethods::createTranslatedGetRoutes('/request-offer', [HomeController::class, 'requestOffer']);
     //LanguageMethods::createTranslatedPostRoutes('/request-offer', [HomeController::class, 'storeOffer']);
     //LanguageMethods::createTranslatedPostRoutes('/request-offer/clients', [HomeController::class, 'storeClient']);
+    LanguageMethods::createTranslatedPostRoutes('/contact-and-faq', [HomeController::class, 'storeContactMessage']);
     LanguageMethods::createTranslatedGetRoutes('/thank-you', [HomeController::class, 'thankYou']);
     LanguageMethods::createTranslatedGetRoutes('/privacy-policy', [HomeController::class, 'privacy']);
 });

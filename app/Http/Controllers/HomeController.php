@@ -170,6 +170,45 @@ class HomeController extends Controller
         );
     }
 
+    public function storeContactMessage(Request $request) {
+        try {
+            $validationRules = [
+                "name" => [
+                    "string",
+                    "max:255",
+                    "required",
+                ],
+                "email" => [
+                    "string",
+                    "max:255",
+                    "required",
+                    "email",
+                ],
+                "phone" => [
+                    "string",
+                    "max:15",
+                    "required",
+                    "regex:/([0-9]|\+){0,14}/"
+                ],
+                "message" => "required",
+            ];
+            $request->validate($validationRules);
+            $requestData = request()->all();
+            $insertData = [
+                'name' => $requestData['name'],
+                'email' => $requestData['email'],
+                'phone' => $requestData['phone'],
+                'message' => $requestData['message'],
+            ];
+            \DB::table('contact_messages')->insert($insertData);
+        }
+        catch (ValidationException $e) {
+            $errorMessages = HttpMethods::updateErrors($e->errors(), $e->validator->failed());
+            return redirect()->back()->withInput(request()->all())->withErrors($errorMessages);
+        }
+        return redirect('/contact-and-faq')->with('success_message', __('welcome.contact_success'));
+    }
+
     public function getTemplateLayoutParams() {
         $templateParams = DynamicTemplateMethods::getTemplateLayoutParams();
         $templateParams->request_offer_url = '/' . __('routes.request-offer');
