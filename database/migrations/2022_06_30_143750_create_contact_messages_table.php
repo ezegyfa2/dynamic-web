@@ -21,8 +21,6 @@ class CreateContactMessagesTable extends Migration
             $table->string('phone', 15);
             $table->text('message');
             $table->timestamps();
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
         });
         //MigrationMethods::minConstraint('contact_messages', 'test_number', 10);
         //MigrationMethods::maxConstraint('contact_messages', 'test_number', 100);
