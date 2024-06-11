@@ -37,9 +37,9 @@ mix.webpackConfig(currentWebpackConfig)
     path.join('node_modules', 'dynamic-web-vue-components', 'src', 'Welcome', 'CompiledTemplate.json'), 
     path.join('app', 'Templates', 'Welcome.json')
 )*/
-//compileAssets(mix, 'dynamic-web-vue-components', [ 'Welcome' ])
+compileAssets(mix, 'dynamic-web-vue-components', [ 'Welcome' ])
 //compileAssets(mix, 'dynamic-web-vue-components', [ 'RequestOffer' ])
-compileAssets(mix, 'dynamic-web-vue-components', [ 'ThankYou' ])
+//compileAssets(mix, 'dynamic-web-vue-components', [ 'ThankYou' ])
 //replaceComponentRegistrations('./node_modules/helper-vue-components/src')
 
 //headerBackgroundImageGenerator.generate()
