@@ -29,6 +29,7 @@
     },
     "dependencies": {
         "bootstrap-select": "^1.14.0-beta3",
+        "dynamic-web-vue-components": "^1.0.5",
         "font-awesome": "^4.7.0",
         "jquery": "^3.6.0",
         "just-clone": "^5.1.0",
@@ -39,6 +40,7 @@
         "pug-plain-loader": "^1.1.0",
         "purgecss-from-pug": "^5.0.0",
         "sha256": "^0.2.0",
+        "sharp": "^0.33.4",
         "vue-select-picker-bootstrap": "^1.0.5",
         "whatwg-fetch": "^3.6.19"
     }
