@@ -136,6 +136,8 @@ return [
     'next_button_title' => 'KÖVETKEZŐ',
     'back_button_title' => 'VISSZA',
     'button_title' => 'KÜLDÉS',
+    'privacy_policy_label' => 'Elolvastam és egyetértek',
+    'privacy_policy_url_label' => 'az adatkezelési tájékoztatóval',
     'title' => 'Kérjen ajánlatot',
     'subtitle' => 'Hozzon létre megrendelést és válassza ki a weboldal funkcióit',
     'success_message' => 'A megrendelését sikeresen elmentettük, hamarosan válaszolunk',

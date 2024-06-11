@@ -1,39 +1,42 @@
 <?php
 
 return [
+    'meta_description' => 'Quality website development at affordable price, online presence insurance, low modification cost, Transylvania, region Harghita, Odorheiu Secuiesc',
     'offers' => [
-        'basic' => [
-            'title' => 'BASIC',
+        'presentation' => [
+            'title' => 'Landing page',
             'content' => 'Landing pages and web shops with some basic functions',
             'parts' => [
                 'responsive_layouts' => 'Responsive layouts',
                 'modern_design' => 'Modern, aesthetic design',
-                'user_friendly' => 'User-friendly interface',
-                'admin_panel' => 'Admin panel to add or edit products',
-                'product_list' => 'Product list with image galleries',
-                'seo_optimizing' => 'SEO optimization',
+                'seo_optimization' => 'SEO optimization',
+                'admin_panel' => 'Modifiable and modernizable architecture',
+                'fast_loading' => 'Fast loading',
+                'ssl' => 'SSL',
+                'backup' => 'Weekly backup',
             ],
         ],
-        'normal' => [
-            'title' => 'NORMAL',
+        'webshop' => [
+            'title' => 'Webshop',
             'content' => 'Web stores with many products and categories',
             'parts' => [
-                'basic_parts' => 'All the advantages of the basic package',
-                'many_product' => 'Many products with varied features',
-                'product_categories' => 'Product categories',
-                'product_filters' => 'Searches and filters in the product list',
-                'users' => 'User login/registration',
+                'basic_parts' => 'All the advantages of Presentation page package',
+                'card_using' => 'Payment by card',
+                'automatic_invoicing' => 'Automatic invoicing',
+                'admin_page' => 'Admin page',
+                'customer_reviews' => 'Customer reviews',
+                'weekly_reviews' => 'Weekly reviews',
             ],
         ],
-        'premium' => [
-            'title' => 'PREMIUM',
+        'online_marketplace' => [
+            'title' => 'Marketplace',
             'content' => 'Full webshop and marketing campaign',
             'parts' => [
-                'normal_parts' => 'All the benefits of the standard package',
-                'marketing' => 'Facebook and google ads',
-                'optmizing' => 'Marketing campaign optimization',
-                'custom_design' => 'Synchronize design and marketing',
-                'reports' => 'Regular reports on purchases and new customers',
+                'normal_parts' => 'All the benefits of the Webshop package',
+                'user_products' => 'All products uploaded by users',
+                'chat' => 'Chat',
+                'supplier_profiles' => 'Supplier profiles',
+                'promotions' => 'Promotions',
             ],
         ],
         'button_title' => 'PURCHASE',
@@ -42,29 +45,33 @@ return [
         'title' => 'Our services',
         'subtitle' => '',
         'site_building' => [
-            'title' => 'Site building',
-            'subtitle' => 'We provide an online presence for your business',
+            'title' => 'Website development',
+            'subtitle' => 'We develop all types of websites, from presentation websites to online marketplaces, whatever your specific needs',
         ],
         'admin' => [
-            'title' => 'Admin panel',
-            'subtitle' => 'Transparent interface for data maintenance',
+            'title' => 'Operations and Maintenance',
+            'subtitle' => 'From server to security features and controls, we provide everything you need to keep your website running fast and secure
+            ',
         ],
         'maintance' => [
-            'title' => 'Maintenance',
-            'subtitle' => 'Site management and troubleshooting',
+            'title' => 'Modification and modernization',
+            'subtitle' => 'By constantly reviewing the site, we will periodically suggest changes to ensure that your website is always up to date with the latest trends and customer needs',
         ],
     ],
     'article1' => [
-        'title' => 'Improve your credibility',
-        'content' => ' In business, it is not uncommon to have several companies in the market that offer a similar product or service to yours.  In order to stand out from your competitors, credibility is vital. Because customers expect trustworthy businesses to have a website and social media accounts, you need an attractive, professional website to help you build a strong online presence and communicate quality information to consumers. ',
+        'title' => 'Modernizable and modifiable',
+        'content' => 'As the name of our company suggests (Dynamic), our websites stand out from the rest of the market primarily because of their flexibility and adaptability. We pay particular attention to structure and quality in the development of each site, so that subsequent modifications and upgrades can be carried out cheaply and quickly, and the result will be a website of the same quality as the original.',
+        'image_alt' => 'Modernizable and modifiable',
     ],
     'article2' => [
-        'title' => '24/7 Contact',
-        'content' => ' In business, it is important to always be available to your customers. One of the biggest advantages of a website is that anyone, anywhere, anytime can use it conveniently because it is always available. This means that your customers can use the services and access the information they need about your business outside of working hours and in their free time. ',
+        'title' => 'Optimized and aesthetic look',
+        'content' => 'Nowadays, only websites that load in at least one second and comply with SEO optimization principles are allowed to be at the top of the Google search results. Our company uses the latest technologies and design patterns to develop fast-loading, secure and aesthetically pleasing websites, ensuring our clients&amp;apos; preferred rankings in the google search results',
+        'image_alt' => 'Optimized and aesthetic look',
     ],
     'article3' => [
-        'title' => 'Go online',
-        'content' => ' In addition to being quickly accessible, a website allows you to get your product or service anywhere in the world. However, the biggest challenge you face is getting your website found in this busy online world. A website provides your prospective customers with a simple, one-stop platform where they can get to know you and your business, increasing your visibility and sales. ',
+        'title' => 'Operation and maintenance',
+        'content' => 'We provide online hosting for all our websites, guaranteeing fast loading times and secure operation. The data stored on the server is backed up continuously so that it can be restored to its previous state in the event of any failure. The hosting is backed up by ongoing consultation and bug fixing',
+        'image_alt' => 'Operation and maintenance',
     ],
     'article_button_content' => 'Request offer',
     'workflow' => [
@@ -73,43 +80,92 @@ return [
         'sketch' => [
             'title' => 'Outline',
             'content' => 'We agree with the client all the details of the website and then gather the necessary materials, images, texts',
+            'image_alt' => 'Outline',
         ],
         'design' => [
             'title' => 'Design',
             'content' => 'Based on the outline, we design the websites functions and appearance',
+            'image_alt' => 'Design',
         ],
         'develop' => [
             'title' => 'Development',
             'content' => 'Based on the design, we will create the most suitable website for your company using the latest web development techniques',
+            'image_alt' => 'Development',
         ],
         'test' => [
             'title' => 'Testing',
             'content' => 'We use testers to check the websites functionality and ensure that it works correctly',
+            'image_alt' => 'Testing',
         ],
     ],
     'team' => [
         'title' => 'Our team',
         'members' => [
             'darvas_istvan' => [
-                'name' => 'I am a backend and frontend developer with almost 5 years of experience. I am involved in the development of the websites look and functionality',
+                'title' => 'István Darvas',
+                'content' => 'I am a backend and frontend developer with almost 5 years of experience. I develop the look and functionality of the website.',
+                'image_alt' => 'István Darvas&amp;apos;s picture',
+                'twitter_aria_label' => 'István Darvas&amp;apos;s twitter page',
+                'facebook_aria_label' => 'István Darvas&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'István Darvas&amp;apos;s linkedin page'
             ],
             'bagota_jozsef' => [
-                'name' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods',
+                'title' => 'József Bagota',
+                'content' => 'I have been designing website layouts and images for 8 years using the latest design technologies and methods.',
+                'image_alt' => 'József Bagota&amp;apos;s picture',
+                'twitter_aria_label' => 'József Bagota&amp;apos;s twitter page',
+                'facebook_aria_label' => 'József Bagota&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'József Bagota&amp;apos;s linkedin page'
             ],
             'benedek_csaba' => [
-                'name' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality',
+                'title' => 'Csaba Benedek',
+                'content' => 'I work as a Javascript developer, with more than 2 years of experience in developing client and server side functionality.',
+                'image_alt' => 'Csaba Benedek&amp;apos;s picture',
+                'twitter_aria_label' => 'Csaba Benedek&amp;apos;s twitter page',
+                'facebook_aria_label' => 'Csaba Benedek&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'Csaba Benedek&amp;apos;s linkedin page'
             ],
             'kovacs_szilard' => [
-                'name' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience',
+                'title' => 'Szilárd Kovács',
+                'content' => 'I work in frontend development, developing the look and feel of websites. I have almost 2 years of experience.',
+                'image_alt' => 'Szilárd Kovács&amp;apos;s picture',
+                'twitter_aria_label' => 'Szilárd Kovács&amp;apos;s twitter page',
+                'facebook_aria_label' => 'Szilárd Kovács&amp;apos;s facebook page',
+                'linkedin_aria_label' => 'Szilárd Kovács&amp;apos;s linkedin page'
             ],
         ],
     ],
     'our_works' => [
         'title' => 'Our works',
+        'image_alt' => 'website 1',
+        'image_alt' => 'website 2',
+        'image_alt' => 'website 3',
+        'image_alt' => 'website 4',
+        'image_alt' => 'website 5',
+        'image_alt' => 'website 6',
+        'image_alt' => 'website 7',
+        'image_alt' => 'website 8',
     ],
     'request_offer' => [
         'title' => 'Request offer',
         'content' => 'Get a special, personalised offer for your website',
         'button_content' => 'Request offer',
+    ],
+    'contact_form' => [
+        'title' => 'Request offer',
+        'subtitle' => 'Write your order to the message box',
+        'name' => [
+            'placeholder' => 'Name',
+        ],
+        'email' => [
+            'placeholder' => 'Email',
+        ],
+        'phone' => [
+            'placeholder' => 'Phone',
+        ],
+        'message' => [
+            'placeholder' => 'Message',
+        ],
+        'button_title' => 'SEND MESSAGE',
     ],
 ];
