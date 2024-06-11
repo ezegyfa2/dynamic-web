@@ -626,7 +626,7 @@
                 "type": "dynamic-web-contact-form",
                 "data": {
                     "id": "contact_us",
-                    "url": "--routes.request-offer",
+                    "url": "--routes.contact",
                     "title_section": {
                         "type": "dynamic-web-white-medium-text-content",
                         "data": {
